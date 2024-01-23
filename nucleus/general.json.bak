@@ -1,0 +1,73 @@
+{
+  "warps": {
+    "adventure": {
+      "cost": -1.0,
+      "x": 211.51957961972434,
+      "y": 99.0,
+      "z": 286.5054362274837,
+      "rotx": -3.8999996185302734,
+      "roty": -143.69940185546875,
+      "rotz": 0.0,
+      "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c",
+      "description": {
+        "text": "Thế giới phiêu lưu"
+      }
+    },
+    "plot": {
+      "cost": -1.0,
+      "x": -749.5,
+      "y": 5.0,
+      "z": -818.5,
+      "rotx": 0.0,
+      "roty": -45.0,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d",
+      "description": {
+        "text": "Thế giới an toàn"
+      }
+    },
+    "build": {
+      "cost": -1.0,
+      "x": -875.581182601063,
+      "y": 4.0,
+      "z": -819.4604710584221,
+      "rotx": -0.15000897645950317,
+      "roty": -268.79638671875,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d",
+      "description": {
+        "color": "green",
+        "text": "Khu vực xây dựng tự do"
+      }
+    },
+    "vshop2": {
+      "cost": -1.0,
+      "x": -746.9184733901001,
+      "y": 13.0,
+      "z": -801.6898392307273,
+      "rotx": 1.0499669313430786,
+      "roty": -33.299774169921875,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d",
+      "description": {
+        "color": "yellow",
+        "text": "Khu vực bán đồ nhận pixelcoin (2)"
+      }
+    },
+    "vshop": {
+      "cost": -1.0,
+      "x": -742.3307209887458,
+      "y": 4.0,
+      "z": -809.0329521425259,
+      "rotx": -0.7500329613685608,
+      "roty": -358.650146484375,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d",
+      "description": {
+        "color": "yellow",
+        "text": "Khu vực bán đồ nhận pixelcoin"
+      }
+    }
+  },
+  "warpCategories": {}
+}

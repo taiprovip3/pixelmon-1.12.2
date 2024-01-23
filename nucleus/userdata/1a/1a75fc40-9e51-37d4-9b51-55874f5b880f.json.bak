@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "fly": false,
+  "lastKnownName": "beo",
+  "lastLogin": 1705999297281,
+  "lastLogout": 1705999945681,
+  "lastIP": "/116.108.2.145",
+  "firstJoin": 1705722520746,
+  "startedFirstJoin": false,
+  "invulnerable": false,
+  "jailOnNextLogin": false,
+  "kitLastUsedTime": {
+    "tools": 1705722520,
+    "online": 1705999297,
+    "masterful": 1705821644
+  },
+  "vanish": false,
+  "isFrozen": false,
+  "lastLocation": {
+    "x": -936.7624999880791,
+    "y": 4.0,
+    "z": -809.7870917822157,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  },
+  "homes": {
+    "home": {
+      "x": 7.01543593872551,
+      "y": 64.0,
+      "z": 237.0883362547654,
+      "rotx": -1.1999467611312866,
+      "roty": 255.7500762939453,
+      "rotz": 0.0,
+      "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
+    }
+  },
+  "notes": [],
+  "warnings": [],
+  "mail": [],
+  "ignoreList": []
+}

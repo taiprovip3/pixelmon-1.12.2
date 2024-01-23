@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "isFrozen": false,
+  "lastKnownName": "taiproduaxe",
+  "lastLogin": 1706011266807,
+  "lastLogout": 1706014153467,
+  "lastIP": "/116.108.2.145",
+  "firstJoin": 1705592394247,
+  "startedFirstJoin": false,
+  "invulnerable": false,
+  "vanish": false,
+  "fly": false,
+  "jailOnNextLogin": false,
+  "lastLocation": {
+    "x": -887.5881981403512,
+    "y": 4.5,
+    "z": -814.2290493481337,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  },
+  "kitLastUsedTime": {
+    "online": 1706012898
+  },
+  "notes": [],
+  "mail": [],
+  "warnings": [],
+  "ignoreList": [],
+  "powertools": {}
+}

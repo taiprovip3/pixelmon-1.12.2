@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "notes": [],
+  "jailOnNextLogin": false,
+  "invulnerable": false,
+  "kitLastUsedTime": {
+    "online": 1706010886,
+    "tools": 1705999326
+  },
+  "vanish": false,
+  "warnings": [],
+  "mail": [],
+  "ignoreList": [],
+  "fly": false,
+  "lastKnownName": "lilHAHA",
+  "lastLogin": 1706010886393,
+  "lastLogout": 1706013440584,
+  "lastIP": "/183.80.241.248",
+  "firstJoin": 1705999326312,
+  "startedFirstJoin": false,
+  "isFrozen": false,
+  "lastLocation": {
+    "x": -748.8836599277785,
+    "y": 5.0,
+    "z": -816.9161739799237,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  }
+}

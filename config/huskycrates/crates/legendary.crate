@@ -1,0 +1,1748 @@
+legendary {
+    free=false
+    hologram {
+        lines=[
+            "&6乄&aCrate &e&lLEGENDARY&e࿇",
+            "&7Cần x1 chìa khóa Legendary"
+            "&a "
+            "&e&lNHẤP TRÁI &ađể xem"
+            "&e&lNHÁP PHẢI &ađể mở"
+        ]
+        entityYOffset=1.0
+    }
+    localKey {
+        id="minecraft:tripwire_hook"
+        name="&aLegendary Crate Key"
+    }
+    messages {
+        rejectionNeedKey="&cYou lack the key needed to open this crate!"
+    }
+    name=legendary
+    previewable=true
+    slots=[
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:razz_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:nanab_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:pinap_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:cornn_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:magost_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:rabuta_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:nomel_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:watmel_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:durin_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:sun_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:dawn_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:dusk_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:shiny_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:ice_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:water_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:fire_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:master_ball"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:park_ball"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:leaf_stone"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                durability=128
+                id="pixelmon:super_rod"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:spelon_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:pamtre_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+		{
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:lopunnite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:lucarionite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:manectite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:mawilite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:medichamite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:metagrossite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:mewtwonite_x"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:mewtwonite_y"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:pidgeotite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:abomasite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:absolite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:aerodactylite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:aggronite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:alakazite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:altarianite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:ampharosite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:audinite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:banettite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:beedrillite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:blastoisinite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:blazikenite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:cameruptite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:charizardite_x"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:charizardite_y"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:diancite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:galladite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:garchompite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:gardevoirite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:gengarite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:glalitite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:gyaradosite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:heracronite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:houndoominite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:kangaskhanite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:latiasite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:latiosite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+		{
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:tyranitarite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:venusaurite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:pinsirite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:sablenite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:salamencite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:sceptilite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:scizorite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:sharpedonite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:slowbronite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:steelixite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=50.0
+            displayItem {
+                count=1
+                damage=0
+                id="pixelmon:swampertite"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+		{
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:drash_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:eggant_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:yago_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:touga_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:ginema_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:occa_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:passho_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:wacan_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:rindo_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:belue_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:cheri_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:chesto_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:pecha_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:rawst_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:aspear_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:leppa_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:persim_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:oran_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:lum_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:sitrus_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:figy_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:wiki_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:mago_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:aguav_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:iapapa_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:liechi_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:ganlon_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:salac_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:petaya_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:apicot_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:lansat_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:starf_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:custap_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:micle_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:enigma_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=64
+                damage=0
+                id="pixelmon:pumkin_berry"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        }
+    ]
+    effects {
+        idle {
+            particles=[
+                {
+                    animationPreset=orbit
+                    color=[
+                        0,
+                        255,
+                        0
+                    ]
+                    type="minecraft:redstone_dust"
+                },
+                {
+                    animationPreset=counterorbit
+                    color=[
+                        255,
+                        0,
+                        255
+                    ]
+                    type="minecraft:redstone_dust"
+                }
+            ]
+        }
+        reject {
+            duration=16
+            loop=false
+            resetOnTimeout=true
+            particles=[
+                {
+                    type="minecraft:redstone_dust"
+                    amount=10
+                    animationCode="var spin = time/3; x=Math.sin(spin + num)*0.7; y=(time/8) - 0.5; z=Math.cos(spin + num)*0.7;"
+                }
+            ]
+        }
+    }
+    useLocalKey=true
+    viewConfig {
+        tickDelayMultiplier=1.025
+        ticksToSelection=75
+        ticksToSelectionVariance=5
+    }
+    viewType=spinner
+}

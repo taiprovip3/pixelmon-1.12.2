@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "fly": false,
+  "vanish": false,
+  "isFrozen": false,
+  "jailOnNextLogin": false,
+  "invulnerable": false,
+  "lastKnownName": "atai",
+  "lastLogin": 1706013410786,
+  "lastLogout": 1706014153468,
+  "lastIP": "/116.108.2.145",
+  "firstJoin": 1705592063178,
+  "startedFirstJoin": false,
+  "lastLocation": {
+    "x": -744.3623346035806,
+    "y": 4.0,
+    "z": -815.0123309533622,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  },
+  "kitLastUsedTime": {
+    "online": 1706013410
+  },
+  "notes": [],
+  "mail": [],
+  "warnings": [],
+  "powertools": {},
+  "ignoreList": []
+}

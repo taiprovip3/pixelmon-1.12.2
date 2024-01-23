@@ -1,0 +1,33 @@
+GriefPrevention {
+    accessor-groups=[]
+    accessors=[]
+    builder-groups=[]
+    builders=[]
+    claim-expiration=true
+    claim-type=BASIC
+    container-groups=[]
+    containers=[]
+    cuboid=false
+    date-created="2024-01-23T07:44:41.780Z"
+    date-last-active="2024-01-23T08:13:28.684Z"
+    deny-messages=true
+    economyData {
+        bankTransactionLog=[]
+        for-sale=false
+        sale-price=0.0
+        tax-balance=0.0
+    }
+    flag-overrides=true
+    greater-boundary-corner="-917;255;-703"
+    inherit-parent=true
+    isExpired=false
+    lesser-boundary-corner="-921;0;-707"
+    manager-groups=[]
+    managers=[]
+    owner-uuid=ba76a4aa-989a-3c59-9237-ef1e60d4d5ec
+    pvp=UNDEFINED
+    requires-claim-blocks=true
+    resizable=true
+    sizeRestrictions=true
+    world-uuid="166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+}

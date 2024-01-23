@@ -1,0 +1,424 @@
+fortune {
+    free=false
+    hologram {
+        lines=[
+            "&6❍&aCrate &e&lFORTUNE&eꕥ",
+            "&7Cần x1 chìa khóa Legendary"
+            "&a "
+            "&e&lNHẤP TRÁI &ađể xem"
+            "&e&lNHÁP PHẢI &ađể mở"
+        ]
+        entityYOffset=1.0
+    }
+    localKey {
+        id="minecraft:tripwire_hook"
+        name="&aFortune Crate Key"
+    }
+    messages {
+        rejectionNeedKey="&cYou lack the key needed to open this crate!"
+    }
+    name=fortune
+    previewable=true
+    slots=[
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e65 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e65 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 65"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e70 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e70 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 70"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e75 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e75 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 75"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e80 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e80 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 80"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e85 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e85 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 85"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e90 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e90 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 90"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e95 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e95 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 95"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e100 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e100 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 100"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e20 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e20 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 20"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e25 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e25 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 25"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e30 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e30 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 30"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e35 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e35 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 35"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e40 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e40 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 40"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e45 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e45 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 45"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e50 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e50 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 50"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e55 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e55 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 55"
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="thermalfoundation:coin"
+                name="&e60 &6&l®"
+                nbt {
+                    ForgeCaps {}
+                    display {
+                        Name="§e60 §6§l®"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type="servercommand"
+                    data="totaleconomy:adminpay %p 60"
+                }
+            ]
+        }
+    ]
+    effects {
+        idle {
+            particles=[
+                {
+                    animationPreset=orbit
+                    color=[
+                        0,
+                        255,
+                        0
+                    ]
+                    type="minecraft:redstone_dust"
+                },
+                {
+                    animationPreset=counterorbit
+                    color=[
+                        255,
+                        0,
+                        255
+                    ]
+                    type="minecraft:redstone_dust"
+                }
+            ]
+        }
+        reject {
+            duration=16
+            loop=false
+            resetOnTimeout=true
+            particles=[
+                {
+                    type="minecraft:redstone_dust"
+                    amount=10
+                    animationCode="var spin = time/3; x=Math.sin(spin + num)*0.7; y=(time/8) - 0.5; z=Math.cos(spin + num)*0.7;"
+                }
+            ]
+        }
+    }
+    useLocalKey=true
+    viewConfig {
+        tickDelayMultiplier=1.025
+        ticksToSelection=75
+        ticksToSelectionVariance=5
+    }
+    viewType=spinner
+}

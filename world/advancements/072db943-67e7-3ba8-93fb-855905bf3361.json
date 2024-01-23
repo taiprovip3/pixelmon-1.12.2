@@ -1,0 +1,32 @@
+{
+  "inventorypets:inventorypets/root": {
+    "criteria": {
+      "auto": "2024-01-21 12:46:22 +0700"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/ranch": {
+    "criteria": {
+      "has_pc": "2024-01-21 12:46:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-01-21 12:46:22 +0700"
+    },
+    "done": true
+  },
+  "pixelmon:pokedex/pokedex_trigger": {
+    "criteria": {
+      "pokedex_base": "2024-01-21 12:48:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2024-01-21 12:46:22 +0700"
+    },
+    "done": false
+  }
+}

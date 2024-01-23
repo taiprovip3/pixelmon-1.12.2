@@ -1,0 +1,48 @@
+{
+  "permissions": [
+    {
+      "context": {
+        "gp_claim_defaults": "wilderness",
+        "world": "plot"
+      },
+      "data": {
+        "griefprevention.flag.block-break": false,
+        "griefprevention.flag.block-place": false,
+        "griefprevention.flag.explosion": false,
+        "griefprevention.flag.explosion-surface": false,
+        "griefprevention.flag.interact-block-primary": true,
+        "griefprevention.flag.interact-block-secondary": false
+      }
+    },
+    {
+      "context": {
+        "gp_claim_defaults": "basic",
+        "world": "plot"
+      },
+      "data": {
+        "griefprevention.flag.entity-damage": false,
+        "griefprevention.flag.interact-block-primary": false,
+        "griefprevention.flag.interact-block-secondary": false,
+        "griefprevention.flag.interact-entity-primary": true,
+        "griefprevention.flag.interact-inventory": true,
+        "griefprevention.flag.interact-item-primary": true,
+        "griefprevention.flag.interact-item-secondary": true
+      }
+    },
+    {
+      "context": {
+        "gp_claim_defaults": "admin",
+        "world": "plot"
+      },
+      "data": {
+        "griefprevention.flag.interact-block-primary": true,
+        "griefprevention.flag.interact-block-secondary": true,
+        "griefprevention.flag.interact-entity-primary": true,
+        "griefprevention.flag.interact-inventory": true,
+        "griefprevention.flag.portal-use": false
+      }
+    }
+  ],
+  "options": [],
+  "parents": []
+}

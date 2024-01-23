@@ -1,0 +1,816 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SpongeCoremod (spongeforge-1.12.2-2838-7.4.7.jar)
+  PokehaanCraftAdditionsLoadingPlugin (PokehaanCraftAdditions-1.12.2-1.5.0.jar)
+  PerformantLoadingPlugin (performant-1.12.2-1.10.jar)
+Contact their authors BEFORE contacting forge
+
+// Sorry :(
+
+Time: 1/23/24 6:35 AM
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.09 seconds (should be max 0.05)
+	at sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+	at sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:71)
+	at sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:257)
+	at sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:136)
+	at sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:148)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:212)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at java.nio.file.Files.newBufferedReader(Files.java:2784)
+	at ninja.leaping.configurate.loader.AbstractConfigurationLoader$Builder.lambda$setPath$0(AbstractConfigurationLoader.java:253)
+	at ninja.leaping.configurate.loader.AbstractConfigurationLoader$Builder$$Lambda$86/999999316.call(Unknown Source)
+	at ninja.leaping.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:129)
+	at ninja.leaping.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:61)
+	at br.net.fabiozumbi12.RedProtect.Sponge.database.WorldFlatFileRegionManager.load(WorldFlatFileRegionManager.java:190)
+	at br.net.fabiozumbi12.RedProtect.Sponge.database.WorldFlatFileRegionManager.load(WorldFlatFileRegionManager.java:169)
+	at br.net.fabiozumbi12.RedProtect.Sponge.region.RegionManager.load(RegionManager.java:73)
+	at br.net.fabiozumbi12.RedProtect.Sponge.listeners.WorldListener.onWorldLoad(WorldListener.java:46)
+	at org.spongepowered.common.event.listener.LoadWorldEventListener_WorldListener_onWorldLoad357.handle(Unknown Source)
+	at org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:347)
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:450)
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)
+	at org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:467)
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:249)
+	at org.spongepowered.common.world.WorldManager.createWorldFromProperties(WorldManager.java:893)
+	at org.spongepowered.common.world.WorldManager.loadWorld(WorldManager.java:689)
+	at org.spongepowered.common.world.WorldManager.loadWorld(WorldManager.java:616)
+	at net.minecraftforge.common.DimensionManager.initDimension(DimensionManager.java:815)
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:7350)
+	at org.spongepowered.common.util.NetworkUtil.initializeConnectionToPlayer(NetworkUtil.java:167)
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:2407)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+	at sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:71)
+	at sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:257)
+	at sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:136)
+	at sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:148)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:212)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at java.nio.file.Files.newBufferedReader(Files.java:2784)
+	at ninja.leaping.configurate.loader.AbstractConfigurationLoader$Builder.lambda$setPath$0(AbstractConfigurationLoader.java:253)
+	at ninja.leaping.configurate.loader.AbstractConfigurationLoader$Builder$$Lambda$86/999999316.call(Unknown Source)
+	at ninja.leaping.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:129)
+	at ninja.leaping.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:61)
+	at br.net.fabiozumbi12.RedProtect.Sponge.database.WorldFlatFileRegionManager.load(WorldFlatFileRegionManager.java:190)
+	at br.net.fabiozumbi12.RedProtect.Sponge.database.WorldFlatFileRegionManager.load(WorldFlatFileRegionManager.java:169)
+	at br.net.fabiozumbi12.RedProtect.Sponge.region.RegionManager.load(RegionManager.java:73)
+	at br.net.fabiozumbi12.RedProtect.Sponge.listeners.WorldListener.onWorldLoad(WorldListener.java:46)
+	at org.spongepowered.common.event.listener.LoadWorldEventListener_WorldListener_onWorldLoad357.handle(Unknown Source)
+	at org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:347)
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:450)
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)
+	at org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:467)
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:249)
+	at org.spongepowered.common.world.WorldManager.createWorldFromProperties(WorldManager.java:893)
+	at org.spongepowered.common.world.WorldManager.loadWorld(WorldManager.java:689)
+	at org.spongepowered.common.world.WorldManager.loadWorld(WorldManager.java:616)
+	at net.minecraftforge.common.DimensionManager.initDimension(DimensionManager.java:815)
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:7350)
+	at org.spongepowered.common.util.NetworkUtil.initializeConnectionToPlayer(NetworkUtil.java:167)
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:2407)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+
+-- Sponge PhaseTracker --
+Details:
+	Phase Stack: /******************************************************************************************/
+/*   - Phase: Generation{Terrain:TERRAIN_GENERATION}                                      */
+/*     Context:                                                                           */
+/*     - Source: WorldServer{Name=plot, DimensionId=4, DimensionType=minecraft:overworld} */
+/*     - World: WorldServer{Name=plot, DimensionId=4, DimensionType=minecraft:overworld}  */
+/******************************************************************************************/
+
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.handler$zjj000$onCrashReport(MinecraftServer.java:4687)
+	at net.minecraft.server.MinecraftServer.func_71230_b(MinecraftServer.java:889)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71230_b(DedicatedServer.java:371)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- Thread Dump --
+Details:
+	Threads: "pool-2-thread-271" Id=354 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-270" Id=353 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-269" Id=352 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-268" Id=351 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-267" Id=350 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-266" Id=349 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-265" Id=348 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-264" Id=347 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-263" Id=346 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-262" Id=345 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-261" Id=344 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-260" Id=343 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-259" Id=342 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-258" Id=341 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-257" Id=340 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-256" Id=339 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-255" Id=338 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-254" Id=337 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-253" Id=336 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-252" Id=335 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"pool-2-thread-251" Id=334 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@6c890434
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"_net.minecraft.world.World.INIT-126-dq" Id=220 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@624ee7d5
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@624ee7d5
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dp" Id=219 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66716f44
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66716f44
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"Netty Epoll Server IO #3" Id=217 RUNNABLE
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.getPermissions(URLClassLoader.java:715)
+	at java.security.SecureClassLoader.getProtectionDomain(SecureClassLoader.java:206)
+	-  locked java.util.HashMap@2373edee
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	-  locked net.minecraft.launchwrapper.LaunchClassLoader@2b05039f
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:621)
+	...
+
+
+"Netty Epoll Server IO #2" Id=214 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"threadDeathWatcher-2-1" Id=213 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Epoll Server IO #1" Id=212 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:117)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:223)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:247)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"File IO Thread" Id=211 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.world.storage.ThreadedFileIOBase.func_75736_b(SourceFile:51)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(SourceFile:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"HikariPool-1 housekeeper" Id=204 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@77fe510
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@77fe510
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"MVStore background writer nio:/home/azureuser/server/custom px 1.12.2/config/huskycrates/storage/data.mv.db" Id=202 TIMED_WAITING on java.lang.Object@121aca65
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@121aca65
+	at org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:2715)
+
+
+"Thread-22" Id=199 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Server Watchdog" Id=198 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:496)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:484)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:45)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"_net.minecraft.world.World.INIT-126-do" Id=197 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7ffc9c2d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7ffc9c2d
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dn" Id=196 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@435c12a1
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@435c12a1
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dm" Id=176 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b7338bf
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b7338bf
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dl" Id=175 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7f7e8456
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7f7e8456
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dk" Id=174 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@64f87260
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@64f87260
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dj" Id=173 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4712ad44
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4712ad44
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-di" Id=172 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6586d3d9
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6586d3d9
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-dh" Id=171 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6ed1b70b
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6ed1b70b
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"pool-5-thread-1" Id=117 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@491da3c3
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@491da3c3
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"_net.minecraft.world.World.INIT-126-dg" Id=116 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1bb74f29
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1bb74f29
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"_net.minecraft.world.World.INIT-126-df" Id=115 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@48fc4f9d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@48fc4f9d
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.mainLoop(SimpleTimer.java:361)
+	at org.cache2k.core.util.SimpleTimer$TimerThread.run(SimpleTimer.java:337)
+
+
+"Timer-2" Id=114 TIMED_WAITING on java.util.TaskQueue@2b76c066
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@2b76c066
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Netty Epoll Server IO #0" Id=92 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@f516d70 owned by "Server thread" Id=17
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@f516d70
+	at net.minecraft.network.NetworkSystem$4.initChannel(NetworkSystem.java:116)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:597)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:44)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1387)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1122)
+	...
+
+
+"Timer-1" Id=50 TIMED_WAITING on java.util.TaskQueue@2e3eb5b4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@2e3eb5b4
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"MVStore background writer nio:/home/azureuser/server/custom px 1.12.2/luckperms/luckperms-h2.mv.db" Id=41 TIMED_WAITING on java.lang.Object@4149749
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@4149749
+	at org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3116)
+
+
+"Thread-4" Id=39 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"pool-2-thread-9" Id=34 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@197c025d
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@197c025d
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at me.lucko.luckperms.common.storage.implementation.file.watcher.AbstractFileWatcher.runEventProcessingLoop(AbstractFileWatcher.java:128)
+	at me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher.lambda$new$0(FileWatcher.java:60)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@720c6f9a
+
+
+"Timer-0" Id=23 WAITING on java.util.TaskQueue@1d42c6ef
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@1d42c6ef
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Sponge Async Scheduler Thread" Id=21 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@460a53e6
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@460a53e6
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2163)
+	at org.spongepowered.common.scheduler.AsyncScheduler.preTick(AsyncScheduler.java:121)
+	at org.spongepowered.common.scheduler.SchedulerBase.runTick(SchedulerBase.java:109)
+	at org.spongepowered.common.scheduler.AsyncScheduler.mainLoop(AsyncScheduler.java:68)
+	at org.spongepowered.common.scheduler.AsyncScheduler$$Lambda$153/1424471960.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"DestroyJavaVM" Id=19 RUNNABLE
+
+
+"Server thread" Id=17 RUNNABLE
+	at sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+	at sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:71)
+	at sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:257)
+	at sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:136)
+	at sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:148)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:212)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	...
+
+
+"Server Infinisleeper" Id=16 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:82)
+
+
+"Snooper Timer" Id=15 TIMED_WAITING on java.util.TaskQueue@1f93a2d6
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@1f93a2d6
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@146d6a75
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@146d6a75
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:188)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@ec8e7d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@ec8e7d
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.15.0-1053-azure
+	Java Version: 1.8.0_392, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1894812072 bytes (1807 MB) / 2865233920 bytes (2732 MB) up to 2865233920 bytes (2732 MB)
+	JVM Flags: 2 total; -Xms3G -Xmx3G
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 61 mods loaded, 61 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	Mods:
+
+	| State  | ID                  | Version                | Source                                         | Signature                                |
+	|:------ |:------------------- |:---------------------- |:---------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft           | 1.12.2                 | minecraft.jar                                  | None                                     |
+	| LCHIJA | mcp                 | 9.42                   | minecraft.jar                                  | None                                     |
+	| LCHIJA | FML                 | 8.0.99.99              | forge-1.12.2-14.23.5.2860.jar                  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge               | 14.23.5.2860           | forge-1.12.2-14.23.5.2860.jar                  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | spongeapi           | 7.4.0-5ea6215          | spongeforge-1.12.2-2838-7.4.7.jar              | None                                     |
+	| LCHIJA | sponge              | 1.12.2-7.4.7           | spongeforge-1.12.2-2838-7.4.7.jar              | None                                     |
+	| LCHIJA | spongeforge         | 1.12.2-2838-7.4.7      | spongeforge-1.12.2-2838-7.4.7.jar              | None                                     |
+	| LCHIJA | backpack            | 3.0.2                  | backpack-3.0.2-1.12.2.jar                      | None                                     |
+	| LCHIJA | biomesoplenty       | 7.0.1.2444             | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar  | None                                     |
+	| LCHIJA | bop_patch           | 1.0                    | BOP-Patch-1.0.jar                              | None                                     |
+	| LCHIJA | codechickenlib      | 3.2.3.358              | CodeChickenLib-1.12.2-3.2.3.358-universal.jar  | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | redstoneflux        | 2.1.1                  | RedstoneFlux-1.12-2.1.1.1-universal.jar        | None                                     |
+	| LCHIJA | cofhcore            | 4.6.6                  | CoFHCore-1.12.2-4.6.6.1-universal.jar          | None                                     |
+	| LCHIJA | cofhworld           | 1.4.0                  | CoFHWorld-1.12.2-1.4.0.1-universal.jar         | None                                     |
+	| LCHIJA | collective          | 3.0                    | collective-1.12.2-3.0.jar                      | None                                     |
+	| LCHIJA | customnpcs          | 1.12                   | CustomNPCs_1.12.2-(05Jul20).jar                | None                                     |
+	| LCHIJA | gottschcore         | 1.15.0                 | GottschCore-mc1.12.2-f14.23.5.2859-v1.15.0.jar | None                                     |
+	| LCHIJA | inventorypets       | 2.0.15                 | inventorypets-1.12-2.0.15.jar                  | None                                     |
+	| LCHIJA | ironchest           | 1.12.2-7.0.67.844      | ironchest-1.12.2-7.0.72.847.jar                | None                                     |
+	| LCHIJA | ironfurnaces        | 1.3.5                  | ironfurnaces-1.3.5.jar                         | None                                     |
+	| LCHIJA | jei                 | 4.16.1.302             | jei_1.12.2-4.16.1.302.jar                      | None                                     |
+	| LCHIJA | journeymap          | 1.12.2-5.7.1           | journeymap-1.12.2-5.7.1.jar                    | None                                     |
+	| LCHIJA | naturescompass      | 1.8.5                  | NaturesCompass-1.12.2-1.8.5.jar                | None                                     |
+	| LCHIJA | ordinarycoins       | 1.5                    | ordinarycoins-1.12.2-1.5.jar                   | None                                     |
+	| LCHIJA | oreexcavation       | 1.4.150                | OreExcavation-1.4.150.jar                      | None                                     |
+	| LCHIJA | performant          | 1.12.2-1.4             | performant-1.12.2-1.10.jar                     | None                                     |
+	| LCHIJA | pixelmon            | 8.4.3                  | Pixelmon-1.12.2-8.4.3-universal.jar            | None                                     |
+	| LCHIJA | pixelextras         | 2.5.17                 | PixelExtras-1.12.2-2.5.17-universal.jar        | None                                     |
+	| LCHIJA | tcg                 | 1.12.2-8.4.3-universal | Pixelmon-1.12.2-8.4.3-universal.jar            | None                                     |
+	| LCHIJA | pixelmongo          | 2.0.5                  | pixelmongo-1.12.2-2.0.5.jar                    | None                                     |
+	| LCHIJA | pixelmoninformation | 1.5.0                  | PixelmonInformation-1.12.2-8.3.0-1.5.0.jar     | None                                     |
+	| LCHIJA | pokehaancraftadd    | 1.5.0                  | PokehaanCraftAdditions-1.12.2-1.5.0.jar        | None                                     |
+	| LCHIJA | quickhomes          | 1.2.2                  | QuickHomes-1.2.2.jar                           | None                                     |
+	| LCHIJA | quickteleports      | 1.1.1                  | quickteleports-1.12.2-1.1.1.jar                | None                                     |
+	| LCHIJA | randomtp            | MC1.12.2-1.3.4         | RandomTP-MC1.12.2-1.3.5.jar                    | None                                     |
+	| LCHIJA | worldedit           | 6.1.10                 | worldedit-forge-mc1.12.2-6.1.10-dist.jar       | None                                     |
+	| LCHIJA | thermalfoundation   | 2.6.7                  | ThermalFoundation-1.12.2-2.6.7.1-universal.jar | None                                     |
+	| LCHIJA | thermalexpansion    | 5.5.7                  | ThermalExpansion-1.12.2-5.5.7.1-universal.jar  | None                                     |
+	| LCHIJA | treasure2           | 2.2.0                  | Treasure2-mc1.12.2-f14.23.5.2859-v2.2.0.jar    | None                                     |
+	| LCHIJA | warp_mod            | 1.0.0                  | warpmod-1.12.2-1.0.1.jar                       | None                                     |
+
+
+	Plugins:
+
+	| State  | ID              | Version          | Source                                  | Signature |
+	|:------ |:--------------- |:---------------- |:--------------------------------------- |:--------- |
+	| LCHIJA | catclearlag     | 0.9.0            | CatClearLag-0.9.0.jar                   | None      |
+	| LCHIJA | commanditems    | 2.2              | CommandItems-2.2.jar                    | None      |
+	| LCHIJA | commandsigns    | 2.10             | commandsigns-2.10.jar                   | None      |
+	| LCHIJA | flashlibs       | 0.1.2            | FlashLibs-v0.1.2.jar                    | None      |
+	| LCHIJA | griefprevention | 1.12.2-4.3.0.692 | griefprevention-1.12.2-4.3.0.692.jar    | None      |
+	| LCHIJA | holograms       | 3.1.5            | holograms-3.1.5.jar                     | None      |
+	| LCHIJA | huskyui         | 0.6.0PRE4        | HuskyUI-v0.6.0-PRE4-API7.jar            | None      |
+	| LCHIJA | placeholderapi  | 4.4              | PlaceholderAPI-4.4.jar                  | None      |
+	| LCHIJA | huskycrates     | 2.0.0RC3         | HuskyCrates.jar                         | None      |
+	| LCHIJA | langswitch      | 1.6.1            | LangSwitch-1.6.1.jar                    | None      |
+	| LCHIJA | luckperms       | 5.3.98           | LuckPerms-Sponge-5.3.98.jar             | None      |
+	| LCHIJA | megamenus       | 0.8              | MegaMenus-0.8.jar                       | None      |
+	| LCHIJA | nucleus         | 1.14.6-S7.1      | Nucleus-1.14.6-S7.1-MC1.12.2-plugin.jar | None      |
+	| LCHIJA | pjc             | 0.3.0            | projectcore-7.2.0-0.3.0.jar             | None      |
+	| LCHIJA | pjw             | 0.13.1           | projectworlds-7.2.0-0.13.1.jar          | None      |
+	| LCHIJA | redprotect      | 7.6.7            | RedProtect-7.6.7-b342-Universal.jar     | None      |
+	| LCHIJA | spongybackpacks | 1.1              | SpongyBackpacks-1.1.jar                 | None      |
+	| LCHIJA | totaleconomy    | 1.8.1            | TotalEconomy-1.8.1.jar                  | None      |
+	| LCHIJA | vshop           | 2.9              | VillagerShops-2.9.jar                   | None      |
+	| LCHIJA | virtualchest    | 1.0.2            | VirtualChest-1.0.2.jar                  | None      |
+	| LCHIJA | yysscoreboard   | 0.2.0-pre        | YYSScoreboard-0.2.0-pre-b65.jar         | None      |
+
+	Loaded coremods (and transformers): 
+SpongeCoremod (spongeforge-1.12.2-2838-7.4.7.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+PokehaanCraftAdditionsLoadingPlugin (PokehaanCraftAdditions-1.12.2-1.5.0.jar)
+  
+PerformantLoadingPlugin (performant-1.12.2-1.10.jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)

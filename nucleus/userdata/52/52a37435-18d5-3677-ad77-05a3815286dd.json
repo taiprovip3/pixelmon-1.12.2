@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "lastKnownName": "RayoneMc",
+  "lastLogin": 1705846950022,
+  "lastLogout": 1705850045023,
+  "lastIP": "/116.108.2.145",
+  "firstJoin": 1705846950022,
+  "startedFirstJoin": false,
+  "vanish": false,
+  "fly": false,
+  "kitLastUsedTime": {
+    "online": 1705846950,
+    "tools": 1705846950
+  },
+  "isFrozen": false,
+  "invulnerable": false,
+  "warnings": [],
+  "notes": [],
+  "mail": [],
+  "jailOnNextLogin": false,
+  "powertools": {},
+  "lastLocation": {
+    "x": -756.5691129328167,
+    "y": 4.0,
+    "z": -722.3600646914571,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  }
+}

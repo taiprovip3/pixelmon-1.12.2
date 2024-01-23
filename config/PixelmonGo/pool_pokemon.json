@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "key": "water",
+      "pokemon": [
+        "Squirtle:1-20",
+        "Wartortle:1-20",
+        "Blastoise:1-20"
+      ]
+    },
+    {
+      "key": "fire",
+      "pokemon": [
+        "Charmander:25-50",
+        "Charmeleon:25-50",
+        "Charizard:25-50"
+      ]
+    },
+    {
+      "key": "grass",
+      "pokemon": [
+        "Bulbasaur:1-20",
+        "Ivysaur:1-20",
+        "Venusaur:1-20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "invulnerable": false,
+  "vanish": false,
+  "kitLastUsedTime": {
+    "online": 1705993964
+  },
+  "jailOnNextLogin": false,
+  "fly": false,
+  "lastKnownName": "phantantri",
+  "lastLocation": {
+    "x": -898.7494117645734,
+    "y": 4.0,
+    "z": -814.4025626844016,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  },
+  "lastLogin": 1705993964350,
+  "lastLogout": 1705997982081,
+  "lastIP": "/116.108.2.145",
+  "firstJoin": 1705990993110,
+  "startedFirstJoin": false,
+  "notes": [],
+  "warnings": [],
+  "mail": [],
+  "ignoreList": [],
+  "isFrozen": false,
+  "homes": {
+    "home": {
+      "x": -773.3877832656954,
+      "y": 4.0,
+      "z": -809.5786428849854,
+      "rotx": 20.399988174438477,
+      "roty": -210.74493408203125,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+    }
+  }
+}

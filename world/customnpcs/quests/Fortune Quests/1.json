@@ -1,0 +1,60 @@
+{
+    "CompleterNpc": "Awaji Minami",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 4,
+    "QuestCompletion": 0,
+    "Title": "Fortune Key",
+    "Text": "NHIỆM VỤ DAILY:
+\"CÔNG VIỆC THỢ SĂN\"
+Mô tả:
+- Giết 8 con zombie
+- Giết 8 con skeleton
+- Giết 8 con cừu",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 10,
+        "OptionFactions1": 0,
+        "OptionFactions2": 1,
+        "OptionFaction1Points": 10,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Value": 8,
+            "Slot": "Sheep"
+        },
+        {
+            "Value": 8,
+            "Slot": "Skeleton"
+        },
+        {
+            "Value": 8,
+            "Slot": "Zombie"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1705833580501L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "CompleteText": "XIN CHÚC MỪNG - HOÀN THÀNH NHIỆM VỤ
+Bạn đã hoàn thành nhiệm vụ:
+\"CÔNG VIỆC THỢ SĂN\"",
+    "NextQuestTitle": ""
+}

@@ -1,0 +1,41 @@
+{
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 1
+        },
+        {
+            "Dialog": 2
+        },
+        {
+            "Dialog": 3
+        },
+        {
+            "Dialog": 4
+        }
+    ],
+    "ItemGiverChained": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "atai",
+    "UUID": "a749f3d8-5357-3bdc-854b-497961011e61",
+    "ScriptStoreddata": {
+    }
+}

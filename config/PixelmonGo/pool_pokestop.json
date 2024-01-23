@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "key": "pokegostop",
+      "items": {
+        "minecraft:iron_ingot": 10,
+        "minecraft:gold_ingot": 20,
+        "minecraft:coal": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+    ],
+    "AvailabilityScoreboardType": 1,
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityScoreboard2Value": 1,
+    "DialogId": 12,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityQuest4": 0,
+    "ModRev": 18,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "AvailabilityScoreboardValue": 1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "help2",
+    "AvailabilityDialog": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "* Lệnh claim đất hoang:
+/claimbuy: mua khu đất xẻng vàng đã claim
+/trust [tên]: cho phép tin tưởng bạn bè dùng chung khu claims (có thể build)
+/trustall: tin tưởng tất cả người chơi trong server
+/untrust [tên]: hủy hợp tác
+/claiminfo: xem thông tin khu claim
+/claimsell: bán vương quốc khu đất đang đứng
+/claimsetspawn: đặt điểm spawn cho khu đất
+/claimspawn: dịch chuyển đến điểm spawn khu đất
+/cf: cài đặt settings khu đất
+...
+Chi tiết thêm nhiều lệnh khác tham khảo:
+https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
+
+* Lệnh tiện ích khác:
+/tpa: gửi yêu cầu dịch chuyển tới bạn bè
+/tpaccept or /tpdeny: chấp nhận or hủy yêu cầu
+/back: quay lại điểm vừa dịch chuyển hoặc chết
+/warp list: xem danh sách tất cả warp
+    * /warp adventure: đến thế giới phiêu lưu
+    * /warp plot: đến thế giới plot
+    * /warp buid: đến khu cho phép xây dựng thị trấn, nhà cửa
+    * /warp vshop/vshop2: đến nhanh khu shop bán
+    (/warp list có thể click vào chat tên warp để dịch chuyển nhanh)
+/sethome: đặt điểm sao lưu
+/home: đến điểm sao lưu
+/spawn đến điểm spawn các world
+/endbattle: kết thúc trận pokemon",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1706012865178L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}
