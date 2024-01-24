@@ -1,849 +1,728 @@
-[07:07:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[07:07:35] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[07:07:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[07:07:35] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[07:07:35] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:5.15.0-1053-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[07:07:36] [main/INFO] [FML]: Searching /home/azureuser/server/custom px 1.12.2/./mods for mods
-[07:07:36] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
-[07:07:36] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
-[07:07:36] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from performant-1.12.2-1.10.jar
-[07:07:36] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from PokehaanCraftAdditions-1.12.2-1.5.0.jar
-[07:07:36] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.4.7.jar
-[07:07:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:07:36] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
-[07:07:36] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[07:07:36] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[07:07:36] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/home/azureuser/server/custom%20px%201.12.2/./mods/performant-1.12.2-1.10.jar Service=LaunchWrapper Env=SERVER
-[07:07:36] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[07:07:36] [main/WARN] [FML]: The coremod PerformantLoadingPlugin (com.performant.coremod.PerformantLoadingPlugin) is not signed!
-[07:07:36] [main/WARN] [FML]: The coremod PokehaanCraftAdditionsLoadingPlugin (com.lclc98.pokehaancraftadditions.PokehaanCraftAdditionsLoadingPlugin) is not signed!
-[07:07:36] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[07:07:36] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[07:07:36] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[07:07:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:07:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:07:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:07:36] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[07:07:36] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[07:07:36] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
-[07:07:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:07:38] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[07:07:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:07:38] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[07:07:38] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@281f23f2
-[07:07:38] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
-[07:07:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:07:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:07:38] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[07:07:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:07:38] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[07:07:38] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[07:07:39] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
-[07:07:39] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
-[07:07:39] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
-[07:07:41] [main/WARN] [mixin]: @Mixin target net/minecraft/server/management/PlayerProfileCache$ProfileEntry is public in mixins.common.core.json:server.management.PlayerProfileCache_ProfileEntryAccessor and should be specified in value
-[07:07:42] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
-[07:07:42] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
-[07:07:42] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.MathTransformer' was detected and will no longer process meta class data
-[07:07:42] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[07:07:43] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[07:07:43] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
-[07:07:45] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
-[07:07:45] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
-[07:07:45] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
-[07:07:47] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
-[07:07:49] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
-[07:07:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[07:07:49] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[07:07:49] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[07:07:50] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[07:07:50] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[07:07:50] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/home/azureuser/server/custom%20px%201.12.2/./mods/spongeforge-1.12.2-2838-7.4.7.jar!/mcmod.info
-[07:07:50] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
-[07:07:55] [Server thread/INFO] [FML]: Searching /home/azureuser/server/custom px 1.12.2/./mods for mods
-[07:07:55] [Server thread/WARN] [Sponge]: Plugin 'catclearlag' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
+[13:32:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[13:32:44] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[13:32:44] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:5.15.0-1053-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[13:32:44] [main/INFO] [FML]: Searching /home/azureuser/server/custom px 1.12.2/./mods for mods
+[13:32:44] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[13:32:44] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[13:32:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from performant-1.12.2-1.10.jar
+[13:32:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from PokehaanCraftAdditions-1.12.2-1.5.0.jar
+[13:32:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.4.7.jar
+[13:32:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[13:32:44] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/home/azureuser/server/custom%20px%201.12.2/./mods/performant-1.12.2-1.10.jar Service=LaunchWrapper Env=SERVER
+[13:32:44] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[13:32:44] [main/WARN] [FML]: The coremod PerformantLoadingPlugin (com.performant.coremod.PerformantLoadingPlugin) is not signed!
+[13:32:44] [main/WARN] [FML]: The coremod PokehaanCraftAdditionsLoadingPlugin (com.lclc98.pokehaancraftadditions.PokehaanCraftAdditionsLoadingPlugin) is not signed!
+[13:32:44] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[13:32:44] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[13:32:44] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[13:32:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[13:32:44] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[13:32:44] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[13:32:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:32:46] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[13:32:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:32:46] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[13:32:46] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1698d7c0
+[13:32:46] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[13:32:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:32:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:32:46] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:32:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:32:46] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:32:46] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[13:32:47] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[13:32:47] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[13:32:48] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[13:32:49] [main/WARN] [mixin]: @Mixin target net/minecraft/server/management/PlayerProfileCache$ProfileEntry is public in mixins.common.core.json:server.management.PlayerProfileCache_ProfileEntryAccessor and should be specified in value
+[13:32:50] [main/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[13:32:50] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[13:32:50] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.MathTransformer' was detected and will no longer process meta class data
+[13:32:51] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13:32:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[13:32:52] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[13:32:54] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[13:32:54] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[13:32:55] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[13:32:56] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[13:32:58] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
+[13:32:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[13:32:59] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[13:32:59] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:32:59] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[13:32:59] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[13:32:59] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/home/azureuser/server/custom%20px%201.12.2/./mods/spongeforge-1.12.2-2838-7.4.7.jar!/mcmod.info
+[13:32:59] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[13:33:04] [Server thread/INFO] [FML]: Searching /home/azureuser/server/custom px 1.12.2/./mods for mods
+[13:33:05] [Server thread/WARN] [Sponge]: Plugin 'catclearlag' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
 Please see https://docs.spongepowered.org/master/en/plugin/plugin-meta.html for details.
-[07:07:55] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
-[07:07:56] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
-[07:07:57] [Server thread/INFO] [FML]: Disabling mod pixelradar it is client side only.
-[07:07:57] [Server thread/WARN] [FML]: Mod warp_mod is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.0
-[07:07:57] [Server thread/INFO] [FML]: Forge Mod Loader has identified 62 mods to load
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for catclearlag: assets/catclearlag/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for cofhcore: assets/cofhcore/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for collective: assets/collective/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for commanditems: assets/commanditems/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for commandsigns: assets/commandsigns/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for fixedfoodbar: assets/fixedfoodbar/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for flashlibs: assets/flashlibs/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for gottschcore: assets/gottschcore/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for griefprevention: assets/griefprevention/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for holograms: assets/holograms/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for huskycrates: assets/huskycrates/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for huskyui: assets/huskyui/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for langswitch: assets/langswitch/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for luckperms: assets/luckperms/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for megamenus: assets/megamenus/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for nucleus: assets/nucleus/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for performant: assets/performant/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for placeholderapi: assets/placeholderapi/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for pjc: assets/pjc/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for pjw: assets/pjw/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for quickteleports: assets/quickteleports/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for randomtp: assets/randomtp/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for redprotect: assets/redprotect/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for spongybackpacks: assets/spongybackpacks/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for vshop: assets/vshop/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for virtualchest: assets/virtualchest/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for warp_mod: assets/warp_mod/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
-[07:07:57] [Server thread/WARN] [Sponge]: The mod placeholderapi was designed for spongeapi 5.1.0 but version 7.4.0-5ea6215 is in use. It may not work properly.
-[07:07:57] [Server thread/WARN] [Sponge]: The mod redprotect was designed for spongeapi 6.1.0-SNAPSHOT but version 7.4.0-5ea6215 is in use. It may not work properly.
-[07:07:57] [Server thread/WARN] [Sponge]: The mod redprotect was designed for spongeapi 6.1.0-SNAPSHOT but version 7.4.0-5ea6215 is in use. It may not work properly.
-[07:07:57] [Server thread/INFO] [FML]: FML has found a non-mod file PokeRadar-Mod-Pixelmon-v5.1-1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[07:07:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, backpack, biomesoplenty, bop_patch, catclearlag, codechickenlib, cofhcore, cofhworld, collective, commanditems, commandsigns, customnpcs, fixedfoodbar, flashlibs, gottschcore, griefprevention, holograms, huskycrates, huskyui, inventorypets, ironchest, ironfurnaces, jei, journeymap, langswitch, luckperms, megamenus, naturescompass, nucleus, ordinarycoins, oreexcavation, performant, pixelextras, tcg, pixelmon, pixelmongo, pixelmoninformation, placeholderapi, pokehaancraftadd, pjc, pjw, quickhomes, quickteleports, randomtp, redprotect, redstoneflux, spongybackpacks, thermalexpansion, thermalfoundation, totaleconomy, treasure2, vshop, virtualchest, warp_mod, worldedit, yysscoreboard] at CLIENT
-[07:07:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, backpack, biomesoplenty, bop_patch, catclearlag, codechickenlib, cofhcore, cofhworld, collective, commanditems, commandsigns, customnpcs, fixedfoodbar, flashlibs, gottschcore, griefprevention, holograms, huskycrates, huskyui, inventorypets, ironchest, ironfurnaces, jei, journeymap, langswitch, luckperms, megamenus, naturescompass, nucleus, ordinarycoins, oreexcavation, performant, pixelextras, tcg, pixelmon, pixelmongo, pixelmoninformation, placeholderapi, pokehaancraftadd, pjc, pjw, quickhomes, quickteleports, randomtp, redprotect, redstoneflux, spongybackpacks, thermalexpansion, thermalfoundation, totaleconomy, treasure2, vshop, virtualchest, warp_mod, worldedit, yysscoreboard] at SERVER
-[07:07:58] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
-[07:07:58] [Server thread/ERROR] [FML]: The mod backpack is expecting signature @FINGERPRINT@ for source backpack-3.0.2-1.12.2.jar, however there is no signature matching that description
-[07:07:59] [Server thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
-[07:07:59] [Server thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
-[07:08:01] [Server thread/ERROR] [FML]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
-[07:08:01] [Server thread/ERROR] [FML]: The mod thermalexpansion is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalExpansion-1.12.2-5.5.7.1-universal.jar, however there is no signature matching that description
-[07:08:01] [Server thread/WARN] [com.drewchaseproject.forge.WarpMod.WarpMod]: No Public Players are Allowed
-[07:08:01] [Server thread/WARN] [com.drewchaseproject.forge.WarpMod.WarpMod]: All Players are Allowed
-[07:08:01] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[07:08:01] [Server thread/INFO] [FML]: Found 1253 ObjectHolder annotations
-[07:08:01] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[07:08:01] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[07:08:01] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[07:08:01] [Server thread/INFO] [org.spongepowered.mod.SpongeMod]: Log test
-[07:08:01] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[07:08:02] [Server thread/INFO] [vshop]: Found UserStorage Service
-[07:08:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         __    
-[07:08:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |    |__)   LuckPerms v5.3.98
-[07:08:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |___ |      Running on Sponge - SpongeForge
-[07:08:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[07:08:03] [Server thread/INFO] [luckperms]: Loading configuration...
-[07:08:03] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
-[07:08:03] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
-[07:08:03] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
-[07:08:03] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
-[07:08:03] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
-[07:08:03] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
-[07:08:03] [Server thread/INFO] [luckperms]: Loading storage provider... [H2]
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: UP_TO_DATE Target: null
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.12.2-master/update.json
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [gottschcore] Found status: UP_TO_DATE Target: null
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmoninformation] Starting version check at https://raw.githubusercontent.com/Bletch1971/PixelmonInformation/master/8.3/updateforge.json
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmoninformation] Found status: UP_TO_DATE Target: null
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Found status: UP_TO_DATE Target: null
-[07:08:04] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
-[07:08:04] [Server thread/INFO] [luckperms]: Loading internal permission managers...
-[07:08:04] [Server thread/INFO] [luckperms]: Registering PermissionService...
-[07:08:04] [Server thread/INFO] [vshop]: Found Permission Service
-[07:08:05] [Server thread/INFO] [luckperms]: Performing initial data load...
-[07:08:05] [Server thread/INFO] [luckperms]: Successfully enabled. (took 3086ms)
-[07:08:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Nucleus version 1.14.6-S7.1, running on Sponge API 7.4.0-5ea6215.
-[07:08:05] [Server thread/INFO] [nucleus]: Nucleus is now starting. Entering pre-init phase.
-[07:08:05] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
-[07:08:05] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
-[07:08:06] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
-[07:08:06] [Forge Version Check/INFO] [forge.VersionCheck]: [quickhomes] Starting version check at http://modmanagement.net16.net/updateJSON2.json
-[07:08:06] [Server thread/INFO] [nucleus]: Starting QuickStart Module Loader version 0.11.0 subsystem.
-[07:08:07] [Server thread/INFO] [griefprevention]: 
+[13:33:05] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[13:33:06] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[13:33:07] [Server thread/INFO] [FML]: Disabling mod pixelradar it is client side only.
+[13:33:08] [Server thread/WARN] [FML]: Mod warp_mod is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.0
+[13:33:08] [Server thread/INFO] [FML]: Forge Mod Loader has identified 62 mods to load
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for catclearlag: assets/catclearlag/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for cofhcore: assets/cofhcore/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for collective: assets/collective/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for commanditems: assets/commanditems/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for commandsigns: assets/commandsigns/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for fixedfoodbar: assets/fixedfoodbar/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for flashlibs: assets/flashlibs/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for gottschcore: assets/gottschcore/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for griefprevention: assets/griefprevention/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for holograms: assets/holograms/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for huskycrates: assets/huskycrates/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for huskyui: assets/huskyui/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for langswitch: assets/langswitch/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for luckperms: assets/luckperms/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for megamenus: assets/megamenus/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for nucleus: assets/nucleus/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for performant: assets/performant/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for placeholderapi: assets/placeholderapi/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for pjc: assets/pjc/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for pjw: assets/pjw/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for quickteleports: assets/quickteleports/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for randomtp: assets/randomtp/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for redprotect: assets/redprotect/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for spongybackpacks: assets/spongybackpacks/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for vshop: assets/vshop/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for virtualchest: assets/virtualchest/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for warp_mod: assets/warp_mod/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[13:33:08] [Server thread/WARN] [Sponge]: The mod placeholderapi was designed for spongeapi 5.1.0 but version 7.4.0-5ea6215 is in use. It may not work properly.
+[13:33:08] [Server thread/WARN] [Sponge]: The mod redprotect was designed for spongeapi 6.1.0-SNAPSHOT but version 7.4.0-5ea6215 is in use. It may not work properly.
+[13:33:08] [Server thread/WARN] [Sponge]: The mod redprotect was designed for spongeapi 6.1.0-SNAPSHOT but version 7.4.0-5ea6215 is in use. It may not work properly.
+[13:33:08] [Server thread/INFO] [FML]: FML has found a non-mod file PokeRadar-Mod-Pixelmon-v5.1-1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[13:33:09] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, backpack, biomesoplenty, bop_patch, catclearlag, codechickenlib, cofhcore, cofhworld, collective, commanditems, commandsigns, customnpcs, fixedfoodbar, flashlibs, gottschcore, griefprevention, holograms, huskycrates, huskyui, inventorypets, ironchest, ironfurnaces, jei, journeymap, langswitch, luckperms, megamenus, naturescompass, nucleus, ordinarycoins, oreexcavation, performant, pixelextras, tcg, pixelmon, pixelmongo, pixelmoninformation, placeholderapi, pokehaancraftadd, pjc, pjw, quickhomes, quickteleports, randomtp, redprotect, redstoneflux, spongybackpacks, thermalexpansion, thermalfoundation, totaleconomy, treasure2, vshop, virtualchest, warp_mod, worldedit, yysscoreboard] at CLIENT
+[13:33:09] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, backpack, biomesoplenty, bop_patch, catclearlag, codechickenlib, cofhcore, cofhworld, collective, commanditems, commandsigns, customnpcs, fixedfoodbar, flashlibs, gottschcore, griefprevention, holograms, huskycrates, huskyui, inventorypets, ironchest, ironfurnaces, jei, journeymap, langswitch, luckperms, megamenus, naturescompass, nucleus, ordinarycoins, oreexcavation, performant, pixelextras, tcg, pixelmon, pixelmongo, pixelmoninformation, placeholderapi, pokehaancraftadd, pjc, pjw, quickhomes, quickteleports, randomtp, redprotect, redstoneflux, spongybackpacks, thermalexpansion, thermalfoundation, totaleconomy, treasure2, vshop, virtualchest, warp_mod, worldedit, yysscoreboard] at SERVER
+[13:33:09] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[13:33:09] [Server thread/ERROR] [FML]: The mod backpack is expecting signature @FINGERPRINT@ for source backpack-3.0.2-1.12.2.jar, however there is no signature matching that description
+[13:33:10] [Server thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[13:33:10] [Server thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[13:33:12] [Server thread/ERROR] [FML]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
+[13:33:12] [Server thread/ERROR] [FML]: The mod thermalexpansion is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalExpansion-1.12.2-5.5.7.1-universal.jar, however there is no signature matching that description
+[13:33:12] [Server thread/WARN] [com.drewchaseproject.forge.WarpMod.WarpMod]: No Public Players are Allowed
+[13:33:12] [Server thread/WARN] [com.drewchaseproject.forge.WarpMod.WarpMod]: All Players are Allowed
+[13:33:12] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[13:33:12] [Server thread/INFO] [FML]: Found 1253 ObjectHolder annotations
+[13:33:12] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[13:33:12] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[13:33:12] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[13:33:12] [Server thread/INFO] [org.spongepowered.mod.SpongeMod]: Log test
+[13:33:12] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:33:13] [Server thread/INFO] [vshop]: Found UserStorage Service
+[13:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         __    
+[13:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |    |__)   LuckPerms v5.3.98
+[13:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |___ |      Running on Sponge - SpongeForge
+[13:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[13:33:13] [Server thread/INFO] [luckperms]: Loading configuration...
+[13:33:14] [Server thread/INFO] [luckperms]: Loading storage provider... [H2]
+[13:33:15] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[13:33:15] [Forge Version Check/INFO] [forge.VersionCheck]: [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+[13:33:15] [Server thread/INFO] [luckperms]: Loading internal permission managers...
+[13:33:15] [Forge Version Check/INFO] [forge.VersionCheck]: [treasure2] Found status: BETA Target: null
+[13:33:15] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmoninformation] Starting version check at https://raw.githubusercontent.com/Bletch1971/PixelmonInformation/master/8.3/updateforge.json
+[13:33:15] [Server thread/INFO] [luckperms]: Registering PermissionService...
+[13:33:15] [Server thread/INFO] [vshop]: Found Permission Service
+[13:33:15] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmoninformation] Found status: UP_TO_DATE Target: null
+[13:33:15] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[13:33:15] [Server thread/INFO] [luckperms]: Performing initial data load...
+[13:33:16] [Server thread/INFO] [luckperms]: Successfully enabled. (took 3259ms)
+[13:33:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Nucleus version 1.14.6-S7.1, running on Sponge API 7.4.0-5ea6215.
+[13:33:16] [Server thread/INFO] [nucleus]: Nucleus is now starting. Entering pre-init phase.
+[13:33:16] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[13:33:16] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
+[13:33:17] [Server thread/INFO] [nucleus]: Starting QuickStart Module Loader version 0.11.0 subsystem.
+[13:33:17] [Server thread/INFO] [yysscoreboard]: 
 bStats metrics is present in 4 plugins on this server.
 Presently, none of them are allowed to send data.
 Presently, the following 4 plugins are not allowed to send data:
-[GriefPrevention, Holograms, PlaceholderAPI, VirtualChest]
+[YYS ScoreBoard, Holograms, PlaceholderAPI, VirtualChest]
 To change the enabled/disabled state of any bStats use in a plugin, visit the Sponge config!
-[07:08:07] [Server thread/INFO] [vshop]: Found Economy Service
-[07:08:07] [Server thread/WARN] [Sponge]: holograms: It is no longer required to include the plugin id when specifying a Key id through Key.Builder#id. This is deprecated and may be removed later. The plugin id will be retrieved from the current PluginContainer in the cause stack. Key: holograms:is-hologram
-[07:08:07] [Server thread/INFO] [yysscoreboard]: using data dir path:/home/azureuser/server/custom px 1.12.2/./config/yysscoreboard
-[07:08:07] [Server thread/INFO] [catclearlag]: Setting up config...
-[07:08:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[07:08:08] [Server thread/INFO] [vshop]: Found PluginItem Service
-[07:08:08] [Server thread/INFO] [vshop]: Registering default PluginItem compatibility
-[07:08:08] [Server thread/INFO] [vshop]:  > HuskyCrate Integration was loaded
-[07:08:08] [Server thread/INFO] [griefprevention]: Grief Prevention boot start.
-[07:08:08] [Server thread/INFO] [griefprevention]: Finished loading configuration.
-[07:08:08] [Server thread/INFO] [griefprevention]: Registering GriefPrevention API...
-[07:08:08] [Server thread/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.forge.core.json:forge.fluids.BlockFluidFiniteMixin_Forge::handler$bam000$onSetBlockForSwapping exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[07:08:08] [Server thread/WARN] [mixin]: Injection warning: LVT in net/minecraftforge/fluids/BlockFluidFinite::tryToFlowVerticallyInto(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)I has incompatible changes at opcode 7 in callback net/minecraftforge/fluids/BlockFluidFinite::onSetBlockForSwapping.
+[13:33:17] [Server thread/INFO] [yysscoreboard]: using data dir path:/home/azureuser/server/custom px 1.12.2/./config/yysscoreboard
+[13:33:17] [Server thread/INFO] [catclearlag]: Setting up config...
+[13:33:18] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Found status: UP_TO_DATE Target: null
+[13:33:18] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[13:33:18] [Server thread/INFO] [vshop]: Found PluginItem Service
+[13:33:18] [Server thread/INFO] [vshop]: Registering default PluginItem compatibility
+[13:33:18] [Server thread/INFO] [vshop]:  > HuskyCrate Integration was loaded
+[13:33:18] [Server thread/INFO] [vshop]: Found Economy Service
+[13:33:18] [Server thread/WARN] [Sponge]: holograms: It is no longer required to include the plugin id when specifying a Key id through Key.Builder#id. This is deprecated and may be removed later. The plugin id will be retrieved from the current PluginContainer in the cause stack. Key: holograms:is-hologram
+[13:33:19] [Server thread/INFO] [griefprevention]: Grief Prevention boot start.
+[13:33:19] [Server thread/INFO] [griefprevention]: Finished loading configuration.
+[13:33:19] [Server thread/INFO] [griefprevention]: Registering GriefPrevention API...
+[13:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[13:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[13:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: UP_TO_DATE Target: null
+[13:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
+[13:33:19] [Server thread/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.forge.core.json:forge.fluids.BlockFluidFiniteMixin_Forge::handler$bam000$onSetBlockForSwapping exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[13:33:19] [Server thread/WARN] [mixin]: Injection warning: LVT in net/minecraftforge/fluids/BlockFluidFinite::tryToFlowVerticallyInto(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)I has incompatible changes at opcode 7 in callback net/minecraftforge/fluids/BlockFluidFinite::onSetBlockForSwapping.
 Expected: [Lnet/minecraft/block/state/IBlockState;, Lnet/minecraft/util/math/BlockPos;, I, I, Lnet/minecraft/block/state/IBlockState;]
    Found: [Lnet/minecraft/block/state/IBlockState;]
-[07:08:08] [Server thread/WARN] [Sponge]: Could not find variant owning class, assigning fallback id: biomesoplenty:block_b_o_p_gem_ore_variant
-[07:08:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[07:08:08] [Forge Version Check/INFO] [forge.VersionCheck]: [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
-[07:08:09] [Forge Version Check/INFO] [forge.VersionCheck]: [treasure2] Found status: BETA Target: null
-[07:08:09] [Server thread/INFO] [CoFH World]: Registering default Feature Templates...
-[07:08:09] [Server thread/INFO] [CoFH World]: Registering default World Generators...
-[07:08:09] [Server thread/INFO] [CoFH World]: Verifying or creating base world generation directory...
-[07:08:09] [Server thread/INFO] [CoFH World]: Complete.
-[07:08:11] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.3
-[07:08:12] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[07:08:12] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:15] [Server thread/WARN] [Sponge]: Could not find facing owning class, assigning fallback id: pixelmon:block_street_light_facing
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pokestop`, expected `pixelmongo`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pokeball`, expected `pixelmongo`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/INFO] [FML]: Applying holder lookups
-[07:08:16] [Server thread/INFO] [FML]: Holder lookups applied
-[07:08:16] [Server thread/INFO] [Backpack]: Loading items...
-[07:08:16] [Server thread/INFO] [Backpack]: 15 item features loaded.
-[07:08:16] [Server thread/INFO] [FML]: Applying holder lookups
-[07:08:16] [Server thread/INFO] [FML]: Holder lookups applied
-[07:08:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
-[07:08:16] [Server thread/INFO] [FML]: Applying holder lookups
-[07:08:16] [Server thread/INFO] [FML]: Holder lookups applied
-[07:08:16] [Server thread/INFO] [FML]: Applying holder lookups
-[07:08:16] [Server thread/INFO] [FML]: Holder lookups applied
-[07:08:16] [Server thread/INFO] [FML]: Injecting itemstacks
-[07:08:16] [Server thread/INFO] [FML]: Itemstack injection complete
-[07:08:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[07:08:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[07:08:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[07:08:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[07:08:17] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[07:08:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:08:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[07:08:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:08:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:08:17] [Server thread/INFO] [Backpack]: Loading recipes...
-[07:08:17] [Server thread/INFO] [Backpack]: 15 recipe features loaded.
-[07:08:17] [Server thread/INFO] [FML]: Applying holder lookups
-[07:08:17] [Server thread/INFO] [FML]: Holder lookups applied
-[07:08:17] [Server thread/INFO] [langswitch]: Setting default locale to en_US
-[07:08:17] [Server thread/INFO] [vshop]: Found Language Service
-[07:08:17] [pool-2-thread-9/INFO] [langswitch]: Loading translations for vshop in en_US...
-[07:08:17] [pool-2-thread-9/INFO] [langswitch]: No country specifig translations for English, switching to en.lang
-[07:08:17] [Server thread/INFO] [langswitch]: The LanguageService is now available!
-[07:08:17] [Server thread/INFO] [nucleus]: Nucleus is now entering the init phase.
-[07:08:17] [Server thread/INFO] [holograms]: Holograms loaded: 3.1.5
-[07:08:18] [Server thread/INFO] [vshop]: [Integration] Protection Plugin: RedProtect
-[07:08:18] [Server thread/INFO] [vshop]: Registering commands...
-[07:08:18] [Server thread/INFO] [vshop]: Loading configs...
-[07:08:18] [Server thread/INFO] [catclearlag]: Starting plugin...
-[07:08:18] [Server thread/INFO] [catclearlag]: Registering commands...
-[07:08:18] [Server thread/INFO] [nucleus]: Nucleus is now entering the post-init phase.
-[07:08:18] [Server thread/INFO] [nucleus]: Nucleus is now loading and enabling modules. This may take a few seconds.
-[07:08:18] [Server thread/INFO] [nucleus]: Starting phase: PREENABLE
-[07:08:18] [Server thread/INFO] [nucleus]: Starting phase: ENABLE
-[07:08:20] [Server thread/INFO] [nucleus]: Starting phase: POSTENABLE
-[07:08:20] [Server thread/INFO] [nucleus]: Nucleus language set to "en-GB"
-[07:08:20] [Server thread/INFO] [nucleus]: Nucleus has completed loading modules.
-[07:08:20] [Server thread/INFO] [nucleus]: Nucleus has completed server initialisation tasks. Waiting for game server to start to complete the final tasks.
-[07:08:20] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: CustomNPC Permissions available:
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.blocks
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.villager
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.bank
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.dialog
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.faction
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.linked
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.naturalspawn
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.playerdata
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.quest
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.recipe
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.transport
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.advanced
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.ai
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.clone
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.create
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.delete
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.display
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.freeze
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.gui
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.inventory
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.reset
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.stats
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.scenes
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.soulstone.all
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.create
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.mob
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.mounter
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.nbtbook
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.pather
-[07:08:21] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.scripter
-[07:08:21] [Server thread/INFO] [STDOUT]: [noppes.npcs.CustomNpcs:load:258]: Markov dictionaries loaded!
-[07:08:21] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[07:08:21] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[07:08:21] [Server thread/INFO] [Pixelmon]: Registering structures.
-[07:08:22] [Server thread/INFO] [Pixelmon]: Registering all drops.
-[07:08:22] [Server thread/INFO] [Pixelmon]: Item not found: minecraft:salmon in pokedrops.json
-[07:08:22] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[07:08:22] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
-[07:08:22] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
-[07:08:22] [Server thread/WARN] [Pixelmon]: Attack name invalid: Infernal Parade
-[07:08:22] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Victory Dance
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Mountain Gale
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: High Horse
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Stone Axe
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Headlong Rush
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Dire Claw
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
-[07:08:23] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[07:08:23] [Server thread/INFO] [Pixelmon]: Registering quests.
-[07:08:23] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
-[07:08:23] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.3-universal
-[07:08:24] [Server thread/INFO] [STDOUT]: [its_meow.quickhomes.proxy.ServerProxy:init:22]: Starting QuickHomes mod version 1.2.2...
-[07:08:24] [Server thread/INFO] [FML]: Injecting itemstacks
-[07:08:24] [Server thread/INFO] [FML]: Itemstack injection complete
-[07:08:24] [Server thread/INFO] [virtualchest]: Try to load the PlaceholderAPI service ... 
-[07:08:24] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[07:08:25] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
-[07:08:25] [Server thread/INFO] [STDOUT]: [its_meow.quickhomes.proxy.ServerProxy:postInit:26]: QuickHomes mod version 1.2.2 loaded!
-[07:08:25] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
-[07:08:26] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: Biomes O' Plenty Plugin Enabled.
-[07:08:26] [Server thread/INFO] [cofhcore]: CoFH Core: Load Complete.
-[07:08:26] [Server thread/INFO] [CoFH World]: Accumulating world generation files from: "/home/azureuser/server/custom px 1.12.2/config/cofh/world"
-[07:08:26] [Server thread/INFO] [CoFH World]: Found a total of 3 world generation files.
-[07:08:26] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/01_thermalfoundation_ores.json":
-[07:08:26] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/02_thermalfoundation_oil.json":
-[07:08:26] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/03_thermalfoundation_clathrates.json":
-[07:08:26] [Server thread/INFO] [CoFH World]: CoFH World: Load Complete.
-[07:08:26] [Server thread/INFO] [thermalfoundation]: [Whitelist] Reading established Whitelist from file.
-[07:08:26] [Server thread/INFO] [thermalfoundation]: Thermal Foundation: Load Complete.
-[07:08:26] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: Load Complete.
-[07:08:27] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 62 mods
-[07:08:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[07:08:28] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
-[07:08:28] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
-[07:08:28] [Server thread/WARN] [Sponge]: World [ultra] (72) is attempting to be registered as an existing dimension but it's dimension id has already been registered for folder [null]. This means the world has been copied outside of Sponge. This is not a supported configuration.
-[07:08:28] [Server thread/WARN] [Sponge]: World [drowned] (73) is attempting to be registered as an existing dimension but it's dimension id has already been registered for folder [null]. This means the world has been copied outside of Sponge. This is not a supported configuration.
-[07:08:28] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[07:08:29] [Server thread/INFO] [FML]: Applying holder lookups
-[07:08:29] [Server thread/INFO] [FML]: Holder lookups applied
-[07:08:29] [Server thread/INFO] [org.cache2k.core.Cache2kCoreProviderImpl]: cache2k starting. version=1.3.1.Alpha
-[07:08:30] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
-[07:08:30] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
-[07:08:30] [Server thread/INFO] [griefprevention]: [world] 1 total claims loaded.
-[07:08:30] [Server thread/INFO] [vshop]: Loading shops from world_9790f966-1c8f-4004-9ad1-a03c72e1843c.conf
-[07:08:30] [Server thread/WARN] [vshop]: Could not backup world_9790f966-1c8f-4004-9ad1-a03c72e1843c.conf!
-[07:08:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
-[07:08:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[07:08:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
-[07:08:33] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
-[07:08:34] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[07:08:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
-[07:08:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
-[07:08:34] [Server thread/INFO] [griefprevention]: [DIM-1] 0 total claims loaded.
-[07:08:34] [Server thread/INFO] [vshop]: Loading shops from world_b9d7c1d3-7b1c-4574-9b52-9dccacc33019.conf
-[07:08:34] [Server thread/WARN] [vshop]: Could not backup world_b9d7c1d3-7b1c-4574-9b52-9dccacc33019.conf!
-[07:08:34] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (biomesoplenty:nether/-1)
-[07:08:34] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
-[07:08:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
-[07:08:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
-[07:08:35] [Server thread/INFO] [griefprevention]: [DIM1] 0 total claims loaded.
-[07:08:35] [Server thread/INFO] [vshop]: Loading shops from world_23a501e5-fb88-4771-99e3-5168ad463309.conf
-[07:08:35] [Server thread/WARN] [vshop]: Could not backup world_23a501e5-fb88-4771-99e3-5168ad463309.conf!
-[07:08:35] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
-[07:08:35] [Server thread/WARN] [Sponge]: World [plot] (minecraft:overworld/4) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
-[07:08:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
-[07:08:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
-[07:08:35] [Server thread/INFO] [griefprevention]: [ultra] 0 total claims loaded.
-[07:08:35] [Server thread/INFO] [vshop]: Loading shops from world_fa9642c7-fa05-4746-9185-ea90be297dd3.conf
-[07:08:35] [Server thread/WARN] [vshop]: Could not backup world_fa9642c7-fa05-4746-9185-ea90be297dd3.conf!
-[07:08:35] [Server thread/INFO] [Sponge]: Loading world [ultra] (pixelmon:ultra_space/72)
-[07:08:36] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
-[07:08:36] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
-[07:08:36] [Server thread/INFO] [griefprevention]: [drowned] 0 total claims loaded.
-[07:08:36] [Server thread/INFO] [vshop]: Loading shops from world_404d0d90-a0ab-4142-8c87-97cdbed90255.conf
-[07:08:36] [Server thread/WARN] [vshop]: Could not backup world_404d0d90-a0ab-4142-8c87-97cdbed90255.conf!
-[07:08:36] [Server thread/INFO] [Sponge]: Loading world [drowned] (pixelmon:drowned_world/73)
-[07:08:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (9.178s)! For help, type "help" or "?"
-[07:08:36] [Server thread/INFO] [nucleus]: Nucleus is performing final tasks before server startup completes.
-[07:08:36] [Server thread/INFO] [nucleus]: Nucleus has started.
-[07:08:38] [Server thread/WARN] [Sponge]: No entity type is registered for class net.minecraftforge.common.util.FakePlayer
-[07:08:39] [Server thread/INFO] [randomtp]: Initalized Random Teleport Mod.
-[07:08:39] [Server thread/WARN] [Sponge]: The mod randomtp has registered multiple commands for the alias 'randomtp'. This is probably indicative of a bug.
-[07:08:39] [Server thread/INFO] [randomtp]: Configs files loaded.
-[07:08:39] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: widget.mcf.li
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         /\
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:        /  \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:       / || \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:      /  ||  \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /   ||   \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:    /    ||    \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   /            \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:  /      **      \
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ------------------
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ===================================================================
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: The command "/world" could not be registered as it has already been claimed by ProjectWorlds - the fallback "/nucleus:world" is available.
-[07:08:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ===================================================================
-[07:08:39] [Server thread/INFO] [HuskyCrates]: Loading Crates...
-[07:08:39] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
-[07:08:39] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
-[07:08:39] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
-[07:08:39] [Server thread/INFO] [HuskyCrates]: Injection checks passed.
-[07:08:39] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
-[07:08:40] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
-[07:08:40] [Server thread/INFO] [HuskyCrates]: Begin Database Load...
-[07:08:40] [Server thread/WARN] [HuskyCrates]: CrateLocation #49 provides an invalid world UUID or invalid crate ID. Removing from table.
-[07:08:40] [Server thread/WARN] [HuskyCrates]: CrateLocation #50 provides an invalid world UUID or invalid crate ID. Removing from table.
-[07:08:40] [Server thread/WARN] [HuskyCrates]: CrateLocation #51 provides an invalid world UUID or invalid crate ID. Removing from table.
-[07:08:40] [Server thread/INFO] [HuskyCrates]: End Database Load.
-[07:08:40] [Server thread/INFO] [HuskyCrates]: Crates has started successfully.
-[07:08:40] [Server thread/INFO] [HuskyCrates]: Running HuskyCrates v2.0.0RC3
-[07:08:40] [Server thread/INFO] [virtualchest]: Start loading config ...
-[07:08:41] [Server thread/INFO] [virtualchest]: Loading config complete.
-[07:08:41] [Server thread/INFO] [totaleconomy]: Total Economy Started
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Server version: 1.12.2
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] All configurations loaded!
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Language file loaded - Using: EN-US
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Registering commands...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Registering listeners...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading world's regions...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading DIM-1's regions...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading DIM1's regions...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading ultra's regions...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading drowned's regions...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] There are 1 regions on (file) database!
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Loading API...
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] API Loaded!
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Sponge version: 7.4.0-5ea6215
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[13:33:19] [Server thread/WARN] [Sponge]: Could not find variant owning class, assigning fallback id: biomesoplenty:block_b_o_p_gem_ore_variant
+[13:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
+[13:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[13:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
+[13:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
+[13:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
+[13:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [quickhomes] Starting version check at http://modmanagement.net16.net/updateJSON2.json
+[13:33:20] [Server thread/INFO] [CoFH World]: Registering default Feature Templates...
+[13:33:20] [Server thread/INFO] [CoFH World]: Registering default World Generators...
+[13:33:20] [Server thread/INFO] [CoFH World]: Verifying or creating base world generation directory...
+[13:33:20] [Server thread/INFO] [CoFH World]: Complete.
+[13:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.12.2-master/update.json
+[13:33:22] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.3
+[13:33:22] [Forge Version Check/INFO] [forge.VersionCheck]: [gottschcore] Found status: UP_TO_DATE Target: null
+[13:33:22] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[13:33:22] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[13:33:23] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[13:33:23] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[13:33:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [Sponge]: Could not find facing owning class, assigning fallback id: pixelmon:block_street_light_facing
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pokestop`, expected `pixelmongo`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pokeball`, expected `pixelmongo`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:26] [Server thread/INFO] [FML]: Applying holder lookups
+[13:33:26] [Server thread/INFO] [FML]: Holder lookups applied
+[13:33:26] [Server thread/INFO] [Backpack]: Loading items...
+[13:33:26] [Server thread/INFO] [Backpack]: 15 item features loaded.
+[13:33:27] [Server thread/INFO] [FML]: Applying holder lookups
+[13:33:27] [Server thread/INFO] [FML]: Holder lookups applied
+[13:33:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[13:33:27] [Server thread/INFO] [FML]: Applying holder lookups
+[13:33:27] [Server thread/INFO] [FML]: Holder lookups applied
+[13:33:27] [Server thread/INFO] [FML]: Applying holder lookups
+[13:33:27] [Server thread/INFO] [FML]: Holder lookups applied
+[13:33:27] [Server thread/INFO] [FML]: Injecting itemstacks
+[13:33:27] [Server thread/INFO] [FML]: Itemstack injection complete
+[13:33:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[13:33:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[13:33:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[13:33:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[13:33:27] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[13:33:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:33:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[13:33:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:33:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:33:28] [Server thread/INFO] [Backpack]: Loading recipes...
+[13:33:28] [Server thread/INFO] [Backpack]: 15 recipe features loaded.
+[13:33:28] [Server thread/INFO] [FML]: Applying holder lookups
+[13:33:28] [Server thread/INFO] [FML]: Holder lookups applied
+[13:33:28] [Server thread/INFO] [nucleus]: Nucleus is now entering the init phase.
+[13:33:28] [Server thread/INFO] [langswitch]: Setting default locale to en_US
+[13:33:28] [Server thread/INFO] [vshop]: Found Language Service
+[13:33:28] [Server thread/INFO] [langswitch]: The LanguageService is now available!
+[13:33:28] [pool-2-thread-9/INFO] [langswitch]: Loading translations for vshop in en_US...
+[13:33:28] [pool-2-thread-9/INFO] [langswitch]: No country specifig translations for English, switching to en.lang
+[13:33:28] [Server thread/INFO] [vshop]: [Integration] Protection Plugin: RedProtect
+[13:33:28] [Server thread/INFO] [vshop]: Registering commands...
+[13:33:28] [Server thread/INFO] [vshop]: Loading configs...
+[13:33:28] [Server thread/INFO] [holograms]: Holograms loaded: 3.1.5
+[13:33:29] [Server thread/INFO] [catclearlag]: Starting plugin...
+[13:33:29] [Server thread/INFO] [catclearlag]: Registering commands...
+[13:33:29] [Server thread/INFO] [nucleus]: Nucleus is now entering the post-init phase.
+[13:33:29] [Server thread/INFO] [nucleus]: Nucleus is now loading and enabling modules. This may take a few seconds.
+[13:33:29] [Server thread/INFO] [nucleus]: Starting phase: PREENABLE
+[13:33:29] [Server thread/INFO] [nucleus]: Starting phase: ENABLE
+[13:33:31] [Server thread/INFO] [nucleus]: Starting phase: POSTENABLE
+[13:33:31] [Server thread/INFO] [nucleus]: Nucleus language set to "en-GB"
+[13:33:31] [Server thread/INFO] [nucleus]: Nucleus has completed loading modules.
+[13:33:31] [Server thread/INFO] [nucleus]: Nucleus has completed server initialisation tasks. Waiting for game server to start to complete the final tasks.
+[13:33:31] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: CustomNPC Permissions available:
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.blocks
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.villager
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.bank
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.dialog
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.faction
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.linked
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.naturalspawn
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.playerdata
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.quest
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.recipe
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.transport
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.advanced
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.ai
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.clone
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.create
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.delete
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.display
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.freeze
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.gui
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.inventory
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.reset
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.stats
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.scenes
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.soulstone.all
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.create
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.mob
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.mounter
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.nbtbook
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.pather
+[13:33:32] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.scripter
+[13:33:32] [Server thread/INFO] [STDOUT]: [noppes.npcs.CustomNpcs:load:258]: Markov dictionaries loaded!
+[13:33:32] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[13:33:32] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[13:33:32] [Server thread/INFO] [Pixelmon]: Registering structures.
+[13:33:33] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[13:33:33] [Server thread/INFO] [Pixelmon]: Item not found: minecraft:salmon in pokedrops.json
+[13:33:33] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[13:33:33] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[13:33:33] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
+[13:33:33] [Server thread/WARN] [Pixelmon]: Attack name invalid: Infernal Parade
+[13:33:33] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
+[13:33:33] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
+[13:33:33] [Server thread/WARN] [Pixelmon]: Attack name invalid: Victory Dance
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Mountain Gale
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: High Horse
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Stone Axe
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Headlong Rush
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Dire Claw
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
+[13:33:34] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[13:33:34] [Server thread/INFO] [Pixelmon]: Registering quests.
+[13:33:34] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[13:33:34] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.3-universal
+[13:33:35] [Server thread/INFO] [STDOUT]: [its_meow.quickhomes.proxy.ServerProxy:init:22]: Starting QuickHomes mod version 1.2.2...
+[13:33:35] [Server thread/INFO] [FML]: Injecting itemstacks
+[13:33:35] [Server thread/INFO] [FML]: Itemstack injection complete
+[13:33:35] [Server thread/INFO] [virtualchest]: Try to load the PlaceholderAPI service ... 
+[13:33:35] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[13:33:36] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[13:33:36] [Server thread/INFO] [STDOUT]: [its_meow.quickhomes.proxy.ServerProxy:postInit:26]: QuickHomes mod version 1.2.2 loaded!
+[13:33:36] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
+[13:33:36] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: Biomes O' Plenty Plugin Enabled.
+[13:33:36] [Server thread/INFO] [cofhcore]: CoFH Core: Load Complete.
+[13:33:36] [Server thread/INFO] [CoFH World]: Accumulating world generation files from: "/home/azureuser/server/custom px 1.12.2/config/cofh/world"
+[13:33:36] [Server thread/INFO] [CoFH World]: Found a total of 3 world generation files.
+[13:33:37] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/01_thermalfoundation_ores.json":
+[13:33:37] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/02_thermalfoundation_oil.json":
+[13:33:37] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/03_thermalfoundation_clathrates.json":
+[13:33:37] [Server thread/INFO] [CoFH World]: CoFH World: Load Complete.
+[13:33:37] [Server thread/INFO] [thermalfoundation]: [Whitelist] Reading established Whitelist from file.
+[13:33:37] [Server thread/INFO] [thermalfoundation]: Thermal Foundation: Load Complete.
+[13:33:37] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: Load Complete.
+[13:33:37] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 62 mods
+[13:33:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[13:33:38] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[13:33:38] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[13:33:38] [Server thread/WARN] [Sponge]: World [ultra] (72) is attempting to be registered as an existing dimension but it's dimension id has already been registered for folder [null]. This means the world has been copied outside of Sponge. This is not a supported configuration.
+[13:33:38] [Server thread/WARN] [Sponge]: World [drowned] (73) is attempting to be registered as an existing dimension but it's dimension id has already been registered for folder [null]. This means the world has been copied outside of Sponge. This is not a supported configuration.
+[13:33:38] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[13:33:39] [Server thread/INFO] [FML]: Applying holder lookups
+[13:33:39] [Server thread/INFO] [FML]: Holder lookups applied
+[13:33:40] [Server thread/INFO] [org.cache2k.core.Cache2kCoreProviderImpl]: cache2k starting. version=1.3.1.Alpha
+[13:33:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
+[13:33:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
+[13:33:41] [Server thread/INFO] [griefprevention]: [world] 1 total claims loaded.
+[13:33:41] [Server thread/INFO] [vshop]: Loading shops from world_9790f966-1c8f-4004-9ad1-a03c72e1843c.conf
+[13:33:41] [Server thread/WARN] [vshop]: Could not backup world_9790f966-1c8f-4004-9ad1-a03c72e1843c.conf!
+[13:33:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[13:33:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 1%
+[13:33:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[13:33:44] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[13:33:44] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[13:33:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
+[13:33:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
+[13:33:45] [Server thread/INFO] [griefprevention]: [DIM-1] 0 total claims loaded.
+[13:33:45] [Server thread/INFO] [vshop]: Loading shops from world_b9d7c1d3-7b1c-4574-9b52-9dccacc33019.conf
+[13:33:45] [Server thread/WARN] [vshop]: Could not backup world_b9d7c1d3-7b1c-4574-9b52-9dccacc33019.conf!
+[13:33:45] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (biomesoplenty:nether/-1)
+[13:33:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
+[13:33:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
+[13:33:45] [Server thread/INFO] [griefprevention]: [DIM1] 0 total claims loaded.
+[13:33:45] [Server thread/INFO] [vshop]: Loading shops from world_23a501e5-fb88-4771-99e3-5168ad463309.conf
+[13:33:45] [Server thread/WARN] [vshop]: Could not backup world_23a501e5-fb88-4771-99e3-5168ad463309.conf!
+[13:33:45] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
+[13:33:45] [Server thread/WARN] [Sponge]: World [plot] (minecraft:overworld/4) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
+[13:33:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
+[13:33:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
+[13:33:46] [Server thread/INFO] [griefprevention]: [ultra] 0 total claims loaded.
+[13:33:46] [Server thread/INFO] [vshop]: Loading shops from world_fa9642c7-fa05-4746-9185-ea90be297dd3.conf
+[13:33:46] [Server thread/WARN] [vshop]: Could not backup world_fa9642c7-fa05-4746-9185-ea90be297dd3.conf!
+[13:33:46] [Server thread/INFO] [Sponge]: Loading world [ultra] (pixelmon:ultra_space/72)
+[13:33:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
+[13:33:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
+[13:33:46] [Server thread/INFO] [griefprevention]: [drowned] 0 total claims loaded.
+[13:33:46] [Server thread/INFO] [vshop]: Loading shops from world_404d0d90-a0ab-4142-8c87-97cdbed90255.conf
+[13:33:46] [Server thread/WARN] [vshop]: Could not backup world_404d0d90-a0ab-4142-8c87-97cdbed90255.conf!
+[13:33:46] [Server thread/INFO] [Sponge]: Loading world [drowned] (pixelmon:drowned_world/73)
+[13:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (9.119s)! For help, type "help" or "?"
+[13:33:47] [Server thread/INFO] [nucleus]: Nucleus is performing final tasks before server startup completes.
+[13:33:47] [Server thread/INFO] [nucleus]: Nucleus has started.
+[13:33:47] [Server thread/WARN] [Sponge]: No entity type is registered for class net.minecraftforge.common.util.FakePlayer
+[13:33:50] [Server thread/INFO] [randomtp]: Initalized Random Teleport Mod.
+[13:33:50] [Server thread/WARN] [Sponge]: The mod randomtp has registered multiple commands for the alias 'randomtp'. This is probably indicative of a bug.
+[13:33:50] [Server thread/INFO] [randomtp]: Configs files loaded.
+[13:33:50] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: widget.mcf.li
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         /\
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:        /  \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:       / || \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:      /  ||  \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /   ||   \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:    /    ||    \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   /            \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:  /      **      \
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ------------------
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ===================================================================
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: The command "/world" could not be registered as it has already been claimed by ProjectWorlds - the fallback "/nucleus:world" is available.
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ===================================================================
+[13:33:50] [Server thread/INFO] [langswitch]: Searching for updates...
+[13:33:50] [Server thread/WARN] [langswitch]: The automatic Version Checker for LangSwitch(langswitch) is disabled!
+[13:33:50] [Server thread/WARN] [langswitch]: It is strongly recommended to activate the Version Checker to keep your server secure and up to date!
+[13:33:50] [Server thread/INFO] [vshop]: Starting timers...
+[13:33:50] [Server thread/INFO] [vshop]: Searching for updates...
+[13:33:50] [Server thread/WARN] [vshop]: The automatic Version Checker for VillagerShops(vshop) is disabled!
+[13:33:50] [Server thread/WARN] [vshop]: It is strongly recommended to activate the Version Checker to keep your server secure and up to date!
+[13:33:50] [Server thread/INFO] [vshop]: User-Agent: VillagerShops/2.9 (Plugin by DosMike) SpongeAPI/7.4.0-5ea6215 SpongeForge/1.12.2-2838-7.4.7 Minecraft/1.12.2
+[13:33:50] [Server thread/INFO] [vshop]: VillagerShops is now ready!
+[13:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Server version: 1.12.2
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] All configurations loaded!
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Language file loaded - Using: EN-US
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Registering commands...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Registering listeners...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading world's regions...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading DIM-1's regions...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading DIM1's regions...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading ultra's regions...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading drowned's regions...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] There are 1 regions on (file) database!
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Loading API...
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] API Loaded!
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Sponge version: 7.4.0-5ea6215
+[13:33:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
  _   _  _   _   _   _  _ _  _  _ _ _  __
 |_| |_ | \ |_| |_| | |  |  |_ |   |    / 
 | \ |_ |_/ |   | \ |_|  |  |_ |_  |   /
 ¯ Redprotect 7.6.7 enabled
 
-[07:08:41] [Server thread/INFO] [spongybackpacks]: SpongyBackpacks is loading!
-[07:08:41] [Server thread/INFO] [vshop]: Starting timers...
-[07:08:41] [Server thread/INFO] [vshop]: Searching for updates...
-[07:08:41] [Server thread/WARN] [vshop]: The automatic Version Checker for VillagerShops(vshop) is disabled!
-[07:08:41] [Server thread/WARN] [vshop]: It is strongly recommended to activate the Version Checker to keep your server secure and up to date!
-[07:08:41] [Server thread/INFO] [vshop]: User-Agent: VillagerShops/2.9 (Plugin by DosMike) SpongeAPI/7.4.0-5ea6215 SpongeForge/1.12.2-2838-7.4.7 Minecraft/1.12.2
-[07:08:41] [Server thread/INFO] [vshop]: VillagerShops is now ready!
-[07:08:41] [Server thread/INFO] [yysscoreboard]: hooked PAPI
-[07:08:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [YYSSB]If you think YYSSB is a good SB and want to support SB, please enable metrics, thanks!
-[07:08:41] [Server thread/INFO] [langswitch]: Searching for updates...
-[07:08:41] [Server thread/WARN] [langswitch]: The automatic Version Checker for LangSwitch(langswitch) is disabled!
-[07:08:41] [Server thread/WARN] [langswitch]: It is strongly recommended to activate the Version Checker to keep your server secure and up to date!
-[07:08:41] [Server thread/INFO] [griefprevention]: Loaded successfully.
-[07:08:41] [Server thread/INFO] [megamenus]: Searching for updates...
-[07:08:41] [Server thread/WARN] [megamenus]: The automatic Version Checker for Mega Menus(megamenus) is disabled!
-[07:08:41] [Server thread/WARN] [megamenus]: It is strongly recommended to activate the Version Checker to keep your server secure and up to date!
-[07:08:42] [Server thread/INFO] [com.j256.ormlite.table.TableUtils]: creating table 'cooldowns'
-[07:08:42] [Server thread/INFO] [com.j256.ormlite.table.TableUtils]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `cooldowns` (`uuid` VARCHAR , `lastUsedItems` BLOB , PRIMARY KEY (`uuid`) ) 
-[07:08:42] [Server thread/INFO] [commanditems]: CommandItems is starting!
-[07:08:42] [Server thread/INFO] [vshop]: HuskyCrate Keys Changed:
-[07:08:42] [Server thread/INFO] [vshop]: Added Plugin Filter huskycrates:localkey_example
-[07:08:42] [Server thread/INFO] [vshop]: Added Plugin Filter huskycrates:localkey_legendary
-[07:08:42] [Server thread/INFO] [vshop]: Added Plugin Filter huskycrates:localkey_fortune
-[07:17:18] [pool-2-thread-143/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[07:17:48] [pool-2-thread-111/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[07:18:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[07:22:39] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[07:22:39] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 40 mods : minecraft@1.12.2,biomesoplenty@7.0.1.2444,redstoneflux@2.1.1,ironfurnaces@1.3.5,treasure2@2.2.0,warp_mod@1.0.0,pixelextras@2.5.17,bop_patch@1.0,jei@4.16.1.302,cofhcore@4.6.6,randomtp@MC1.12.2-1.3.4,thermalfoundation@2.6.7,tcg@1.12.2-8.4.3-universal,mcp@9.42,collective@3.0,pokehaancraftadd@1.5.0,ctrades@1.3.3,journeymap@1.12.2-5.7.1,naturescompass@1.8.5,oreexcavation@1.4.150,performant@1.12.2-1.4,quickteleports@1.1.1,ordinarycoins@1.5,FML@8.0.99.99,gottschcore@1.15.0,thermalexpansion@5.5.7,customnpcs@1.12,starterkit@2.4,cofhworld@1.4.0,pixelmoninformation@1.5.0,inventorypets@2.0.15,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,forge@14.23.5.2860,backpack@3.0.2,codechickenlib@3.2.3.358,pixelmongo@2.0.5,ironchest@1.12.2-7.0.67.844,quickhomes@1.2.2,pixelmon@8.4.3
-[07:22:39] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[07:22:39] [Netty Epoll Server IO #1/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, catclearlag, commanditems, commandsigns, fixedfoodbar, flashlibs, griefprevention, holograms, huskycrates, huskyui, langswitch, luckperms, megamenus, nucleus, placeholderapi, pjc, pjw, redprotect, spongybackpacks, totaleconomy, vshop, virtualchest, worldedit, yysscoreboard] at CLIENT
-[07:22:40] [Netty Epoll Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[07:22:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[07:22:42] [Server thread/INFO] [Sponge]: Loading world [plot] (minecraft:overworld/4)
-[07:22:42] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
-[07:22:42] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
-[07:22:42] [Server thread/INFO] [griefprevention]: [plot] 9 total claims loaded.
-[07:22:42] [Server thread/INFO] [vshop]: Loading shops from world_166bd834-82b0-4ca7-94b5-319d5cde8a4d.conf
-[07:22:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading plot's regions...
-[07:22:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] World loaded: plot
-[07:22:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world plot (minecraft:overworld/4)
-[07:22:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: taiproduaxe [/116.108.2.145:52916] logged in with entity id [34] in plot (minecraft:overworld/4) at (-887.5881981403512, 4.5, -814.2290493481337).
-[07:22:44] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - taiproduaxe]: online - permission check nucleus.kits.online passed.
-[07:22:44] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - taiproduaxe]: online - redeeming kit.
-[07:22:44] [Server thread/INFO] [nucleus]: Server ran the command: /hc k fortune @a
-[07:22:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 player received 1 key.
-[07:22:44] [Server thread/INFO] [nucleus]: Server ran the command: /hc k example @a
-[07:22:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 player received 1 key.
-[07:22:44] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - taiproduaxe]: online - kit redeemed.
-[07:22:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: taiproduaxe joined the game
-[07:22:44] [Server thread/INFO] [HuskyCrates]: Begin Dirty Data Push...
-[07:22:44] [Server thread/INFO] [HuskyCrates]: End Dirty Data Push.
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.NullPointerException
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.conditions.SpawnCondition.doesWorldTimeFit(SpawnCondition.java:230)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.conditions.SpawnCondition.fits(SpawnCondition.java:137)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.SpawnInfo.fits(SpawnInfo.java:100)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.AbstractSpawner.getSuitableSpawns(AbstractSpawner.java:94)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.AbstractSpawner.getWeightedSpawnInfo(AbstractSpawner.java:132)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.archetypes.algorithms.selection.LocationWeightedAlgorithm.calculateSpawnActions(LocationWeightedAlgorithm.java:39)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.lambda$getSpawns$2(PlayerTrackingSpawner.java:180)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-[07:22:44] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:750)
-[07:22:57] [Server thread/INFO] [vshop]: Saving VillagerShops...
-[07:22:57] [Server thread/INFO] [vshop]:  > Shops for world 166bd834-82b0-4ca7-94b5-319d5cde8a4d saved
-[07:22:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Member] taiproduaxe: hi
-[07:25:35] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: taiproduaxe lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[07:25:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: taiproduaxe left the game
-[07:27:18] [pool-2-thread-282/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[07:27:48] [pool-2-thread-282/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[07:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[07:37:18] [pool-2-thread-286/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[07:37:48] [pool-2-thread-285/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[07:38:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[07:47:18] [pool-2-thread-288/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[07:47:48] [pool-2-thread-285/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[07:48:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[07:57:18] [pool-2-thread-288/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[07:57:48] [pool-2-thread-292/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[07:58:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[08:07:18] [pool-2-thread-295/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[08:07:48] [pool-2-thread-295/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[08:08:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[08:17:18] [pool-2-thread-300/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[08:17:48] [pool-2-thread-300/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[08:18:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[08:27:18] [pool-2-thread-305/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[08:27:48] [pool-2-thread-305/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[08:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[08:37:18] [pool-2-thread-309/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[08:37:48] [pool-2-thread-309/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[08:38:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[08:47:18] [pool-2-thread-309/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[08:47:48] [pool-2-thread-309/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[08:48:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[08:57:18] [pool-2-thread-315/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[08:57:48] [pool-2-thread-315/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[08:58:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[09:07:18] [pool-2-thread-321/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[09:07:48] [pool-2-thread-322/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[09:08:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[09:17:18] [pool-2-thread-323/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[09:17:48] [pool-2-thread-325/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[09:18:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[09:27:18] [pool-2-thread-327/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[09:27:48] [pool-2-thread-327/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[09:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[09:37:18] [pool-2-thread-327/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[09:37:48] [pool-2-thread-331/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[09:38:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[09:47:18] [pool-2-thread-335/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[09:47:48] [pool-2-thread-335/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[09:48:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[09:57:18] [pool-2-thread-339/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[09:57:48] [pool-2-thread-338/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[09:58:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[10:07:18] [pool-2-thread-340/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[10:07:48] [pool-2-thread-342/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[10:08:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[10:17:18] [pool-2-thread-340/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[10:17:48] [pool-2-thread-345/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[10:18:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[10:27:18] [pool-2-thread-351/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[10:27:48] [pool-2-thread-350/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[10:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[10:37:18] [pool-2-thread-356/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[10:37:48] [pool-2-thread-356/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[10:38:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[10:47:18] [pool-2-thread-357/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[10:47:48] [pool-2-thread-360/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[10:48:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[10:57:18] [pool-2-thread-362/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[10:57:48] [pool-2-thread-356/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[10:58:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[11:07:18] [pool-2-thread-362/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[11:07:48] [pool-2-thread-362/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[11:08:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[11:17:18] [pool-2-thread-367/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[11:17:48] [pool-2-thread-365/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[11:18:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[11:27:18] [pool-2-thread-375/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[11:27:48] [pool-2-thread-365/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[11:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[11:37:18] [pool-2-thread-378/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[11:37:48] [pool-2-thread-379/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[11:38:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[11:47:18] [pool-2-thread-378/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[11:47:48] [pool-2-thread-382/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[11:48:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[11:57:18] [pool-2-thread-378/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[11:57:48] [pool-2-thread-365/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[11:58:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[12:01:10] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[12:01:10] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 40 mods : minecraft@1.12.2,biomesoplenty@7.0.1.2444,redstoneflux@2.1.1,ironfurnaces@1.3.5,treasure2@2.2.0,warp_mod@1.0.0,pixelextras@2.5.17,bop_patch@1.0,jei@4.16.1.302,cofhcore@4.6.6,randomtp@MC1.12.2-1.3.4,thermalfoundation@2.6.7,tcg@1.12.2-8.4.3-universal,mcp@9.42,collective@3.0,pokehaancraftadd@1.5.0,ctrades@1.3.3,journeymap@1.12.2-5.7.1,naturescompass@1.8.5,oreexcavation@1.4.150,performant@1.12.2-1.4,quickteleports@1.1.1,ordinarycoins@1.5,FML@8.0.99.99,gottschcore@1.15.0,thermalexpansion@5.5.7,customnpcs@1.12,starterkit@2.4,cofhworld@1.4.0,pixelmoninformation@1.5.0,inventorypets@2.0.15,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,forge@14.23.5.2860,backpack@3.0.2,codechickenlib@3.2.3.358,pixelmongo@2.0.5,ironchest@1.12.2-7.0.67.844,quickhomes@1.2.2,pixelmon@8.4.3
-[12:01:10] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
-[12:01:10] [Netty Epoll Server IO #0/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, catclearlag, commanditems, commandsigns, fixedfoodbar, flashlibs, griefprevention, holograms, huskycrates, huskyui, langswitch, luckperms, megamenus, nucleus, placeholderapi, pjc, pjw, redprotect, spongybackpacks, totaleconomy, vshop, virtualchest, worldedit, yysscoreboard] at CLIENT
-[12:01:10] [Netty Epoll Server IO #0/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[12:01:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[12:01:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: lilHAHA [/118.68.190.87:57907] logged in with entity id [122] in world (minecraft:overworld/0) at (20443.5, 95.89009994268417, -5936.5).
-[12:01:11] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - lilHAHA]: online - permission check nucleus.kits.online passed.
-[12:01:11] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - lilHAHA]: online - redeeming kit.
-[12:01:11] [Server thread/INFO] [nucleus]: Server ran the command: /hc k fortune @a
-[12:01:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 player received 1 key.
-[12:01:11] [Server thread/INFO] [nucleus]: Server ran the command: /hc k example @a
-[12:01:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 player received 1 key.
-[12:01:11] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - lilHAHA]: online - kit redeemed.
-[12:01:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: lilHAHA joined the game
-[12:01:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1272, -374] in dimension 0 (overworld) while populating chunk [1272, -373], causing cascading worldgen lag.
-[12:01:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1272, -375] in dimension 0 (overworld) while populating chunk [1272, -374], causing cascading worldgen lag.
-[12:01:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1276, -378] in dimension 0 (overworld) while populating chunk [1276, -377], causing cascading worldgen lag.
-[12:01:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1275, -378] in dimension 0 (overworld) while populating chunk [1275, -377], causing cascading worldgen lag.
-[12:01:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1272, -376] in dimension 0 (overworld) while populating chunk [1273, -376], causing cascading worldgen lag.
-[12:01:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1272, -377] in dimension 0 (overworld) while populating chunk [1273, -376], causing cascading worldgen lag.
-[12:01:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1272, -378] in dimension 0 (overworld) while populating chunk [1273, -377], causing cascading worldgen lag.
-[12:01:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1271, -375] in dimension 0 (overworld) while populating chunk [1271, -374], causing cascading worldgen lag.
-[12:01:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:15] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1274, -379] in dimension 0 (overworld) while populating chunk [1274, -378], causing cascading worldgen lag.
-[12:01:15] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1271, -378] in dimension 0 (overworld) while populating chunk [1271, -377], causing cascading worldgen lag.
-[12:01:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1270, -369] in dimension 0 (overworld) while populating chunk [1271, -368], causing cascading worldgen lag.
-[12:01:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -373] in dimension 0 (overworld) while populating chunk [1269, -372], causing cascading worldgen lag.
-[12:01:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1277, -381] in dimension 0 (overworld) while populating chunk [1277, -380], causing cascading worldgen lag.
-[12:01:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:17] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4329ms behind, skipping 86 tick(s)
-[12:01:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1276, -381] in dimension 0 (overworld) while populating chunk [1276, -380], causing cascading worldgen lag.
-[12:01:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1275, -381] in dimension 0 (overworld) while populating chunk [1276, -381], causing cascading worldgen lag.
-[12:01:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -374] in dimension 0 (overworld) while populating chunk [1269, -374], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -375] in dimension 0 (overworld) while populating chunk [1269, -374], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -375] in dimension 0 (overworld) while populating chunk [1269, -375], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -376] in dimension 0 (overworld) while populating chunk [1268, -375], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -376] in dimension 0 (overworld) while populating chunk [1269, -374], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1275, -364] in dimension 0 (overworld) while populating chunk [1276, -364], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1270, -378] in dimension 0 (overworld) while populating chunk [1270, -377], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:18] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -368] in dimension 0 (overworld) while populating chunk [1270, -367], causing cascading worldgen lag.
-[12:01:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:19] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1274, -381] in dimension 0 (overworld) while populating chunk [1273, -380], causing cascading worldgen lag.
-[12:01:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:19] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1273, -381] in dimension 0 (overworld) while populating chunk [1273, -380], causing cascading worldgen lag.
-[12:01:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:19] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1273, -382] in dimension 0 (overworld) while populating chunk [1273, -381], causing cascading worldgen lag.
-[12:01:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1270, -379] in dimension 0 (overworld) while populating chunk [1271, -379], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1270, -380] in dimension 0 (overworld) while populating chunk [1270, -379], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -367] in dimension 0 (overworld) while populating chunk [1270, -366], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -367] in dimension 0 (overworld) while populating chunk [1269, -367], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -368] in dimension 0 (overworld) while populating chunk [1268, -367], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -369] in dimension 0 (overworld) while populating chunk [1268, -368], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -369] in dimension 0 (overworld) while populating chunk [1268, -367], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:20] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -366] in dimension 0 (overworld) while populating chunk [1270, -366], causing cascading worldgen lag.
-[12:01:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:21] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -374] in dimension 0 (overworld) while populating chunk [1267, -373], causing cascading worldgen lag.
-[12:01:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:21] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -375] in dimension 0 (overworld) while populating chunk [1267, -374], causing cascading worldgen lag.
-[12:01:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:21] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1266, -375] in dimension 0 (overworld) while populating chunk [1267, -375], causing cascading worldgen lag.
-[12:01:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:21] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -376] in dimension 0 (overworld) while populating chunk [1267, -374], causing cascading worldgen lag.
-[12:01:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:22] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -379] in dimension 0 (overworld) while populating chunk [1269, -379], causing cascading worldgen lag.
-[12:01:22] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:23] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1282, -382] in dimension 0 (overworld) while populating chunk [1283, -381], causing cascading worldgen lag.
-[12:01:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:23] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1281, -382] in dimension 0 (overworld) while populating chunk [1282, -382], causing cascading worldgen lag.
-[12:01:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:23] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -379] in dimension 0 (overworld) while populating chunk [1268, -380], causing cascading worldgen lag.
-[12:01:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:23] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -380] in dimension 0 (overworld) while populating chunk [1268, -380], causing cascading worldgen lag.
-[12:01:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:23] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1266, -380] in dimension 0 (overworld) while populating chunk [1267, -380], causing cascading worldgen lag.
-[12:01:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:23] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1266, -365] in dimension 0 (overworld) while populating chunk [1267, -365], causing cascading worldgen lag.
-[12:01:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1269, -382] in dimension 0 (overworld) while populating chunk [1268, -381], causing cascading worldgen lag.
-[12:01:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1268, -382] in dimension 0 (overworld) while populating chunk [1268, -381], causing cascading worldgen lag.
-[12:01:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1266, -381] in dimension 0 (overworld) while populating chunk [1267, -381], causing cascading worldgen lag.
-[12:01:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -364] in dimension 0 (overworld) while populating chunk [1268, -363], causing cascading worldgen lag.
-[12:01:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [1267, -362] in dimension 0 (overworld) while populating chunk [1268, -362], causing cascading worldgen lag.
-[12:01:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:01:52] [Server thread/INFO] [HuskyCrates]: Begin Dirty Data Push...
-[12:01:52] [Server thread/INFO] [HuskyCrates]: End Dirty Data Push.
-[12:02:06] [Server thread/INFO] [nucleus]: lilHAHA ran the command: /home 
-[12:02:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-93, 90] in dimension 0 (overworld) while populating chunk [-92, 90], causing cascading worldgen lag.
-[12:02:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-94, 90] in dimension 0 (overworld) while populating chunk [-92, 90], causing cascading worldgen lag.
-[12:02:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-94, 89] in dimension 0 (overworld) while populating chunk [-92, 90], causing cascading worldgen lag.
-[12:02:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-93, 89] in dimension 0 (overworld) while populating chunk [-92, 90], causing cascading worldgen lag.
-[12:02:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-89, 90] in dimension 0 (overworld) while populating chunk [-88, 90], causing cascading worldgen lag.
-[12:02:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-90, 90] in dimension 0 (overworld) while populating chunk [-88, 90], causing cascading worldgen lag.
-[12:02:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:07] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-76, 83] in dimension 0 (overworld) while populating chunk [-76, 84], causing cascading worldgen lag.
-[12:02:07] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:09] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-97, 90] in dimension 0 (overworld) while populating chunk [-96, 90], causing cascading worldgen lag.
-[12:02:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-84, 70] in dimension 0 (overworld) while populating chunk [-83, 70], causing cascading worldgen lag.
-[12:02:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-85, 70] in dimension 0 (overworld) while populating chunk [-83, 70], causing cascading worldgen lag.
-[12:02:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:17] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-84, 69] in dimension 0 (overworld) while populating chunk [-83, 70], causing cascading worldgen lag.
-[12:02:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-99, 89] in dimension 0 (overworld) while populating chunk [-98, 89], causing cascading worldgen lag.
-[12:02:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:02:24] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-100, 89] in dimension 0 (overworld) while populating chunk [-99, 89], causing cascading worldgen lag.
-[12:02:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:47] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-83, 68] in dimension 0 (overworld) while populating chunk [-82, 69], causing cascading worldgen lag.
-[12:05:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:47] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-84, 68] in dimension 0 (overworld) while populating chunk [-83, 68], causing cascading worldgen lag.
-[12:05:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:47] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-85, 68] in dimension 0 (overworld) while populating chunk [-84, 68], causing cascading worldgen lag.
-[12:05:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-97, 67] in dimension 0 (overworld) while populating chunk [-97, 68], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-97, 66] in dimension 0 (overworld) while populating chunk [-97, 67], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-82, 67] in dimension 0 (overworld) while populating chunk [-82, 68], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-80, 67] in dimension 0 (overworld) while populating chunk [-79, 68], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-81, 67] in dimension 0 (overworld) while populating chunk [-79, 68], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-79, 67] in dimension 0 (overworld) while populating chunk [-78, 68], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:54] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-80, 66] in dimension 0 (overworld) while populating chunk [-79, 67], causing cascading worldgen lag.
-[12:05:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:05:57] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-78, 67] in dimension 0 (overworld) while populating chunk [-77, 68], causing cascading worldgen lag.
-[12:05:57] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[12:06:30] [Server thread/INFO] [nucleus]: lilHAHA ran the command: /warp plot
-[12:07:10] [Server thread/INFO] [nucleus]: lilHAHA ran the command: /warp build
-[12:07:18] [pool-2-thread-386/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[12:07:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: lilHAHA lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
-[12:07:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: lilHAHA left the game
-[12:07:48] [pool-2-thread-386/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[12:08:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[12:17:18] [pool-2-thread-384/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[12:17:48] [pool-2-thread-390/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[12:18:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[12:27:18] [pool-2-thread-394/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[12:27:48] [pool-2-thread-386/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[12:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[12:37:18] [pool-2-thread-399/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[12:37:48] [pool-2-thread-397/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[12:38:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[12:47:18] [pool-2-thread-397/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[12:47:48] [pool-2-thread-400/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[12:48:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[12:57:18] [pool-2-thread-404/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[12:57:27] [Server thread/INFO] [nucleus]: Server ran the command: /list 
-[12:57:27] [pool-2-thread-404/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ============ There are 0/20 players online. =============
-[12:57:27] [pool-2-thread-404/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ======================== « » =========================
-[12:57:48] [pool-2-thread-404/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[12:58:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[13:07:18] [pool-2-thread-397/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[13:07:48] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[13:08:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[13:17:18] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[13:17:48] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[13:18:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[13:27:18] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
-[13:27:48] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
-[13:28:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
-[13:30:30] [Server thread/INFO] [nucleus]: Server ran the command: /list 
-[13:30:30] [pool-2-thread-417/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ============ There are 0/20 players online. =============
-[13:30:30] [pool-2-thread-417/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ======================== « » =========================
-[13:30:32] [Server thread/INFO] [nucleus]: Server ran the command: /stop 
-[13:30:32] [Server thread/INFO] [HuskyCrates]: HuskyCrates has shut down.
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving world's regions...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving plot's regions...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving DIM1's regions...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving DIM-1's regions...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving drowned's regions...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving ultra's regions...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Unregistering listeners...
-[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] RedProtect turned off...
-[13:30:32] [Server thread/INFO] [luckperms]: Starting shutdown process...
-[13:30:32] [Server thread/INFO] [luckperms]: Closing storage...
-[13:30:32] [Server thread/INFO] [luckperms]: Goodbye!
-[13:30:32] [Server thread/INFO] [yysscoreboard]: static scoreboard is null, rebuild new one
-[13:30:32] [Server thread/INFO] [totaleconomy]: Total Economy Stopping
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/0
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/-1
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/1
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'plot'/4
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ultra'/72
-[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'drowned'/73
-[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 9790f966-1c8f-4004-9ad1-a03c72e1843c unloaded
-[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
-[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world b9d7c1d3-7b1c-4574-9b52-9dccacc33019 unloaded
-[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
-[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 23a501e5-fb88-4771-99e3-5168ad463309 unloaded
-[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
-[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 166bd834-82b0-4ca7-94b5-319d5cde8a4d unloaded
-[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [plot] (minecraft:overworld/4)
-[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world fa9642c7-fa05-4746-9185-ea90be297dd3 unloaded
-[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [ultra] (pixelmon:ultra_space/72)
-[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 404d0d90-a0ab-4142-8c87-97cdbed90255 unloaded
-[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [drowned] (pixelmon:drowned_world/73)
-[13:30:32] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
-[13:30:32] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
-[13:30:32] [Server thread/INFO] [totaleconomy]: Total Economy Stopped
-[13:30:32] [Server thread/INFO] [nucleus]: Nucleus is performing server shutdown tasks.
+[13:33:51] [Server thread/INFO] [spongybackpacks]: SpongyBackpacks is loading!
+[13:33:51] [Server thread/INFO] [virtualchest]: Start loading config ...
+[13:33:51] [Server thread/INFO] [virtualchest]: Loading config complete.
+[13:33:51] [Server thread/INFO] [totaleconomy]: Total Economy Started
+[13:33:51] [Server thread/INFO] [griefprevention]: Loaded successfully.
+[13:33:52] [Server thread/INFO] [com.j256.ormlite.table.TableUtils]: creating table 'cooldowns'
+[13:33:52] [Server thread/INFO] [com.j256.ormlite.table.TableUtils]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `cooldowns` (`uuid` VARCHAR , `lastUsedItems` BLOB , PRIMARY KEY (`uuid`) ) 
+[13:33:52] [Server thread/INFO] [commanditems]: CommandItems is starting!
+[13:33:52] [Server thread/INFO] [HuskyCrates]: Loading Crates...
+[13:33:52] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
+[13:33:52] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
+[13:33:52] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
+[13:33:52] [Server thread/INFO] [HuskyCrates]: Injection checks passed.
+[13:33:52] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[13:33:53] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+[13:33:53] [Server thread/INFO] [HuskyCrates]: Begin Database Load...
+[13:33:53] [Server thread/INFO] [HuskyCrates]: End Database Load.
+[13:33:53] [Server thread/INFO] [HuskyCrates]: Crates has started successfully.
+[13:33:53] [Server thread/INFO] [HuskyCrates]: Running HuskyCrates v2.0.0RC3
+[13:33:53] [Server thread/INFO] [yysscoreboard]: hooked PAPI
+[13:33:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [YYSSB]If you think YYSSB is a good SB and want to support SB, please enable metrics, thanks!
+[13:33:53] [Server thread/INFO] [megamenus]: Searching for updates...
+[13:33:53] [Server thread/WARN] [megamenus]: The automatic Version Checker for Mega Menus(megamenus) is disabled!
+[13:33:53] [Server thread/WARN] [megamenus]: It is strongly recommended to activate the Version Checker to keep your server secure and up to date!
+[13:33:53] [Server thread/INFO] [vshop]: HuskyCrate Keys Changed:
+[13:33:53] [Server thread/INFO] [vshop]: Added Plugin Filter huskycrates:localkey_example
+[13:33:53] [Server thread/INFO] [vshop]: Added Plugin Filter huskycrates:localkey_legendary
+[13:33:53] [Server thread/INFO] [vshop]: Added Plugin Filter huskycrates:localkey_fortune
+[13:42:29] [pool-2-thread-132/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[13:42:59] [pool-2-thread-142/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[13:43:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[13:52:29] [pool-2-thread-143/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[13:52:59] [pool-2-thread-147/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[13:53:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[14:02:29] [pool-2-thread-147/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[14:02:59] [pool-2-thread-148/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[14:03:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[14:12:29] [pool-2-thread-153/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[14:12:59] [pool-2-thread-132/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[14:13:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[14:22:29] [pool-2-thread-152/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[14:22:59] [pool-2-thread-132/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[14:23:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[14:32:29] [pool-2-thread-132/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[14:32:59] [pool-2-thread-161/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[14:33:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[14:42:29] [pool-2-thread-143/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[14:42:59] [pool-2-thread-165/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[14:43:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[14:52:29] [pool-2-thread-168/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[14:52:59] [pool-2-thread-170/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[14:53:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[15:02:29] [pool-2-thread-171/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[15:02:59] [pool-2-thread-168/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[15:03:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[15:03:46] [Server thread/INFO] [nucleus]: Server ran the command: /list 
+[15:03:46] [pool-2-thread-169/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ============ There are 0/20 players online. =============
+[15:03:46] [pool-2-thread-169/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ======================== « » =========================
+[15:12:29] [pool-2-thread-174/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[15:12:59] [pool-2-thread-175/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[15:13:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[15:18:25] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[15:18:25] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 39 mods : minecraft@1.12.2,biomesoplenty@7.0.1.2444,redstoneflux@2.1.1,ironfurnaces@1.3.5,treasure2@2.2.0,warp_mod@1.0.0,pixelextras@2.5.17,bop_patch@1.0,jei@4.16.1.302,cofhcore@4.6.6,randomtp@MC1.12.2-1.3.4,thermalfoundation@2.6.7,tcg@1.12.2-8.4.3-universal,mcp@9.42,collective@3.0,pokehaancraftadd@1.5.0,ctrades@1.3.3,journeymap@1.12.2-5.7.1,naturescompass@1.8.5,oreexcavation@1.4.150,performant@1.12.2-1.4,quickteleports@1.1.1,ordinarycoins@1.5,FML@8.0.99.99,gottschcore@1.15.0,thermalexpansion@5.5.7,customnpcs@1.12,cofhworld@1.4.0,pixelmoninformation@1.5.0,inventorypets@2.0.15,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,forge@14.23.5.2860,backpack@3.0.2,codechickenlib@3.2.3.358,pixelmongo@2.0.5,ironchest@1.12.2-7.0.67.844,quickhomes@1.2.2,pixelmon@8.4.3
+[15:18:25] [Netty Epoll Server IO #3/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, catclearlag, commanditems, commandsigns, fixedfoodbar, flashlibs, griefprevention, holograms, huskycrates, huskyui, langswitch, luckperms, megamenus, nucleus, placeholderapi, pjc, pjw, redprotect, spongybackpacks, totaleconomy, vshop, virtualchest, worldedit, yysscoreboard] at CLIENT
+[15:18:25] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[15:18:25] [Netty Epoll Server IO #3/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[15:18:26] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:18:26] [Server thread/INFO] [Sponge]: Loading world [plot] (minecraft:overworld/4)
+[15:18:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1057 advancements
+[15:18:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 326 advancement trees
+[15:18:27] [Server thread/INFO] [griefprevention]: [plot] 9 total claims loaded.
+[15:18:27] [Server thread/INFO] [vshop]: Loading shops from world_166bd834-82b0-4ca7-94b5-319d5cde8a4d.conf
+[15:18:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] - Loading plot's regions...
+[15:18:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] World loaded: plot
+[15:18:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world plot (minecraft:overworld/4)
+[15:18:28] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: atai [/116.108.2.145:52111] logged in with entity id [34] in plot (minecraft:overworld/4) at (-776.6719927706433, 4.0, -833.11054004838).
+[15:18:28] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - atai]: online - permission check nucleus.kits.online passed.
+[15:18:28] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - atai]: online - redeeming kit.
+[15:18:28] [Server thread/INFO] [nucleus]: Server ran the command: /hc k fortune @a
+[15:18:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 player received 1 key.
+[15:18:28] [Server thread/INFO] [nucleus]: Server ran the command: /hc k example @a
+[15:18:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 player received 1 key.
+[15:18:28] [Server thread/INFO] [nucleus]: [Kit Auto Redeem - atai]: online - kit redeemed.
+[15:18:28] [Server thread/WARN] [nucleus]: The player atai has got either the nucleus wildcard or the * wildcard permission. This may cause unintended side effects.
+[15:18:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: atai joined the game
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.NullPointerException
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.conditions.SpawnCondition.doesWorldTimeFit(SpawnCondition.java:230)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.conditions.SpawnCondition.fits(SpawnCondition.java:137)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.SpawnInfo.fits(SpawnInfo.java:100)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.AbstractSpawner.getSuitableSpawns(AbstractSpawner.java:94)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.AbstractSpawner.getWeightedSpawnInfo(AbstractSpawner.java:132)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.api.spawning.archetypes.algorithms.selection.LocationWeightedAlgorithm.calculateSpawnActions(LocationWeightedAlgorithm.java:39)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.lambda$getSpawns$2(PlayerTrackingSpawner.java:180)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[15:18:28] [pixelmon-world-spawner-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:750)
+[15:18:53] [Server thread/INFO] [vshop]: Saving VillagerShops...
+[15:18:53] [Server thread/INFO] [vshop]:  > Shops for world 166bd834-82b0-4ca7-94b5-319d5cde8a4d saved
+[15:18:56] [Server thread/INFO] [HuskyCrates]: Begin Dirty Data Push...
+[15:18:56] [Server thread/INFO] [HuskyCrates]: End Dirty Data Push.
+[15:22:29] [pool-2-thread-310/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[15:22:59] [pool-2-thread-311/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[15:23:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[15:26:29] [Server thread/INFO] [nucleus]: atai ran the command: /give atai barrier 1
+[15:26:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [atai: Given [Barrier] * 1 to atai]
+[15:29:16] [Server thread/INFO] [nucleus]: atai ran the command: /pokepc 
+[15:29:25] [Server thread/INFO] [nucleus]: Server ran the command: /pokepc 
+[15:29:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Player doesn't exist!
+[15:29:29] [Server thread/INFO] [nucleus]: Server ran the command: /pokepc atai
+[15:29:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Player doesn't exist!
+[15:29:34] [Server thread/INFO] [nucleus]: Server ran the command: /pokepc ?
+[15:29:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Player doesn't exist!
+[15:29:37] [Server thread/INFO] [nucleus]: Server ran the command: /? pokepc
+[15:29:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /pc [boxnumber]
+[15:29:40] [Server thread/INFO] [nucleus]: Server ran the command: /pc 1
+[15:29:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Player doesn't exist!
+[15:29:43] [Server thread/INFO] [nucleus]: Server ran the command: /pc 1 atai
+[15:29:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Player doesn't exist!
+[15:29:46] [Server thread/INFO] [nucleus]: Server ran the command: /pc atai 1
+[15:29:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Player doesn't exist!
+[15:30:01] [Server thread/INFO] [nucleus]: Server ran the command: /help pc
+[15:30:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /pc [boxnumber]
+[15:30:06] [Server thread/INFO] [nucleus]: Server ran the command: /? pokepc
+[15:30:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /pc [boxnumber]
+[15:31:55] [Server thread/INFO] [nucleus]: atai ran the command: /warp adventurer
+[15:31:58] [Server thread/INFO] [nucleus]: atai ran the command: /warp list
+[15:31:59] [Server thread/INFO] [nucleus]: atai ran the command: /warp "adventure"
+[15:32:03] [Server thread/INFO] [nucleus]: atai ran the command: /rtp 
+[15:32:04] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-482, -1086] in dimension 0 (overworld) while populating chunk [-481, -1086], causing cascading worldgen lag.
+[15:32:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:04] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-483, -1086] in dimension 0 (overworld) while populating chunk [-482, -1086], causing cascading worldgen lag.
+[15:32:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:05] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-483, -1085] in dimension 0 (overworld) while populating chunk [-482, -1084], causing cascading worldgen lag.
+[15:32:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:05] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-484, -1086] in dimension 0 (overworld) while populating chunk [-483, -1085], causing cascading worldgen lag.
+[15:32:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:05] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-483, -1084] in dimension 0 (overworld) while populating chunk [-482, -1084], causing cascading worldgen lag.
+[15:32:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-482, -1082] in dimension 0 (overworld) while populating chunk [-481, -1082], causing cascading worldgen lag.
+[15:32:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-484, -1083] in dimension 0 (overworld) while populating chunk [-483, -1082], causing cascading worldgen lag.
+[15:32:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:06] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-484, -1082] in dimension 0 (overworld) while populating chunk [-483, -1082], causing cascading worldgen lag.
+[15:32:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:07] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-481, -1080] in dimension 0 (overworld) while populating chunk [-480, -1080], causing cascading worldgen lag.
+[15:32:07] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-485, -1082] in dimension 0 (overworld) while populating chunk [-484, -1081], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1085] in dimension 0 (overworld) while populating chunk [-486, -1085], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-486, -1086] in dimension 0 (overworld) while populating chunk [-487, -1085], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-486, -1087] in dimension 0 (overworld) while populating chunk [-486, -1086], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1087] in dimension 0 (overworld) while populating chunk [-486, -1086], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1086] in dimension 0 (overworld) while populating chunk [-487, -1085], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:08] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-482, -1079] in dimension 0 (overworld) while populating chunk [-481, -1079], causing cascading worldgen lag.
+[15:32:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:09] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-486, -1082] in dimension 0 (overworld) while populating chunk [-485, -1081], causing cascading worldgen lag.
+[15:32:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:09] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2457ms behind, skipping 49 tick(s)
+[15:32:09] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-486, -1081] in dimension 0 (overworld) while populating chunk [-485, -1080], causing cascading worldgen lag.
+[15:32:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:09] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1081] in dimension 0 (overworld) while populating chunk [-486, -1081], causing cascading worldgen lag.
+[15:32:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:10] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-489, -1082] in dimension 0 (overworld) while populating chunk [-488, -1082], causing cascading worldgen lag.
+[15:32:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:10] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1080] in dimension 0 (overworld) while populating chunk [-486, -1079], causing cascading worldgen lag.
+[15:32:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:10] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-488, -1081] in dimension 0 (overworld) while populating chunk [-487, -1080], causing cascading worldgen lag.
+[15:32:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:10] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1079] in dimension 0 (overworld) while populating chunk [-486, -1079], causing cascading worldgen lag.
+[15:32:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:10] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-483, -1076] in dimension 0 (overworld) while populating chunk [-482, -1076], causing cascading worldgen lag.
+[15:32:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:11] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-472, -1085] in dimension 0 (overworld) while populating chunk [-472, -1084], causing cascading worldgen lag.
+[15:32:11] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:11] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-488, -1079] in dimension 0 (overworld) while populating chunk [-487, -1078], causing cascading worldgen lag.
+[15:32:11] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:11] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1083] in dimension 0 (overworld) while populating chunk [-489, -1083], causing cascading worldgen lag.
+[15:32:11] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-472, -1087] in dimension 0 (overworld) while populating chunk [-472, -1086], causing cascading worldgen lag.
+[15:32:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-473, -1088] in dimension 0 (overworld) while populating chunk [-472, -1087], causing cascading worldgen lag.
+[15:32:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1082] in dimension 0 (overworld) while populating chunk [-489, -1081], causing cascading worldgen lag.
+[15:32:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-487, -1076] in dimension 0 (overworld) while populating chunk [-486, -1076], causing cascading worldgen lag.
+[15:32:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:12] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-471, -1085] in dimension 0 (overworld) while populating chunk [-471, -1084], causing cascading worldgen lag.
+[15:32:12] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1085] in dimension 0 (overworld) while populating chunk [-490, -1084], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-491, -1085] in dimension 0 (overworld) while populating chunk [-490, -1085], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-492, -1086] in dimension 0 (overworld) while populating chunk [-491, -1085], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-492, -1087] in dimension 0 (overworld) while populating chunk [-492, -1086], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-492, -1088] in dimension 0 (overworld) while populating chunk [-492, -1087], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-481, -1073] in dimension 0 (overworld) while populating chunk [-480, -1073], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:13] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-482, -1073] in dimension 0 (overworld) while populating chunk [-481, -1073], causing cascading worldgen lag.
+[15:32:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1088] in dimension 0 (overworld) while populating chunk [-490, -1087], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-491, -1088] in dimension 0 (overworld) while populating chunk [-490, -1087], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-488, -1091] in dimension 0 (overworld) while populating chunk [-487, -1091], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-489, -1090] in dimension 0 (overworld) while populating chunk [-489, -1089], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1089] in dimension 0 (overworld) while populating chunk [-489, -1089], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1090] in dimension 0 (overworld) while populating chunk [-489, -1089], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-489, -1076] in dimension 0 (overworld) while populating chunk [-488, -1075], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1076] in dimension 0 (overworld) while populating chunk [-489, -1076], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-491, -1076] in dimension 0 (overworld) while populating chunk [-490, -1076], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-492, -1076] in dimension 0 (overworld) while populating chunk [-491, -1076], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1077] in dimension 0 (overworld) while populating chunk [-489, -1076], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:14] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-489, -1075] in dimension 0 (overworld) while populating chunk [-488, -1075], causing cascading worldgen lag.
+[15:32:14] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:15] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-490, -1075] in dimension 0 (overworld) while populating chunk [-489, -1074], causing cascading worldgen lag.
+[15:32:15] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:15] [Server thread/WARN] [FML]: Pixelmon Go loaded a new chunk [-491, -1075] in dimension 0 (overworld) while populating chunk [-490, -1074], causing cascading worldgen lag.
+[15:32:15] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:32:29] [pool-2-thread-313/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[15:32:59] [pool-2-thread-308/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[15:33:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 29 items have been cleared.
+[15:34:31] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: atai lost connection: Disconnected
+[15:34:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: atai left the game
+[15:42:29] [pool-2-thread-315/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[15:42:59] [pool-2-thread-315/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[15:43:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[15:50:22] [Server thread/INFO] [nucleus]: Server ran the command: /stop 
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving world's regions...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving plot's regions...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving DIM1's regions...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving DIM-1's regions...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving drowned's regions...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving ultra's regions...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Unregistering listeners...
+[15:50:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] RedProtect turned off...
+[15:50:22] [Server thread/INFO] [yysscoreboard]: static scoreboard is null, rebuild new one
+[15:50:22] [Server thread/INFO] [luckperms]: Starting shutdown process...
+[15:50:22] [Server thread/INFO] [luckperms]: Closing storage...
+[15:50:22] [Server thread/INFO] [luckperms]: Goodbye!
+[15:50:22] [Server thread/INFO] [HuskyCrates]: HuskyCrates has shut down.
+[15:50:22] [Server thread/INFO] [totaleconomy]: Total Economy Stopping
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/0
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/-1
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/1
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'plot'/4
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ultra'/72
+[15:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'drowned'/73
+[15:50:22] [Server thread/INFO] [vshop]:  > Shops for world 9790f966-1c8f-4004-9ad1-a03c72e1843c unloaded
+[15:50:22] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
+[15:50:22] [Server thread/INFO] [vshop]:  > Shops for world b9d7c1d3-7b1c-4574-9b52-9dccacc33019 unloaded
+[15:50:22] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
+[15:50:22] [Server thread/INFO] [vshop]:  > Shops for world 23a501e5-fb88-4771-99e3-5168ad463309 unloaded
+[15:50:22] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
+[15:50:22] [Server thread/INFO] [vshop]:  > Shops for world 166bd834-82b0-4ca7-94b5-319d5cde8a4d unloaded
+[15:50:22] [Server thread/INFO] [Sponge]: Unloading world [plot] (minecraft:overworld/4)
+[15:50:22] [Server thread/INFO] [vshop]:  > Shops for world fa9642c7-fa05-4746-9185-ea90be297dd3 unloaded
+[15:50:22] [Server thread/INFO] [Sponge]: Unloading world [ultra] (pixelmon:ultra_space/72)
+[15:50:22] [Server thread/INFO] [vshop]:  > Shops for world 404d0d90-a0ab-4142-8c87-97cdbed90255 unloaded
+[15:50:22] [Server thread/INFO] [Sponge]: Unloading world [drowned] (pixelmon:drowned_world/73)
+[15:50:22] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+[15:50:22] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+[15:50:22] [Server thread/INFO] [totaleconomy]: Total Economy Stopped
+[15:50:22] [Server thread/INFO] [nucleus]: Nucleus is performing server shutdown tasks.
