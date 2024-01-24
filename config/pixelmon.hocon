@@ -472,7 +472,7 @@ Raids {
     # Time of day when dens attempt to respawn their boss
     denRespawnTime=100
     # Chance of a den spawning per chunk
-    denSpawnChancePerChunk=0.029999999329447746
+    denSpawnChancePerChunk=0.05
     # Number of item drops for each star level in raids
     denStarDrops=[
         2,
@@ -613,7 +613,7 @@ Spawning {
     # The rate of boss Pokémon in the wild (1/x) not including mega bosses.
     bossRate=256
     # Chance that a mega boss spawn attempt will succeed (0-1)
-    bossSpawnChance=0.15000000596046448
+    bossSpawnChance=0.2
     # Average number of ticks before spawning a boss Pokémon
     bossSpawnTicks=72000
     # Relative spawn chances of each boss tier.

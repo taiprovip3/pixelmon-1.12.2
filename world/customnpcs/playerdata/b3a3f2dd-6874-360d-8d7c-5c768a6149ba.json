@@ -23,6 +23,9 @@
     "DialogData": [
         {
             "Dialog": 5
+        },
+        {
+            "Dialog": 11
         }
     ],
     "ItemGiverChained": [

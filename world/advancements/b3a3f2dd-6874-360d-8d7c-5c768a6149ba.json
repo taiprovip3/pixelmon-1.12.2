@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-01-24 04:22:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2024-01-23 14:08:33 +0000"
@@ -407,6 +413,12 @@
     },
     "done": true
   },
+  "pixelmon:specs/shiny_spec_trigger": {
+    "criteria": {
+      "shiny_spec_trigger": "2024-01-24 05:09:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_at_least_9_gold_ingot": "2024-01-23 14:18:24 +0000"
@@ -518,6 +530,12 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2024-01-23 14:41:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-01-24 04:22:06 +0000"
     },
     "done": true
   },
@@ -779,6 +797,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-01-24 04:22:06 +0000"
+    },
+    "done": true
+  },
   "pixelmon:wild_battle_victories/wild_battle_victory_trigger": {
     "criteria": {
       "wild_battle_victory_trigger": "2024-01-23 14:05:52 +0000"
@@ -794,6 +818,12 @@
   "biomesoplenty:recipes/transportation/boat_sacred_oak": {
     "criteria": {
       "entered_water": "2024-01-23 14:07:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2024-01-24 04:21:55 +0000"
     },
     "done": true
   },
@@ -824,6 +854,12 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2024-01-23 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2024-01-24 03:46:53 +0000"
     },
     "done": true
   },
@@ -874,6 +910,12 @@
       "has_glass": "2024-01-23 22:30:23 +0000"
     },
     "done": true
+  },
+  "pixelmon:recipes/lures/lure_shiny_weak": {
+    "criteria": {
+      "has_lansat": "2024-01-24 03:41:12 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
@@ -953,6 +995,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-01-24 04:22:06 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "yellow_flower": "2024-01-24 04:21:55 +0000",
+      "red_flower": "2024-01-24 04:21:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2024-01-23 14:26:19 +0000"
@@ -995,6 +1050,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/machines/ranch": {
+    "criteria": {
+      "has_pc": "2024-01-24 03:59:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2024-01-23 14:26:19 +0000"
@@ -1025,6 +1086,18 @@
     },
     "done": true
   },
+  "pixelmon:recipes/lures/lure_shiny_strong": {
+    "criteria": {
+      "has_lansat": "2024-01-24 03:41:12 +0000"
+    },
+    "done": false
+  },
+  "pixelmon:specs/spec_trigger": {
+    "criteria": {
+      "shiny_spec_trigger": "2024-01-24 05:09:39 +0000"
+    },
+    "done": true
+  },
   "pixelmon:balls/ultra_ball_capture": {
     "criteria": {
       "ultra_ball_capture": "2024-01-23 14:22:53 +0000"
@@ -1035,6 +1108,7 @@
     "criteria": {
       "ice_flats": "2024-01-23 15:15:10 +0000",
       "taiga_cold_hills": "2024-01-23 22:01:52 +0000",
+      "frozen_river": "2024-01-24 04:06:18 +0000",
       "forest": "2024-01-23 13:58:03 +0000",
       "birch_forest": "2024-01-23 14:15:12 +0000",
       "swampland": "2024-01-23 15:00:48 +0000",
@@ -1046,11 +1120,14 @@
       "savanna": "2024-01-23 14:02:14 +0000",
       "plains": "2024-01-23 13:56:13 +0000",
       "savanna_rock": "2024-01-23 14:15:27 +0000",
+      "ice_mountains": "2024-01-24 03:35:03 +0000",
       "taiga": "2024-01-23 14:36:16 +0000",
       "taiga_hills": "2024-01-23 15:27:14 +0000",
+      "birch_forest_hills": "2024-01-24 04:49:34 +0000",
       "ocean": "2024-01-23 21:15:48 +0000",
       "extreme_hills": "2024-01-23 21:51:37 +0000",
       "roofed_forest": "2024-01-23 23:05:16 +0000",
+      "cold_beach": "2024-01-24 04:05:18 +0000",
       "river": "2024-01-23 14:07:25 +0000",
       "desert": "2024-01-23 14:18:30 +0000"
     },

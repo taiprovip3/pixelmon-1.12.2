@@ -9,7 +9,7 @@ GriefPrevention {
     containers=[]
     cuboid=false
     date-created="2024-01-23T15:45:05.368Z"
-    date-last-active="2024-01-24T00:53:18.009Z"
+    date-last-active="2024-01-24T03:34:19.907Z"
     deny-messages=true
     economyData {
         bankTransactionLog=[]
@@ -21,7 +21,7 @@ GriefPrevention {
     greater-boundary-corner="-885;255;-800"
     inherit-parent=true
     isExpired=false
-    lesser-boundary-corner="-919;0;-813"
+    lesser-boundary-corner="-928;0;-813"
     manager-groups=[]
     managers=[]
     owner-uuid="606cc775-be91-360b-bd14-f6593f9e1f92"

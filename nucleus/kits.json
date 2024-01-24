@@ -523,6 +523,18 @@
             "leather_tier": "III",
             "frame_tier": "III"
           }
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:cookie",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "pixelmon:pc",
+          "Count": 1,
+          "UnsafeDamage": 0
         }
       ],
       "interval": 0,

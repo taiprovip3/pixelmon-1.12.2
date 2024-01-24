@@ -1,16 +1,9 @@
 &eWelcome to the server!
 New updates 2.0 (23/01/2024):
-- Thay đổi villager trade (Relic/Coin/Mis trader)
-- Added NPC bán thu mua đá mega
-- Added NPC Medicine
-- Bổ sung kit thiếu axe
-- Added NPC Mint Shop
-- Fix /tpa cmd
-- Added /endbattle cmd
-- Fix dashboard hidden part
-- Fix legendary & ultimate boss spawn
-- Removed unused coin in fortune crate
-- Fix rank lore requirement & backpack cmd
-- Added item heal all pokement in kit
-- Fix backpacks not working
-- Added clearlagg remove trash item in the ground
+- Fix mở PC ở spawn
+- Cập nhật rank
+- Fix ultimate spawn change
+- Add change dan raid
+- Remove food consumption
+- Fix kit start
+- Fix /sethome /feed /heal có tính phí 20 pixelcoin (pc)
