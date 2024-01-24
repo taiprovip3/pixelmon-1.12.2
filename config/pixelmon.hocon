@@ -59,7 +59,7 @@ Battle {
         40
     ]
     # Multiplier for experience gained in Pokémon battles.
-    expModifier=1
+    expModifier=1.5
     # What will happen if a battle is force-ended without a proper conclusion. 0: A winner is determined based on the number of remaining Pokémon (with % HP as a tiebreaker). 1: The battle is considered a draw. 2: The battle is considered abnormally ended.
     forceEndBattleResult=0
     # Whether G-Max Gold Rush will award extra PokéDollars when used.
@@ -472,7 +472,7 @@ Raids {
     # Time of day when dens attempt to respawn their boss
     denRespawnTime=100
     # Chance of a den spawning per chunk
-    denSpawnChancePerChunk=0.05
+    denSpawnChancePerChunk=0.05000000074505806
     # Number of item drops for each star level in raids
     denStarDrops=[
         2,
@@ -613,7 +613,7 @@ Spawning {
     # The rate of boss Pokémon in the wild (1/x) not including mega bosses.
     bossRate=256
     # Chance that a mega boss spawn attempt will succeed (0-1)
-    bossSpawnChance=0.2
+    bossSpawnChance=0.20000000298023224
     # Average number of ticks before spawning a boss Pokémon
     bossSpawnTicks=72000
     # Relative spawn chances of each boss tier.

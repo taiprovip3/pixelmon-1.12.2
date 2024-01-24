@@ -7,3 +7,4 @@ New updates 2.0 (23/01/2024):
 - Remove food consumption
 - Fix kit start
 - Fix /sethome /feed /heal có tính phí 20 pixelcoin (pc)
+- Tăng exp pokemon battle +30%

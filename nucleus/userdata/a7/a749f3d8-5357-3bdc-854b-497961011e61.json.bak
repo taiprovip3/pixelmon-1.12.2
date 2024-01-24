@@ -6,24 +6,24 @@
   "jailOnNextLogin": false,
   "invulnerable": false,
   "lastKnownName": "atai",
-  "lastLogin": 1706075631797,
-  "lastLogout": 1706075743322,
+  "lastLogin": 1706078345810,
+  "lastLogout": 1706080009430,
   "lastIP": "/116.108.2.145",
   "firstJoin": 1705592063178,
   "startedFirstJoin": false,
   "lastLocation": {
-    "x": 214.7336174016126,
-    "y": 100.37335169963865,
-    "z": 284.86518010628197,
+    "x": -776.6719927706433,
+    "y": 4.0,
+    "z": -833.11054004838,
     "rotx": 0.0,
     "roty": 0.0,
     "rotz": 0.0,
-    "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
   },
   "kitLastUsedTime": {
-    "online": 1706075632
+    "online": 1706078346
   },
-  "mail": [],
+  "notes": [],
   "warnings": [],
-  "notes": []
+  "mail": []
 }
