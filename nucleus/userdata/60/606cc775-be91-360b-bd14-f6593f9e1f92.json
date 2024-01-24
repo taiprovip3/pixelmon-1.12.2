@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "vanish": false,
+  "warnings": [],
+  "notes": [],
+  "jailOnNextLogin": false,
+  "kitLastUsedTime": {
+    "online": 1706056775,
+    "tools": 1706017722
+  },
+  "fly": false,
+  "invulnerable": false,
+  "lastKnownName": "NAMHOA1",
+  "lastLogin": 1706057598053,
+  "lastLogout": 1706057171556,
+  "lastIP": "/113.185.76.67",
+  "firstJoin": 1706017722290,
+  "startedFirstJoin": false,
+  "isFrozen": false,
+  "mail": [],
+  "ignoreList": [],
+  "homes": {
+    "home": {
+      "x": 7874.163460006999,
+      "y": 41.0,
+      "z": -15901.699999988079,
+      "rotx": 31.49982261657715,
+      "roty": -309.9014892578125,
+      "rotz": 0.0,
+      "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
+    }
+  },
+  "lastLocation": {
+    "x": -889.6554822278152,
+    "y": 4.0,
+    "z": -810.0260468357833,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  }
+}

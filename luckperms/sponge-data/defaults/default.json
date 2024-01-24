@@ -41,6 +41,14 @@
         "griefprevention.flag.interact-inventory": true,
         "griefprevention.flag.portal-use": false
       }
+    },
+    {
+      "context": {
+        "gp_claim": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+      },
+      "data": {
+        "griefprevention.flag.interact-block-primary": true
+      }
     }
   ],
   "options": [],

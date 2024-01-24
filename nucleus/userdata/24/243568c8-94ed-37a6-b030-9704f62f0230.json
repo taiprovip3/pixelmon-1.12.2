@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "vanish": false,
+  "warnings": [],
+  "notes": [],
+  "jailOnNextLogin": false,
+  "kitLastUsedTime": {
+    "online": 1706016455,
+    "tools": 1706016455
+  },
+  "fly": false,
+  "invulnerable": false,
+  "lastKnownName": "NAMHOA",
+  "lastLogin": 1706016455139,
+  "lastLogout": 1706017641718,
+  "lastIP": "/14.226.183.245",
+  "firstJoin": 1706016455139,
+  "startedFirstJoin": false,
+  "isFrozen": false,
+  "mail": [],
+  "lastLocation": {
+    "x": -768.1291411781962,
+    "y": 4.0,
+    "z": -811.1651169622373,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+  }
+}

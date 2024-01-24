@@ -331,21 +331,6 @@
         },
         {
           "ContentVersion": 2,
-          "ItemType": "backpack:backpack",
-          "Count": 1,
-          "UnsafeDamage": 200,
-          "UnsafeData": {
-            "backpack-UID": "5bfb4d93-92fa-49df-b9ae-10ebdff09d90",
-            "slots": 54,
-            "leather_tier": "III",
-            "frame_tier": "III",
-            "slots_used": 0,
-            "module_slots": 6,
-            "slots_per_row": 9
-          }
-        },
-        {
-          "ContentVersion": 2,
           "ItemType": "naturescompass:naturescompass",
           "Count": 1,
           "UnsafeDamage": 0
@@ -508,6 +493,36 @@
           "ItemType": "pixelmon:mint_seeds",
           "Count": 64,
           "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "backpack:backpack_piece",
+          "Count": 1,
+          "UnsafeDamage": 0,
+          "UnsafeData": {
+            "leather_tier": "III",
+            "frame_tier": "III"
+          }
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "backpack:backpack_piece",
+          "Count": 1,
+          "UnsafeDamage": 1,
+          "UnsafeData": {
+            "leather_tier": "III",
+            "frame_tier": "III"
+          }
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "backpack:backpack_piece",
+          "Count": 1,
+          "UnsafeDamage": 2,
+          "UnsafeData": {
+            "leather_tier": "III",
+            "frame_tier": "III"
+          }
         }
       ],
       "interval": 0,
