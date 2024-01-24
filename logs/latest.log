@@ -798,3 +798,52 @@ Expected: [Lnet/minecraft/block/state/IBlockState;, Lnet/minecraft/util/math/Blo
 [13:07:18] [pool-2-thread-397/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
 [13:07:48] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
 [13:08:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[13:17:18] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[13:17:48] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[13:18:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[13:27:18] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 60 seconds.
+[13:27:48] [pool-2-thread-410/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] Ground items will be cleared in 30 seconds.
+[13:28:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ClearLag] 0 items have been cleared.
+[13:30:30] [Server thread/INFO] [nucleus]: Server ran the command: /list 
+[13:30:30] [pool-2-thread-417/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ============ There are 0/20 players online. =============
+[13:30:30] [pool-2-thread-417/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ======================== « » =========================
+[13:30:32] [Server thread/INFO] [nucleus]: Server ran the command: /stop 
+[13:30:32] [Server thread/INFO] [HuskyCrates]: HuskyCrates has shut down.
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving world's regions...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving plot's regions...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving DIM1's regions...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving DIM-1's regions...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving drowned's regions...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Saving ultra's regions...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] Unregistering listeners...
+[13:30:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [RedProtect] RedProtect turned off...
+[13:30:32] [Server thread/INFO] [luckperms]: Starting shutdown process...
+[13:30:32] [Server thread/INFO] [luckperms]: Closing storage...
+[13:30:32] [Server thread/INFO] [luckperms]: Goodbye!
+[13:30:32] [Server thread/INFO] [yysscoreboard]: static scoreboard is null, rebuild new one
+[13:30:32] [Server thread/INFO] [totaleconomy]: Total Economy Stopping
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/0
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/-1
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/1
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'plot'/4
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ultra'/72
+[13:30:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'drowned'/73
+[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 9790f966-1c8f-4004-9ad1-a03c72e1843c unloaded
+[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
+[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world b9d7c1d3-7b1c-4574-9b52-9dccacc33019 unloaded
+[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
+[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 23a501e5-fb88-4771-99e3-5168ad463309 unloaded
+[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
+[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 166bd834-82b0-4ca7-94b5-319d5cde8a4d unloaded
+[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [plot] (minecraft:overworld/4)
+[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world fa9642c7-fa05-4746-9185-ea90be297dd3 unloaded
+[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [ultra] (pixelmon:ultra_space/72)
+[13:30:32] [Server thread/INFO] [vshop]:  > Shops for world 404d0d90-a0ab-4142-8c87-97cdbed90255 unloaded
+[13:30:32] [Server thread/INFO] [Sponge]: Unloading world [drowned] (pixelmon:drowned_world/73)
+[13:30:32] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+[13:30:32] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+[13:30:32] [Server thread/INFO] [totaleconomy]: Total Economy Stopped
+[13:30:32] [Server thread/INFO] [nucleus]: Nucleus is performing server shutdown tasks.
