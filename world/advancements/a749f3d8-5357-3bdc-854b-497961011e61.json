@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-01-25 11:26:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2024-01-25 01:10:34 +0000"
@@ -125,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-01-25 11:25:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2024-01-25 01:10:34 +0000"
@@ -179,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-01-25 11:26:19 +0000"
+    },
+    "done": true
+  },
   "pixelmon:wild_battle_victories/wild_battle_victory_trigger": {
     "criteria": {
       "wild_battle_victory_trigger": "2024-01-25 04:39:02 +0000"
@@ -194,6 +212,12 @@
   "biomesoplenty:recipes/transportation/boat_sacred_oak": {
     "criteria": {
       "entered_water": "2024-01-23 14:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2024-01-25 10:10:45 +0000"
     },
     "done": true
   },
@@ -428,6 +452,12 @@
   "pixelmon:recipes/machines/anvil": {
     "criteria": {
       "has_iron": "2024-01-25 01:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-01-25 11:26:19 +0000"
     },
     "done": true
   },
@@ -744,6 +774,12 @@
   "biomesoplenty:recipes/transportation/boat_willow": {
     "criteria": {
       "entered_water": "2024-01-23 14:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-01-25 11:26:19 +0000"
     },
     "done": true
   },
