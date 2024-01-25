@@ -6,25 +6,47 @@
   "jailOnNextLogin": false,
   "invulnerable": false,
   "lastKnownName": "atai",
-  "lastLogin": 1706109508335,
-  "lastLogout": 1706110471764,
+  "lastLogin": 1706156200383,
+  "lastLogout": 1706158948136,
   "lastIP": "/116.108.2.145",
   "firstJoin": 1705592063178,
   "startedFirstJoin": false,
   "lastLocation": {
-    "x": -7669.92664367798,
-    "y": 87.11933193652631,
-    "z": -17304.97986334573,
+    "x": 19155.29275495917,
+    "y": 72.0,
+    "z": -23247.753207398528,
     "rotx": 0.0,
     "roty": 0.0,
     "rotz": 0.0,
     "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
   },
   "kitLastUsedTime": {
-    "online": 1706109508
+    "online": 1706156200,
+    "tools": 1706157423
   },
-  "warnings": [],
+  "homes": {
+    "movie2": {
+      "x": -26375.9835698557,
+      "y": 64.0,
+      "z": 24555.804677129607,
+      "rotx": -7.500016212463379,
+      "roty": 347.1007385253906,
+      "rotz": 0.0,
+      "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
+    },
+    "villager": {
+      "x": -5029.895492919131,
+      "y": 70.0,
+      "z": 24858.132970410064,
+      "rotx": -8.55000114440918,
+      "roty": -269.99920654296875,
+      "rotz": 0.0,
+      "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
+    }
+  },
+  "powertools": {},
   "notes": [],
+  "warnings": [],
   "mail": [],
-  "powertools": {}
+  "ignoreList": []
 }

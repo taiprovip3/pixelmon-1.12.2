@@ -38,7 +38,6 @@
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
     "DialogText": "* Lệnh claim đất hoang:
-/claimbuy: mua khu đất xẻng vàng đã claim
 /trust [tên]: cho phép tin tưởng bạn bè dùng chung khu claims (có thể build)
 /trustall: tin tưởng tất cả người chơi trong server
 /untrust [tên]: hủy hợp tác
@@ -47,7 +46,6 @@
 /claimsetspawn: đặt điểm spawn cho khu đất
 /claimspawn: dịch chuyển đến điểm spawn khu đất
 /cf: cài đặt settings khu đất
-...
 Chi tiết thêm nhiều lệnh khác tham khảo:
 https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
 
@@ -55,11 +53,13 @@ https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
 /tpa: gửi yêu cầu dịch chuyển tới bạn bè
 /tpaccept or /tpdeny: chấp nhận or hủy yêu cầu
 /back: quay lại điểm vừa dịch chuyển hoặc chết
-/warp list: xem danh sách tất cả warp
+/warps: xem danh sách tất cả warp
     * /warp adventure: đến thế giới phiêu lưu
     * /warp plot: đến thế giới plot
     * /warp buid: đến khu cho phép xây dựng thị trấn, nhà cửa
     * /warp vshop/vshop2: đến nhanh khu shop bán
+    * /warp eden: đến ngôi làng edenburg làm nhiệm vụ
+    * /warp crate: đến khu quay rương thưởng
     (/warp list có thể click vào chat tên warp để dịch chuyển nhanh)
 /sethome: đặt điểm sao lưu
 /home: đến điểm sao lưu
@@ -81,7 +81,7 @@ https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1706012865178L,
+        "TimePast": 1706157834744L,
         "Time": 0L,
         "Subject": ""
     }

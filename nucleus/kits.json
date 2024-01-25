@@ -220,21 +220,6 @@
       "commands": [],
       "firstJoin": false
     },
-    "online": {
-      "stacks": [],
-      "interval": 900,
-      "cost": 0.0,
-      "autoRedeem": true,
-      "oneTime": false,
-      "displayMessage": true,
-      "ignoresPermission": false,
-      "hidden": false,
-      "commands": [
-        "hc k fortune @a",
-        "hc k example @a"
-      ],
-      "firstJoin": false
-    },
     "tools": {
       "stacks": [
         {
@@ -546,6 +531,21 @@
       "hidden": false,
       "commands": [],
       "firstJoin": true
+    },
+    "online": {
+      "stacks": [],
+      "interval": 1000,
+      "cost": 0.0,
+      "autoRedeem": true,
+      "oneTime": false,
+      "displayMessage": true,
+      "ignoresPermission": false,
+      "hidden": false,
+      "commands": [
+        "hc k fortune @a",
+        "hc k example @a"
+      ],
+      "firstJoin": false
     }
   }
 }

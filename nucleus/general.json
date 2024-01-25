@@ -67,6 +67,30 @@
         "color": "yellow",
         "text": "Khu vực bán đồ nhận pixelcoin"
       }
+    },
+    "eden": {
+      "cost": -1.0,
+      "x": -717.7802443261631,
+      "y": 4.0,
+      "z": -882.8755977872221,
+      "rotx": -7.200010776519775,
+      "roty": -137.54905700683594,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+    },
+    "crate": {
+      "cost": -1.0,
+      "description": {
+        "color": "blue",
+        "text": "Khu quay rương thưởng"
+      },
+      "x": -773.8194477571751,
+      "y": 4.0,
+      "z": -813.4544465674587,
+      "rotx": 0.8999906778335571,
+      "roty": -269.699951171875,
+      "rotz": 0.0,
+      "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
     }
   },
   "warpCategories": {}

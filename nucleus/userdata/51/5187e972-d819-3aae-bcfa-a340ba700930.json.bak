@@ -3,39 +3,40 @@
   "jailOnNextLogin": false,
   "invulnerable": false,
   "kitLastUsedTime": {
-    "online": 1706097671,
+    "online": 1706165746,
     "tools": 1705999326
   },
   "vanish": false,
   "fly": false,
   "lastKnownName": "lilHAHA",
-  "lastLogin": 1706097671915,
-  "lastLogout": 1706098062936,
-  "lastIP": "/118.68.190.87",
+  "lastLogin": 1706165746794,
+  "lastLogout": 1706161613349,
+  "lastIP": "/116.100.117.28",
   "firstJoin": 1705999326312,
   "startedFirstJoin": false,
   "isFrozen": false,
   "lastLocation": {
-    "x": -915.7620253410981,
-    "y": 4.0,
-    "z": -843.6128525525666,
+    "x": -698.1188413391587,
+    "y": 67.0,
+    "z": 1667.7666982326666,
     "rotx": 0.0,
     "roty": 0.0,
     "rotz": 0.0,
-    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
+    "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
   },
   "homes": {
     "home": {
-      "x": -1348.778734925368,
-      "y": 67.0,
-      "z": 1304.00509160198,
-      "rotx": 24.149873733520508,
-      "roty": 219.6488037109375,
+      "x": -711.0497213282501,
+      "y": 71.0,
+      "z": 1692.918532780611,
+      "rotx": 15.000297546386719,
+      "roty": 43.85284423828125,
       "rotz": 0.0,
       "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
     }
   },
-  "warnings": [],
   "mail": [],
-  "notes": []
+  "notes": [],
+  "warnings": [],
+  "ignoreList": []
 }

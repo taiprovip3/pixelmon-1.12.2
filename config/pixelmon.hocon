@@ -699,7 +699,7 @@ Spawning {
     # The minimum distance from the player that entities may spawn. The lower this is, the closer entities will spawn to players.
     minimumDistanceFromCentre=18
     # Replaces Minecraft's villagers with Pixelmon NPCs.
-    replaceMCVillagers=false
+    replaceMCVillagers=true
     # Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
     shinySpawnRate=4096
     # The number of spawn passes made per minute. Decrease for better performance.

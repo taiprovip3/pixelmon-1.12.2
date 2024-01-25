@@ -3482,3 +3482,881 @@ java.lang.ArrayIndexOutOfBoundsException: 0
 2024-01-24 15:32:12,067 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -7544 66 -17368
 2024-01-24 15:32:13,490 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -7800 72 -17224
 2024-01-24 15:32:14,444 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -7544 68 -17208
+2024-01-24 15:59:35,273 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.12.2-master/update.json
+2024-01-24 15:59:35,697 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+2024-01-24 15:59:35,716 [Server thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: 
+2024-01-24 15:59:39,985 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 15:59:39,992 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> LootResources [supportingResources=[pools/armor/common, pools/armor/uncommon, pools/armor/scarce, pools/armor/rare, pools/armor/epic, pools/food/common, pools/food/uncommon, pools/food/scarce, pools/food/rare, pools/food/epic, pools/items/common, pools/items/uncommon, pools/items/scarce, pools/items/rare, pools/items/epic, pools/potions/common, pools/potions/uncommon, pools/potions/scarce, pools/potions/rare, pools/potions/epic, pools/tools/common, pools/tools/uncommon, pools/tools/scarce, pools/tools/rare, pools/treasure/common, pools/treasure/uncommon, pools/treasure/scarce, pools/treasure/rare, pools/treasure/epic, pools/treasure/common_adornments, pools/treasure/common_all, pools/treasure/common_charms, pools/treasure/common_treasure, pools/treasure/uncommon_adornments, pools/treasure/uncommon_all, pools/treasure/uncommon_charms, pools/treasure/uncommon_treasure, pools/treasure/scarce_adornments, pools/treasure/scarce_all, pools/treasure/scarce_charms, pools/treasure/scarce_treasure, pools/treasure/rare_adornments, pools/treasure/rare_all, pools/treasure/rare_charms, pools/treasure/rare_treasure, pools/treasure/epic_adornments, pools/treasure/epic_all, pools/treasure/epic_charms, pools/treasure/epic_treasure, pools/treasure/legendary_adornments, pools/treasure/legendary_all, pools/treasure/legendary_charms, pools/treasure/legendary_treasure, pools/treasure/mythical_adornments, pools/treasure/mythical_all, pools/treasure/mythical_charms, pools/treasure/mythical_treasure], chestResources=[chests/common/general_chest, chests/uncommon/general_chest, chests/scarce/general_chest, chests/rare/general_chest, chests/epic/general_chest, chests/legendary/general_chest, chests/mythical/general_chest], specialResources=[chests/special/black_pearl_well, chests/special/cauldron_chest, chests/special/crystal_skull_chest, chests/special/gold_skull_chest, chests/special/skull_chest, chests/special/white_pearl_well, chests/special/wither_chest], specialLootTableFolderLocations=[chests/special], chestLootTableFolderLocations=[chests/common, chests/uncommon, chests/scarce, chests/rare, chests/epic], supportingLootTableFolderLocatoins=[pools/armor, pools/food, pools/items, pools/potions, pools/tools, pools/treasure]]
+2024-01-24 15:59:39,992 [Server thread] WARN Treasure2 | TreasureLootTableRegistry.java:135 | adding mod to loaded mods list
+2024-01-24 15:59:40,042 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 15:59:40,043 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[structures/basic1.json, structures/basic2.json, structures/basic3.json, structures/basic4.json, structures/basic5.json, structures/beached-ship1.json, structures/beached-ship2.json, structures/beached-ship3.json, structures/blacksmith1.json, structures/castle1.json, structures/cave1.json, structures/cave2.json, structures/church1.json, structures/cobb1.json, structures/crypt1.json, structures/crypt2.json, structures/crypt3.json, structures/desert-tower2.json, structures/dingy1.json, structures/fortress1.json, structures/house1.json, structures/ionic1.json, structures/iron-chamber1.json, structures/iron-chamber2.json, structures/large-tower1.json, structures/mine1.json, structures/obsidian-chamber1.json, structures/pirate-chamber1.json, structures/sunken-ship1.json, structures/sunken-ship2.json, structures/sunken-ship3.json, structures/tower1.json, structures/tower2.json, structures/tower3.json, structures/tower4.json, structures/tower5.json, structures/underwater-ruins1.json, structures/underwater-ruins2.json, structures/underwater-ruins3.json, structures/wither-chamber1.json, structures/canopy-wishing-well1.json, structures/desert-wishing-well1.json, structures/desert-wishing-well2.json, structures/simple-well1.json, structures/wood-draw-wishing-well1.json], resourceFolderLocations=[chests, structures]]
+2024-01-24 15:59:40,045 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic1.json at ./world/data/meta/treasure2/structures/basic1.json but it doesn't exist.
+2024-01-24 15:59:40,058 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic2.json at ./world/data/meta/treasure2/structures/basic2.json but it doesn't exist.
+2024-01-24 15:59:40,058 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic3.json at ./world/data/meta/treasure2/structures/basic3.json but it doesn't exist.
+2024-01-24 15:59:40,058 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic4.json at ./world/data/meta/treasure2/structures/basic4.json but it doesn't exist.
+2024-01-24 15:59:40,059 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic5.json at ./world/data/meta/treasure2/structures/basic5.json but it doesn't exist.
+2024-01-24 15:59:40,059 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship1.json at ./world/data/meta/treasure2/structures/beached-ship1.json but it doesn't exist.
+2024-01-24 15:59:40,070 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship2.json at ./world/data/meta/treasure2/structures/beached-ship2.json but it doesn't exist.
+2024-01-24 15:59:40,071 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship3.json at ./world/data/meta/treasure2/structures/beached-ship3.json but it doesn't exist.
+2024-01-24 15:59:40,071 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/blacksmith1.json at ./world/data/meta/treasure2/structures/blacksmith1.json but it doesn't exist.
+2024-01-24 15:59:40,071 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/castle1.json at ./world/data/meta/treasure2/structures/castle1.json but it doesn't exist.
+2024-01-24 15:59:40,071 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave1.json at ./world/data/meta/treasure2/structures/cave1.json but it doesn't exist.
+2024-01-24 15:59:40,072 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave2.json at ./world/data/meta/treasure2/structures/cave2.json but it doesn't exist.
+2024-01-24 15:59:40,072 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/church1.json at ./world/data/meta/treasure2/structures/church1.json but it doesn't exist.
+2024-01-24 15:59:40,072 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cobb1.json at ./world/data/meta/treasure2/structures/cobb1.json but it doesn't exist.
+2024-01-24 15:59:40,072 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt1.json at ./world/data/meta/treasure2/structures/crypt1.json but it doesn't exist.
+2024-01-24 15:59:40,073 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt2.json at ./world/data/meta/treasure2/structures/crypt2.json but it doesn't exist.
+2024-01-24 15:59:40,073 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt3.json at ./world/data/meta/treasure2/structures/crypt3.json but it doesn't exist.
+2024-01-24 15:59:40,073 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-tower2.json at ./world/data/meta/treasure2/structures/desert-tower2.json but it doesn't exist.
+2024-01-24 15:59:40,074 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/dingy1.json at ./world/data/meta/treasure2/structures/dingy1.json but it doesn't exist.
+2024-01-24 15:59:40,074 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/fortress1.json at ./world/data/meta/treasure2/structures/fortress1.json but it doesn't exist.
+2024-01-24 15:59:40,074 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/house1.json at ./world/data/meta/treasure2/structures/house1.json but it doesn't exist.
+2024-01-24 15:59:40,074 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/ionic1.json at ./world/data/meta/treasure2/structures/ionic1.json but it doesn't exist.
+2024-01-24 15:59:40,075 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber1.json at ./world/data/meta/treasure2/structures/iron-chamber1.json but it doesn't exist.
+2024-01-24 15:59:40,075 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber2.json at ./world/data/meta/treasure2/structures/iron-chamber2.json but it doesn't exist.
+2024-01-24 15:59:40,075 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/large-tower1.json at ./world/data/meta/treasure2/structures/large-tower1.json but it doesn't exist.
+2024-01-24 15:59:40,075 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/mine1.json at ./world/data/meta/treasure2/structures/mine1.json but it doesn't exist.
+2024-01-24 15:59:40,076 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/obsidian-chamber1.json at ./world/data/meta/treasure2/structures/obsidian-chamber1.json but it doesn't exist.
+2024-01-24 15:59:40,076 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/pirate-chamber1.json at ./world/data/meta/treasure2/structures/pirate-chamber1.json but it doesn't exist.
+2024-01-24 15:59:40,076 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship1.json at ./world/data/meta/treasure2/structures/sunken-ship1.json but it doesn't exist.
+2024-01-24 15:59:40,076 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship2.json at ./world/data/meta/treasure2/structures/sunken-ship2.json but it doesn't exist.
+2024-01-24 15:59:40,085 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship3.json at ./world/data/meta/treasure2/structures/sunken-ship3.json but it doesn't exist.
+2024-01-24 15:59:40,085 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower1.json at ./world/data/meta/treasure2/structures/tower1.json but it doesn't exist.
+2024-01-24 15:59:40,085 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower2.json at ./world/data/meta/treasure2/structures/tower2.json but it doesn't exist.
+2024-01-24 15:59:40,085 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower3.json at ./world/data/meta/treasure2/structures/tower3.json but it doesn't exist.
+2024-01-24 15:59:40,086 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower4.json at ./world/data/meta/treasure2/structures/tower4.json but it doesn't exist.
+2024-01-24 15:59:40,086 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower5.json at ./world/data/meta/treasure2/structures/tower5.json but it doesn't exist.
+2024-01-24 15:59:40,086 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins1.json at ./world/data/meta/treasure2/structures/underwater-ruins1.json but it doesn't exist.
+2024-01-24 15:59:40,086 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins2.json at ./world/data/meta/treasure2/structures/underwater-ruins2.json but it doesn't exist.
+2024-01-24 15:59:40,087 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins3.json at ./world/data/meta/treasure2/structures/underwater-ruins3.json but it doesn't exist.
+2024-01-24 15:59:40,087 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wither-chamber1.json at ./world/data/meta/treasure2/structures/wither-chamber1.json but it doesn't exist.
+2024-01-24 15:59:40,087 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/canopy-wishing-well1.json at ./world/data/meta/treasure2/structures/canopy-wishing-well1.json but it doesn't exist.
+2024-01-24 15:59:40,087 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well1.json at ./world/data/meta/treasure2/structures/desert-wishing-well1.json but it doesn't exist.
+2024-01-24 15:59:40,088 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well2.json at ./world/data/meta/treasure2/structures/desert-wishing-well2.json but it doesn't exist.
+2024-01-24 15:59:40,088 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/simple-well1.json at ./world/data/meta/treasure2/structures/simple-well1.json but it doesn't exist.
+2024-01-24 15:59:40,088 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wood-draw-wishing-well1.json at ./world/data/meta/treasure2/structures/wood-draw-wishing-well1.json but it doesn't exist.
+2024-01-24 15:59:40,091 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 15:59:40,091 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[submerged/dingy1.nbt, submerged/sunken-ship1.nbt, submerged/sunken-ship2.nbt, submerged/sunken-ship3.nbt, submerged/underwater-ruins1.nbt, submerged/underwater-ruins2.nbt, submerged/underwater-ruins3.nbt, subterranean/basic1.nbt, subterranean/basic2.nbt, subterranean/basic3.nbt, subterranean/basic4.nbt, subterranean/basic5.nbt, subterranean/cave1.nbt, subterranean/cave2.nbt, subterranean/cobb1.nbt, subterranean/crypt1.nbt, subterranean/ionic1.nbt, subterranean/iron-chamber1.nbt, subterranean/iron-chamber2.nbt, subterranean/mine1.nbt, subterranean/obsidian-chamber1.nbt, subterranean/pirate-chamber1.nbt, subterranean/wither-chamber1.nbt, surface/beached-ship1.nbt, surface/beached-ship2.nbt, surface/beached-ship3.nbt, surface/blacksmith1.nbt, surface/castle1.nbt, surface/church1.nbt, surface/crypt2.nbt, surface/crypt3.nbt, surface/desert-tower2.nbt, surface/fortress1.nbt, surface/house1.nbt, surface/large-tower1.nbt, surface/tower1.nbt, surface/tower2.nbt, surface/tower3.nbt, surface/tower4.nbt, surface/tower5.nbt, wells/canopy-wishing-well1.nbt, wells/desert-wishing-well1.nbt, wells/desert-wishing-well2.nbt, wells/simple-well1.nbt, wells/wood-draw-wishing-well1.nbt], resourceFolderLocations=[submerged, subterranean, surface, wells]]
+2024-01-24 15:59:40,250 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 15:59:40,251 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[rulesets/aged_ruleset.json, rulesets/default_ruleset.json, rulesets/ruinous_ruleset.json], resourceFolderLocations=[]]
+2024-01-24 15:59:40,252 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/aged_ruleset.json at ./world/data/decay/treasure2/rulesets/aged_ruleset.json but it doesn't exist.
+2024-01-24 15:59:40,260 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/default_ruleset.json at ./world/data/decay/treasure2/rulesets/default_ruleset.json but it doesn't exist.
+2024-01-24 15:59:40,261 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/ruinous_ruleset.json at ./world/data/decay/treasure2/rulesets/ruinous_ruleset.json but it doesn't exist.
+2024-01-24 16:36:41,422 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.12.2-master/update.json
+2024-01-24 16:36:41,924 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+2024-01-24 16:36:41,947 [Server thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: 
+2024-01-24 16:36:46,363 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:36:46,384 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> LootResources [supportingResources=[pools/armor/common, pools/armor/uncommon, pools/armor/scarce, pools/armor/rare, pools/armor/epic, pools/food/common, pools/food/uncommon, pools/food/scarce, pools/food/rare, pools/food/epic, pools/items/common, pools/items/uncommon, pools/items/scarce, pools/items/rare, pools/items/epic, pools/potions/common, pools/potions/uncommon, pools/potions/scarce, pools/potions/rare, pools/potions/epic, pools/tools/common, pools/tools/uncommon, pools/tools/scarce, pools/tools/rare, pools/treasure/common, pools/treasure/uncommon, pools/treasure/scarce, pools/treasure/rare, pools/treasure/epic, pools/treasure/common_adornments, pools/treasure/common_all, pools/treasure/common_charms, pools/treasure/common_treasure, pools/treasure/uncommon_adornments, pools/treasure/uncommon_all, pools/treasure/uncommon_charms, pools/treasure/uncommon_treasure, pools/treasure/scarce_adornments, pools/treasure/scarce_all, pools/treasure/scarce_charms, pools/treasure/scarce_treasure, pools/treasure/rare_adornments, pools/treasure/rare_all, pools/treasure/rare_charms, pools/treasure/rare_treasure, pools/treasure/epic_adornments, pools/treasure/epic_all, pools/treasure/epic_charms, pools/treasure/epic_treasure, pools/treasure/legendary_adornments, pools/treasure/legendary_all, pools/treasure/legendary_charms, pools/treasure/legendary_treasure, pools/treasure/mythical_adornments, pools/treasure/mythical_all, pools/treasure/mythical_charms, pools/treasure/mythical_treasure], chestResources=[chests/common/general_chest, chests/uncommon/general_chest, chests/scarce/general_chest, chests/rare/general_chest, chests/epic/general_chest, chests/legendary/general_chest, chests/mythical/general_chest], specialResources=[chests/special/black_pearl_well, chests/special/cauldron_chest, chests/special/crystal_skull_chest, chests/special/gold_skull_chest, chests/special/skull_chest, chests/special/white_pearl_well, chests/special/wither_chest], specialLootTableFolderLocations=[chests/special], chestLootTableFolderLocations=[chests/common, chests/uncommon, chests/scarce, chests/rare, chests/epic], supportingLootTableFolderLocatoins=[pools/armor, pools/food, pools/items, pools/potions, pools/tools, pools/treasure]]
+2024-01-24 16:36:46,384 [Server thread] WARN Treasure2 | TreasureLootTableRegistry.java:135 | adding mod to loaded mods list
+2024-01-24 16:36:46,422 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:36:46,424 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[structures/basic1.json, structures/basic2.json, structures/basic3.json, structures/basic4.json, structures/basic5.json, structures/beached-ship1.json, structures/beached-ship2.json, structures/beached-ship3.json, structures/blacksmith1.json, structures/castle1.json, structures/cave1.json, structures/cave2.json, structures/church1.json, structures/cobb1.json, structures/crypt1.json, structures/crypt2.json, structures/crypt3.json, structures/desert-tower2.json, structures/dingy1.json, structures/fortress1.json, structures/house1.json, structures/ionic1.json, structures/iron-chamber1.json, structures/iron-chamber2.json, structures/large-tower1.json, structures/mine1.json, structures/obsidian-chamber1.json, structures/pirate-chamber1.json, structures/sunken-ship1.json, structures/sunken-ship2.json, structures/sunken-ship3.json, structures/tower1.json, structures/tower2.json, structures/tower3.json, structures/tower4.json, structures/tower5.json, structures/underwater-ruins1.json, structures/underwater-ruins2.json, structures/underwater-ruins3.json, structures/wither-chamber1.json, structures/canopy-wishing-well1.json, structures/desert-wishing-well1.json, structures/desert-wishing-well2.json, structures/simple-well1.json, structures/wood-draw-wishing-well1.json], resourceFolderLocations=[chests, structures]]
+2024-01-24 16:36:46,426 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic1.json at ./world/data/meta/treasure2/structures/basic1.json but it doesn't exist.
+2024-01-24 16:36:46,442 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic2.json at ./world/data/meta/treasure2/structures/basic2.json but it doesn't exist.
+2024-01-24 16:36:46,442 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic3.json at ./world/data/meta/treasure2/structures/basic3.json but it doesn't exist.
+2024-01-24 16:36:46,442 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic4.json at ./world/data/meta/treasure2/structures/basic4.json but it doesn't exist.
+2024-01-24 16:36:46,443 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic5.json at ./world/data/meta/treasure2/structures/basic5.json but it doesn't exist.
+2024-01-24 16:36:46,443 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship1.json at ./world/data/meta/treasure2/structures/beached-ship1.json but it doesn't exist.
+2024-01-24 16:36:46,452 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship2.json at ./world/data/meta/treasure2/structures/beached-ship2.json but it doesn't exist.
+2024-01-24 16:36:46,452 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship3.json at ./world/data/meta/treasure2/structures/beached-ship3.json but it doesn't exist.
+2024-01-24 16:36:46,452 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/blacksmith1.json at ./world/data/meta/treasure2/structures/blacksmith1.json but it doesn't exist.
+2024-01-24 16:36:46,453 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/castle1.json at ./world/data/meta/treasure2/structures/castle1.json but it doesn't exist.
+2024-01-24 16:36:46,453 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave1.json at ./world/data/meta/treasure2/structures/cave1.json but it doesn't exist.
+2024-01-24 16:36:46,453 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave2.json at ./world/data/meta/treasure2/structures/cave2.json but it doesn't exist.
+2024-01-24 16:36:46,453 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/church1.json at ./world/data/meta/treasure2/structures/church1.json but it doesn't exist.
+2024-01-24 16:36:46,454 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cobb1.json at ./world/data/meta/treasure2/structures/cobb1.json but it doesn't exist.
+2024-01-24 16:36:46,454 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt1.json at ./world/data/meta/treasure2/structures/crypt1.json but it doesn't exist.
+2024-01-24 16:36:46,454 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt2.json at ./world/data/meta/treasure2/structures/crypt2.json but it doesn't exist.
+2024-01-24 16:36:46,455 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt3.json at ./world/data/meta/treasure2/structures/crypt3.json but it doesn't exist.
+2024-01-24 16:36:46,455 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-tower2.json at ./world/data/meta/treasure2/structures/desert-tower2.json but it doesn't exist.
+2024-01-24 16:36:46,456 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/dingy1.json at ./world/data/meta/treasure2/structures/dingy1.json but it doesn't exist.
+2024-01-24 16:36:46,456 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/fortress1.json at ./world/data/meta/treasure2/structures/fortress1.json but it doesn't exist.
+2024-01-24 16:36:46,456 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/house1.json at ./world/data/meta/treasure2/structures/house1.json but it doesn't exist.
+2024-01-24 16:36:46,456 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/ionic1.json at ./world/data/meta/treasure2/structures/ionic1.json but it doesn't exist.
+2024-01-24 16:36:46,456 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber1.json at ./world/data/meta/treasure2/structures/iron-chamber1.json but it doesn't exist.
+2024-01-24 16:36:46,457 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber2.json at ./world/data/meta/treasure2/structures/iron-chamber2.json but it doesn't exist.
+2024-01-24 16:36:46,457 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/large-tower1.json at ./world/data/meta/treasure2/structures/large-tower1.json but it doesn't exist.
+2024-01-24 16:36:46,457 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/mine1.json at ./world/data/meta/treasure2/structures/mine1.json but it doesn't exist.
+2024-01-24 16:36:46,457 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/obsidian-chamber1.json at ./world/data/meta/treasure2/structures/obsidian-chamber1.json but it doesn't exist.
+2024-01-24 16:36:46,458 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/pirate-chamber1.json at ./world/data/meta/treasure2/structures/pirate-chamber1.json but it doesn't exist.
+2024-01-24 16:36:46,458 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship1.json at ./world/data/meta/treasure2/structures/sunken-ship1.json but it doesn't exist.
+2024-01-24 16:36:46,458 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship2.json at ./world/data/meta/treasure2/structures/sunken-ship2.json but it doesn't exist.
+2024-01-24 16:36:46,458 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship3.json at ./world/data/meta/treasure2/structures/sunken-ship3.json but it doesn't exist.
+2024-01-24 16:36:46,459 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower1.json at ./world/data/meta/treasure2/structures/tower1.json but it doesn't exist.
+2024-01-24 16:36:46,459 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower2.json at ./world/data/meta/treasure2/structures/tower2.json but it doesn't exist.
+2024-01-24 16:36:46,459 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower3.json at ./world/data/meta/treasure2/structures/tower3.json but it doesn't exist.
+2024-01-24 16:36:46,459 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower4.json at ./world/data/meta/treasure2/structures/tower4.json but it doesn't exist.
+2024-01-24 16:36:46,460 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower5.json at ./world/data/meta/treasure2/structures/tower5.json but it doesn't exist.
+2024-01-24 16:36:46,461 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins1.json at ./world/data/meta/treasure2/structures/underwater-ruins1.json but it doesn't exist.
+2024-01-24 16:36:46,462 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins2.json at ./world/data/meta/treasure2/structures/underwater-ruins2.json but it doesn't exist.
+2024-01-24 16:36:46,462 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins3.json at ./world/data/meta/treasure2/structures/underwater-ruins3.json but it doesn't exist.
+2024-01-24 16:36:46,462 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wither-chamber1.json at ./world/data/meta/treasure2/structures/wither-chamber1.json but it doesn't exist.
+2024-01-24 16:36:46,462 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/canopy-wishing-well1.json at ./world/data/meta/treasure2/structures/canopy-wishing-well1.json but it doesn't exist.
+2024-01-24 16:36:46,463 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well1.json at ./world/data/meta/treasure2/structures/desert-wishing-well1.json but it doesn't exist.
+2024-01-24 16:36:46,463 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well2.json at ./world/data/meta/treasure2/structures/desert-wishing-well2.json but it doesn't exist.
+2024-01-24 16:36:46,463 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/simple-well1.json at ./world/data/meta/treasure2/structures/simple-well1.json but it doesn't exist.
+2024-01-24 16:36:46,463 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wood-draw-wishing-well1.json at ./world/data/meta/treasure2/structures/wood-draw-wishing-well1.json but it doesn't exist.
+2024-01-24 16:36:46,467 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:36:46,468 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[submerged/dingy1.nbt, submerged/sunken-ship1.nbt, submerged/sunken-ship2.nbt, submerged/sunken-ship3.nbt, submerged/underwater-ruins1.nbt, submerged/underwater-ruins2.nbt, submerged/underwater-ruins3.nbt, subterranean/basic1.nbt, subterranean/basic2.nbt, subterranean/basic3.nbt, subterranean/basic4.nbt, subterranean/basic5.nbt, subterranean/cave1.nbt, subterranean/cave2.nbt, subterranean/cobb1.nbt, subterranean/crypt1.nbt, subterranean/ionic1.nbt, subterranean/iron-chamber1.nbt, subterranean/iron-chamber2.nbt, subterranean/mine1.nbt, subterranean/obsidian-chamber1.nbt, subterranean/pirate-chamber1.nbt, subterranean/wither-chamber1.nbt, surface/beached-ship1.nbt, surface/beached-ship2.nbt, surface/beached-ship3.nbt, surface/blacksmith1.nbt, surface/castle1.nbt, surface/church1.nbt, surface/crypt2.nbt, surface/crypt3.nbt, surface/desert-tower2.nbt, surface/fortress1.nbt, surface/house1.nbt, surface/large-tower1.nbt, surface/tower1.nbt, surface/tower2.nbt, surface/tower3.nbt, surface/tower4.nbt, surface/tower5.nbt, wells/canopy-wishing-well1.nbt, wells/desert-wishing-well1.nbt, wells/desert-wishing-well2.nbt, wells/simple-well1.nbt, wells/wood-draw-wishing-well1.nbt], resourceFolderLocations=[submerged, subterranean, surface, wells]]
+2024-01-24 16:36:46,648 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:36:46,649 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[rulesets/aged_ruleset.json, rulesets/default_ruleset.json, rulesets/ruinous_ruleset.json], resourceFolderLocations=[]]
+2024-01-24 16:36:46,651 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/aged_ruleset.json at ./world/data/decay/treasure2/rulesets/aged_ruleset.json but it doesn't exist.
+2024-01-24 16:36:46,659 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/default_ruleset.json at ./world/data/decay/treasure2/rulesets/default_ruleset.json but it doesn't exist.
+2024-01-24 16:36:46,660 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/ruinous_ruleset.json at ./world/data/decay/treasure2/rulesets/ruinous_ruleset.json but it doesn't exist.
+2024-01-24 16:40:51,549 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.12.2-master/update.json
+2024-01-24 16:40:52,022 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+2024-01-24 16:40:52,050 [Server thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: 
+2024-01-24 16:40:56,230 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:40:56,237 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> LootResources [supportingResources=[pools/armor/common, pools/armor/uncommon, pools/armor/scarce, pools/armor/rare, pools/armor/epic, pools/food/common, pools/food/uncommon, pools/food/scarce, pools/food/rare, pools/food/epic, pools/items/common, pools/items/uncommon, pools/items/scarce, pools/items/rare, pools/items/epic, pools/potions/common, pools/potions/uncommon, pools/potions/scarce, pools/potions/rare, pools/potions/epic, pools/tools/common, pools/tools/uncommon, pools/tools/scarce, pools/tools/rare, pools/treasure/common, pools/treasure/uncommon, pools/treasure/scarce, pools/treasure/rare, pools/treasure/epic, pools/treasure/common_adornments, pools/treasure/common_all, pools/treasure/common_charms, pools/treasure/common_treasure, pools/treasure/uncommon_adornments, pools/treasure/uncommon_all, pools/treasure/uncommon_charms, pools/treasure/uncommon_treasure, pools/treasure/scarce_adornments, pools/treasure/scarce_all, pools/treasure/scarce_charms, pools/treasure/scarce_treasure, pools/treasure/rare_adornments, pools/treasure/rare_all, pools/treasure/rare_charms, pools/treasure/rare_treasure, pools/treasure/epic_adornments, pools/treasure/epic_all, pools/treasure/epic_charms, pools/treasure/epic_treasure, pools/treasure/legendary_adornments, pools/treasure/legendary_all, pools/treasure/legendary_charms, pools/treasure/legendary_treasure, pools/treasure/mythical_adornments, pools/treasure/mythical_all, pools/treasure/mythical_charms, pools/treasure/mythical_treasure], chestResources=[chests/common/general_chest, chests/uncommon/general_chest, chests/scarce/general_chest, chests/rare/general_chest, chests/epic/general_chest, chests/legendary/general_chest, chests/mythical/general_chest], specialResources=[chests/special/black_pearl_well, chests/special/cauldron_chest, chests/special/crystal_skull_chest, chests/special/gold_skull_chest, chests/special/skull_chest, chests/special/white_pearl_well, chests/special/wither_chest], specialLootTableFolderLocations=[chests/special], chestLootTableFolderLocations=[chests/common, chests/uncommon, chests/scarce, chests/rare, chests/epic], supportingLootTableFolderLocatoins=[pools/armor, pools/food, pools/items, pools/potions, pools/tools, pools/treasure]]
+2024-01-24 16:40:56,237 [Server thread] WARN Treasure2 | TreasureLootTableRegistry.java:135 | adding mod to loaded mods list
+2024-01-24 16:40:56,298 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:40:56,299 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[structures/basic1.json, structures/basic2.json, structures/basic3.json, structures/basic4.json, structures/basic5.json, structures/beached-ship1.json, structures/beached-ship2.json, structures/beached-ship3.json, structures/blacksmith1.json, structures/castle1.json, structures/cave1.json, structures/cave2.json, structures/church1.json, structures/cobb1.json, structures/crypt1.json, structures/crypt2.json, structures/crypt3.json, structures/desert-tower2.json, structures/dingy1.json, structures/fortress1.json, structures/house1.json, structures/ionic1.json, structures/iron-chamber1.json, structures/iron-chamber2.json, structures/large-tower1.json, structures/mine1.json, structures/obsidian-chamber1.json, structures/pirate-chamber1.json, structures/sunken-ship1.json, structures/sunken-ship2.json, structures/sunken-ship3.json, structures/tower1.json, structures/tower2.json, structures/tower3.json, structures/tower4.json, structures/tower5.json, structures/underwater-ruins1.json, structures/underwater-ruins2.json, structures/underwater-ruins3.json, structures/wither-chamber1.json, structures/canopy-wishing-well1.json, structures/desert-wishing-well1.json, structures/desert-wishing-well2.json, structures/simple-well1.json, structures/wood-draw-wishing-well1.json], resourceFolderLocations=[chests, structures]]
+2024-01-24 16:40:56,309 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic1.json at ./world/data/meta/treasure2/structures/basic1.json but it doesn't exist.
+2024-01-24 16:40:56,319 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic2.json at ./world/data/meta/treasure2/structures/basic2.json but it doesn't exist.
+2024-01-24 16:40:56,329 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic3.json at ./world/data/meta/treasure2/structures/basic3.json but it doesn't exist.
+2024-01-24 16:40:56,329 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic4.json at ./world/data/meta/treasure2/structures/basic4.json but it doesn't exist.
+2024-01-24 16:40:56,330 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic5.json at ./world/data/meta/treasure2/structures/basic5.json but it doesn't exist.
+2024-01-24 16:40:56,330 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship1.json at ./world/data/meta/treasure2/structures/beached-ship1.json but it doesn't exist.
+2024-01-24 16:40:56,332 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship2.json at ./world/data/meta/treasure2/structures/beached-ship2.json but it doesn't exist.
+2024-01-24 16:40:56,332 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship3.json at ./world/data/meta/treasure2/structures/beached-ship3.json but it doesn't exist.
+2024-01-24 16:40:56,333 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/blacksmith1.json at ./world/data/meta/treasure2/structures/blacksmith1.json but it doesn't exist.
+2024-01-24 16:40:56,333 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/castle1.json at ./world/data/meta/treasure2/structures/castle1.json but it doesn't exist.
+2024-01-24 16:40:56,333 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave1.json at ./world/data/meta/treasure2/structures/cave1.json but it doesn't exist.
+2024-01-24 16:40:56,333 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave2.json at ./world/data/meta/treasure2/structures/cave2.json but it doesn't exist.
+2024-01-24 16:40:56,334 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/church1.json at ./world/data/meta/treasure2/structures/church1.json but it doesn't exist.
+2024-01-24 16:40:56,334 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cobb1.json at ./world/data/meta/treasure2/structures/cobb1.json but it doesn't exist.
+2024-01-24 16:40:56,334 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt1.json at ./world/data/meta/treasure2/structures/crypt1.json but it doesn't exist.
+2024-01-24 16:40:56,334 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt2.json at ./world/data/meta/treasure2/structures/crypt2.json but it doesn't exist.
+2024-01-24 16:40:56,335 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt3.json at ./world/data/meta/treasure2/structures/crypt3.json but it doesn't exist.
+2024-01-24 16:40:56,335 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-tower2.json at ./world/data/meta/treasure2/structures/desert-tower2.json but it doesn't exist.
+2024-01-24 16:40:56,335 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/dingy1.json at ./world/data/meta/treasure2/structures/dingy1.json but it doesn't exist.
+2024-01-24 16:40:56,336 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/fortress1.json at ./world/data/meta/treasure2/structures/fortress1.json but it doesn't exist.
+2024-01-24 16:40:56,336 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/house1.json at ./world/data/meta/treasure2/structures/house1.json but it doesn't exist.
+2024-01-24 16:40:56,336 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/ionic1.json at ./world/data/meta/treasure2/structures/ionic1.json but it doesn't exist.
+2024-01-24 16:40:56,336 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber1.json at ./world/data/meta/treasure2/structures/iron-chamber1.json but it doesn't exist.
+2024-01-24 16:40:56,336 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber2.json at ./world/data/meta/treasure2/structures/iron-chamber2.json but it doesn't exist.
+2024-01-24 16:40:56,337 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/large-tower1.json at ./world/data/meta/treasure2/structures/large-tower1.json but it doesn't exist.
+2024-01-24 16:40:56,337 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/mine1.json at ./world/data/meta/treasure2/structures/mine1.json but it doesn't exist.
+2024-01-24 16:40:56,345 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/obsidian-chamber1.json at ./world/data/meta/treasure2/structures/obsidian-chamber1.json but it doesn't exist.
+2024-01-24 16:40:56,345 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/pirate-chamber1.json at ./world/data/meta/treasure2/structures/pirate-chamber1.json but it doesn't exist.
+2024-01-24 16:40:56,346 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship1.json at ./world/data/meta/treasure2/structures/sunken-ship1.json but it doesn't exist.
+2024-01-24 16:40:56,346 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship2.json at ./world/data/meta/treasure2/structures/sunken-ship2.json but it doesn't exist.
+2024-01-24 16:40:56,346 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship3.json at ./world/data/meta/treasure2/structures/sunken-ship3.json but it doesn't exist.
+2024-01-24 16:40:56,346 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower1.json at ./world/data/meta/treasure2/structures/tower1.json but it doesn't exist.
+2024-01-24 16:40:56,347 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower2.json at ./world/data/meta/treasure2/structures/tower2.json but it doesn't exist.
+2024-01-24 16:40:56,347 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower3.json at ./world/data/meta/treasure2/structures/tower3.json but it doesn't exist.
+2024-01-24 16:40:56,347 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower4.json at ./world/data/meta/treasure2/structures/tower4.json but it doesn't exist.
+2024-01-24 16:40:56,348 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower5.json at ./world/data/meta/treasure2/structures/tower5.json but it doesn't exist.
+2024-01-24 16:40:56,348 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins1.json at ./world/data/meta/treasure2/structures/underwater-ruins1.json but it doesn't exist.
+2024-01-24 16:40:56,348 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins2.json at ./world/data/meta/treasure2/structures/underwater-ruins2.json but it doesn't exist.
+2024-01-24 16:40:56,349 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins3.json at ./world/data/meta/treasure2/structures/underwater-ruins3.json but it doesn't exist.
+2024-01-24 16:40:56,349 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wither-chamber1.json at ./world/data/meta/treasure2/structures/wither-chamber1.json but it doesn't exist.
+2024-01-24 16:40:56,349 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/canopy-wishing-well1.json at ./world/data/meta/treasure2/structures/canopy-wishing-well1.json but it doesn't exist.
+2024-01-24 16:40:56,350 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well1.json at ./world/data/meta/treasure2/structures/desert-wishing-well1.json but it doesn't exist.
+2024-01-24 16:40:56,350 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well2.json at ./world/data/meta/treasure2/structures/desert-wishing-well2.json but it doesn't exist.
+2024-01-24 16:40:56,350 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/simple-well1.json at ./world/data/meta/treasure2/structures/simple-well1.json but it doesn't exist.
+2024-01-24 16:40:56,351 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wood-draw-wishing-well1.json at ./world/data/meta/treasure2/structures/wood-draw-wishing-well1.json but it doesn't exist.
+2024-01-24 16:40:56,352 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:40:56,353 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[submerged/dingy1.nbt, submerged/sunken-ship1.nbt, submerged/sunken-ship2.nbt, submerged/sunken-ship3.nbt, submerged/underwater-ruins1.nbt, submerged/underwater-ruins2.nbt, submerged/underwater-ruins3.nbt, subterranean/basic1.nbt, subterranean/basic2.nbt, subterranean/basic3.nbt, subterranean/basic4.nbt, subterranean/basic5.nbt, subterranean/cave1.nbt, subterranean/cave2.nbt, subterranean/cobb1.nbt, subterranean/crypt1.nbt, subterranean/ionic1.nbt, subterranean/iron-chamber1.nbt, subterranean/iron-chamber2.nbt, subterranean/mine1.nbt, subterranean/obsidian-chamber1.nbt, subterranean/pirate-chamber1.nbt, subterranean/wither-chamber1.nbt, surface/beached-ship1.nbt, surface/beached-ship2.nbt, surface/beached-ship3.nbt, surface/blacksmith1.nbt, surface/castle1.nbt, surface/church1.nbt, surface/crypt2.nbt, surface/crypt3.nbt, surface/desert-tower2.nbt, surface/fortress1.nbt, surface/house1.nbt, surface/large-tower1.nbt, surface/tower1.nbt, surface/tower2.nbt, surface/tower3.nbt, surface/tower4.nbt, surface/tower5.nbt, wells/canopy-wishing-well1.nbt, wells/desert-wishing-well1.nbt, wells/desert-wishing-well2.nbt, wells/simple-well1.nbt, wells/wood-draw-wishing-well1.nbt], resourceFolderLocations=[submerged, subterranean, surface, wells]]
+2024-01-24 16:40:56,522 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-24 16:40:56,529 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[rulesets/aged_ruleset.json, rulesets/default_ruleset.json, rulesets/ruinous_ruleset.json], resourceFolderLocations=[]]
+2024-01-24 16:40:56,531 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/aged_ruleset.json at ./world/data/decay/treasure2/rulesets/aged_ruleset.json but it doesn't exist.
+2024-01-24 16:40:56,539 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/default_ruleset.json at ./world/data/decay/treasure2/rulesets/default_ruleset.json but it doesn't exist.
+2024-01-24 16:40:56,540 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/ruinous_ruleset.json at ./world/data/decay/treasure2/rulesets/ruinous_ruleset.json but it doesn't exist.
+2024-01-25 01:01:55,891 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26488 70 24104
+2024-01-25 01:01:57,408 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -26456 71 24216
+2024-01-25 01:02:03,363 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26424 72 24296
+2024-01-25 01:02:04,686 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26344 76 24296
+2024-01-25 01:02:21,529 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -26328 64 24232
+2024-01-25 01:02:22,240 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -26333 36 24008
+2024-01-25 01:02:24,394 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! EPIC chest at coords: -26568 36 23928
+2024-01-25 01:02:30,928 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! RARE chest at coords: -26488 38 23880
+2024-01-25 01:02:33,534 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26232 65 24248
+2024-01-25 01:02:36,034 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26472 72 24360
+2024-01-25 01:02:36,849 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26328 67 24376
+2024-01-25 01:02:37,519 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26520 68 24440
+2024-01-25 01:02:38,519 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -26632 70 24360
+2024-01-25 01:02:39,134 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -26616 78 24456
+2024-01-25 01:02:39,331 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26472 72 24504
+2024-01-25 01:02:40,177 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -26680 67 24264
+2024-01-25 01:04:20,636 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26232 71 24344
+2024-01-25 01:04:21,506 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -26298 64 24392
+2024-01-25 01:04:22,653 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26344 65 24456
+2024-01-25 01:04:24,764 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -26152 33 24216
+2024-01-25 01:04:25,182 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26296 64 24536
+2024-01-25 01:04:28,759 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26392 63 24568
+2024-01-25 01:04:29,528 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26232 65 24584
+2024-01-25 01:04:30,373 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26408 68 24648
+2024-01-25 01:04:33,764 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26536 71 24696
+2024-01-25 01:04:39,138 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26568 67 24536
+2024-01-25 01:05:00,366 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -26696 69 24456
+2024-01-25 01:05:01,277 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -26714 63 24518
+2024-01-25 01:05:01,468 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26744 65 24376
+2024-01-25 01:05:02,163 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26696 63 24568
+2024-01-25 01:05:02,826 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26776 72 24296
+2024-01-25 01:05:03,443 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26808 63 24456
+2024-01-25 01:05:04,126 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26824 71 24360
+2024-01-25 01:05:05,117 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -26600 68 24616
+2024-01-25 01:06:45,422 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26664 66 24664
+2024-01-25 01:06:46,081 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26776 69 24696
+2024-01-25 01:06:46,976 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26872 70 24728
+2024-01-25 01:06:47,100 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -26808 67 24742
+2024-01-25 01:06:48,121 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26584 69 24776
+2024-01-25 01:06:48,998 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26760 63 24824
+2024-01-25 01:06:49,657 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26680 63 24872
+2024-01-25 01:06:50,408 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26840 69 24872
+2024-01-25 01:06:52,779 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26936 70 24872
+2024-01-25 01:06:53,499 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26968 65 24760
+2024-01-25 01:06:54,563 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -27048 69 24808
+2024-01-25 01:06:55,332 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -27066 68 24760
+2024-01-25 01:06:55,836 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -27064 67 24728
+2024-01-25 01:06:57,591 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -27160 82 24728
+2024-01-25 01:06:58,653 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -27144 67 24648
+2024-01-25 01:06:59,432 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! RARE chest at coords: -27069 32 24616
+2024-01-25 01:07:00,051 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -27264 53 24728
+2024-01-25 01:07:01,717 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -27112 63 24488
+2024-01-25 01:07:02,802 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! EPIC chest at coords: -27266 47 24494
+2024-01-25 01:07:03,913 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! LEGENDARY chest at coords: -27336 48 24480
+2024-01-25 01:07:05,014 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -27128 68 24408
+2024-01-25 01:07:05,590 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -27016 77 24424
+2024-01-25 01:07:06,181 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26920 71 24504
+2024-01-25 01:07:06,874 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -27096 69 24312
+2024-01-25 01:07:07,419 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26952 81 24376
+2024-01-25 01:07:07,788 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -27160 68 24310
+2024-01-25 01:07:08,191 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -27176 68 24328
+2024-01-25 01:07:11,162 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26936 63 24280
+2024-01-25 01:07:12,486 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -26824 73 24248
+2024-01-25 01:07:13,479 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26840 71 24168
+2024-01-25 01:07:14,234 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -26984 63 24120
+2024-01-25 01:07:15,013 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -26744 65 24232
+2024-01-25 01:07:15,216 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -26920 71 24056
+2024-01-25 01:07:15,780 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -26840 64 24040
+2024-01-25 01:07:17,571 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -26760 47 23936
+2024-01-25 01:07:20,577 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! RARE chest at coords: -26887 47 23808
+2024-01-25 01:07:24,240 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -27224 48 24142
+2024-01-25 01:07:24,261 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -27194 66 24200
+2024-01-25 01:07:34,198 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! MYTHICAL chest at coords: -27406 31 24296
+2024-01-25 01:07:44,928 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! EPIC chest at coords: -26669 34 23928
+2024-01-25 01:08:08,382 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4680 78 24584
+2024-01-25 01:08:09,774 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4760 89 24600
+2024-01-25 01:08:11,036 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -4792 80 24520
+2024-01-25 01:08:12,023 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4776 73 24680
+2024-01-25 01:08:13,198 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -4648 74 24664
+2024-01-25 01:08:15,899 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -4600 64 24520
+2024-01-25 01:08:17,722 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -4586 72 24680
+2024-01-25 01:08:19,310 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4552 64 24424
+2024-01-25 01:08:21,529 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -4456 48 24536
+2024-01-25 01:08:21,759 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -4456 64 24648
+2024-01-25 01:08:22,948 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! RARE chest at coords: -4744 32 24328
+2024-01-25 01:08:29,934 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -4376 91 24488
+2024-01-25 01:08:31,012 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -4344 67 24616
+2024-01-25 01:08:32,057 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -4584 64 24744
+2024-01-25 01:08:32,643 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4296 67 24552
+2024-01-25 01:08:34,119 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -4417 40 24801
+2024-01-25 01:08:35,107 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4520 65 24888
+2024-01-25 01:08:36,292 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -4728 75 24760
+2024-01-25 01:08:36,985 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -4634 70 24936
+2024-01-25 01:08:37,307 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4744 64 24936
+2024-01-25 01:08:38,506 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4824 91 24744
+2024-01-25 01:08:39,180 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4824 72 24936
+2024-01-25 01:08:39,845 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -4696 65 25032
+2024-01-25 01:08:40,918 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4856 91 24824
+2024-01-25 01:08:41,550 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4776 64 25080
+2024-01-25 01:08:42,306 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4872 67 25080
+2024-01-25 01:08:43,100 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4936 66 24856
+2024-01-25 01:08:43,935 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -5016 70 24840
+2024-01-25 01:08:43,936 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -5016 70 24838
+2024-01-25 01:08:44,600 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -5048 75 24920
+2024-01-25 01:08:45,773 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -5016 69 25000
+2024-01-25 01:08:46,667 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -5112 74 24872
+2024-01-25 01:08:47,386 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -5096 67 24792
+2024-01-25 01:08:48,063 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -5144 64 24984
+2024-01-25 01:08:48,816 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4920 64 24728
+2024-01-25 01:08:53,841 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -5112 64 24712
+2024-01-25 01:08:59,566 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -5032 64 24696
+2024-01-25 01:09:11,542 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -5146 63 24664
+2024-01-25 01:09:31,952 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -5224 69 24680
+2024-01-25 02:20:06,594 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -5256 75 24920
+2024-01-25 03:09:35,390 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -5016 69 2872
+2024-01-25 03:09:36,306 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -5016 68 2760
+2024-01-25 03:09:36,908 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -4936 79 2824
+2024-01-25 03:09:37,999 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -5128 65 2792
+2024-01-25 03:09:38,639 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -5192 70 2872
+2024-01-25 03:09:38,891 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -4968 64 2968
+2024-01-25 03:09:39,391 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4888 82 2888
+2024-01-25 03:09:40,208 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -4984 70 2664
+2024-01-25 03:09:40,804 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -4872 71 2776
+2024-01-25 03:09:41,501 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -4904 63 2696
+2024-01-25 03:15:19,873 [Server thread] INFO GottschCore | VersionChecker.java:110 | [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.12.2-master/update.json
+2024-01-25 03:15:20,315 [Server thread] INFO GottschCore | VersionChecker.java:110 | [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/master/update.json
+2024-01-25 03:15:20,335 [Server thread] WARN GottschCore | VersionChecker.java:55 | Bad URL: 
+2024-01-25 03:15:24,710 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-25 03:15:24,735 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> LootResources [supportingResources=[pools/armor/common, pools/armor/uncommon, pools/armor/scarce, pools/armor/rare, pools/armor/epic, pools/food/common, pools/food/uncommon, pools/food/scarce, pools/food/rare, pools/food/epic, pools/items/common, pools/items/uncommon, pools/items/scarce, pools/items/rare, pools/items/epic, pools/potions/common, pools/potions/uncommon, pools/potions/scarce, pools/potions/rare, pools/potions/epic, pools/tools/common, pools/tools/uncommon, pools/tools/scarce, pools/tools/rare, pools/treasure/common, pools/treasure/uncommon, pools/treasure/scarce, pools/treasure/rare, pools/treasure/epic, pools/treasure/common_adornments, pools/treasure/common_all, pools/treasure/common_charms, pools/treasure/common_treasure, pools/treasure/uncommon_adornments, pools/treasure/uncommon_all, pools/treasure/uncommon_charms, pools/treasure/uncommon_treasure, pools/treasure/scarce_adornments, pools/treasure/scarce_all, pools/treasure/scarce_charms, pools/treasure/scarce_treasure, pools/treasure/rare_adornments, pools/treasure/rare_all, pools/treasure/rare_charms, pools/treasure/rare_treasure, pools/treasure/epic_adornments, pools/treasure/epic_all, pools/treasure/epic_charms, pools/treasure/epic_treasure, pools/treasure/legendary_adornments, pools/treasure/legendary_all, pools/treasure/legendary_charms, pools/treasure/legendary_treasure, pools/treasure/mythical_adornments, pools/treasure/mythical_all, pools/treasure/mythical_charms, pools/treasure/mythical_treasure], chestResources=[chests/common/general_chest, chests/uncommon/general_chest, chests/scarce/general_chest, chests/rare/general_chest, chests/epic/general_chest, chests/legendary/general_chest, chests/mythical/general_chest], specialResources=[chests/special/black_pearl_well, chests/special/cauldron_chest, chests/special/crystal_skull_chest, chests/special/gold_skull_chest, chests/special/skull_chest, chests/special/white_pearl_well, chests/special/wither_chest], specialLootTableFolderLocations=[chests/special], chestLootTableFolderLocations=[chests/common, chests/uncommon, chests/scarce, chests/rare, chests/epic], supportingLootTableFolderLocatoins=[pools/armor, pools/food, pools/items, pools/potions, pools/tools, pools/treasure]]
+2024-01-25 03:15:24,735 [Server thread] WARN Treasure2 | TreasureLootTableRegistry.java:135 | adding mod to loaded mods list
+2024-01-25 03:15:24,780 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-25 03:15:24,781 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[structures/basic1.json, structures/basic2.json, structures/basic3.json, structures/basic4.json, structures/basic5.json, structures/beached-ship1.json, structures/beached-ship2.json, structures/beached-ship3.json, structures/blacksmith1.json, structures/castle1.json, structures/cave1.json, structures/cave2.json, structures/church1.json, structures/cobb1.json, structures/crypt1.json, structures/crypt2.json, structures/crypt3.json, structures/desert-tower2.json, structures/dingy1.json, structures/fortress1.json, structures/house1.json, structures/ionic1.json, structures/iron-chamber1.json, structures/iron-chamber2.json, structures/large-tower1.json, structures/mine1.json, structures/obsidian-chamber1.json, structures/pirate-chamber1.json, structures/sunken-ship1.json, structures/sunken-ship2.json, structures/sunken-ship3.json, structures/tower1.json, structures/tower2.json, structures/tower3.json, structures/tower4.json, structures/tower5.json, structures/underwater-ruins1.json, structures/underwater-ruins2.json, structures/underwater-ruins3.json, structures/wither-chamber1.json, structures/canopy-wishing-well1.json, structures/desert-wishing-well1.json, structures/desert-wishing-well2.json, structures/simple-well1.json, structures/wood-draw-wishing-well1.json], resourceFolderLocations=[chests, structures]]
+2024-01-25 03:15:24,783 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic1.json at ./world/data/meta/treasure2/structures/basic1.json but it doesn't exist.
+2024-01-25 03:15:24,801 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic2.json at ./world/data/meta/treasure2/structures/basic2.json but it doesn't exist.
+2024-01-25 03:15:24,802 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic3.json at ./world/data/meta/treasure2/structures/basic3.json but it doesn't exist.
+2024-01-25 03:15:24,809 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic4.json at ./world/data/meta/treasure2/structures/basic4.json but it doesn't exist.
+2024-01-25 03:15:24,809 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/basic5.json at ./world/data/meta/treasure2/structures/basic5.json but it doesn't exist.
+2024-01-25 03:15:24,809 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship1.json at ./world/data/meta/treasure2/structures/beached-ship1.json but it doesn't exist.
+2024-01-25 03:15:24,810 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship2.json at ./world/data/meta/treasure2/structures/beached-ship2.json but it doesn't exist.
+2024-01-25 03:15:24,811 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/beached-ship3.json at ./world/data/meta/treasure2/structures/beached-ship3.json but it doesn't exist.
+2024-01-25 03:15:24,811 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/blacksmith1.json at ./world/data/meta/treasure2/structures/blacksmith1.json but it doesn't exist.
+2024-01-25 03:15:24,811 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/castle1.json at ./world/data/meta/treasure2/structures/castle1.json but it doesn't exist.
+2024-01-25 03:15:24,812 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave1.json at ./world/data/meta/treasure2/structures/cave1.json but it doesn't exist.
+2024-01-25 03:15:24,812 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cave2.json at ./world/data/meta/treasure2/structures/cave2.json but it doesn't exist.
+2024-01-25 03:15:24,812 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/church1.json at ./world/data/meta/treasure2/structures/church1.json but it doesn't exist.
+2024-01-25 03:15:24,812 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/cobb1.json at ./world/data/meta/treasure2/structures/cobb1.json but it doesn't exist.
+2024-01-25 03:15:24,813 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt1.json at ./world/data/meta/treasure2/structures/crypt1.json but it doesn't exist.
+2024-01-25 03:15:24,813 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt2.json at ./world/data/meta/treasure2/structures/crypt2.json but it doesn't exist.
+2024-01-25 03:15:24,813 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/crypt3.json at ./world/data/meta/treasure2/structures/crypt3.json but it doesn't exist.
+2024-01-25 03:15:24,814 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-tower2.json at ./world/data/meta/treasure2/structures/desert-tower2.json but it doesn't exist.
+2024-01-25 03:15:24,814 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/dingy1.json at ./world/data/meta/treasure2/structures/dingy1.json but it doesn't exist.
+2024-01-25 03:15:24,814 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/fortress1.json at ./world/data/meta/treasure2/structures/fortress1.json but it doesn't exist.
+2024-01-25 03:15:24,815 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/house1.json at ./world/data/meta/treasure2/structures/house1.json but it doesn't exist.
+2024-01-25 03:15:24,815 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/ionic1.json at ./world/data/meta/treasure2/structures/ionic1.json but it doesn't exist.
+2024-01-25 03:15:24,815 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber1.json at ./world/data/meta/treasure2/structures/iron-chamber1.json but it doesn't exist.
+2024-01-25 03:15:24,815 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/iron-chamber2.json at ./world/data/meta/treasure2/structures/iron-chamber2.json but it doesn't exist.
+2024-01-25 03:15:24,816 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/large-tower1.json at ./world/data/meta/treasure2/structures/large-tower1.json but it doesn't exist.
+2024-01-25 03:15:24,816 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/mine1.json at ./world/data/meta/treasure2/structures/mine1.json but it doesn't exist.
+2024-01-25 03:15:24,816 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/obsidian-chamber1.json at ./world/data/meta/treasure2/structures/obsidian-chamber1.json but it doesn't exist.
+2024-01-25 03:15:24,816 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/pirate-chamber1.json at ./world/data/meta/treasure2/structures/pirate-chamber1.json but it doesn't exist.
+2024-01-25 03:15:24,817 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship1.json at ./world/data/meta/treasure2/structures/sunken-ship1.json but it doesn't exist.
+2024-01-25 03:15:24,825 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship2.json at ./world/data/meta/treasure2/structures/sunken-ship2.json but it doesn't exist.
+2024-01-25 03:15:24,825 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/sunken-ship3.json at ./world/data/meta/treasure2/structures/sunken-ship3.json but it doesn't exist.
+2024-01-25 03:15:24,825 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower1.json at ./world/data/meta/treasure2/structures/tower1.json but it doesn't exist.
+2024-01-25 03:15:24,826 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower2.json at ./world/data/meta/treasure2/structures/tower2.json but it doesn't exist.
+2024-01-25 03:15:24,826 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower3.json at ./world/data/meta/treasure2/structures/tower3.json but it doesn't exist.
+2024-01-25 03:15:24,826 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower4.json at ./world/data/meta/treasure2/structures/tower4.json but it doesn't exist.
+2024-01-25 03:15:24,827 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/tower5.json at ./world/data/meta/treasure2/structures/tower5.json but it doesn't exist.
+2024-01-25 03:15:24,827 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins1.json at ./world/data/meta/treasure2/structures/underwater-ruins1.json but it doesn't exist.
+2024-01-25 03:15:24,827 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins2.json at ./world/data/meta/treasure2/structures/underwater-ruins2.json but it doesn't exist.
+2024-01-25 03:15:24,827 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/underwater-ruins3.json at ./world/data/meta/treasure2/structures/underwater-ruins3.json but it doesn't exist.
+2024-01-25 03:15:24,828 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wither-chamber1.json at ./world/data/meta/treasure2/structures/wither-chamber1.json but it doesn't exist.
+2024-01-25 03:15:24,828 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/canopy-wishing-well1.json at ./world/data/meta/treasure2/structures/canopy-wishing-well1.json but it doesn't exist.
+2024-01-25 03:15:24,828 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well1.json at ./world/data/meta/treasure2/structures/desert-wishing-well1.json but it doesn't exist.
+2024-01-25 03:15:24,828 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/desert-wishing-well2.json at ./world/data/meta/treasure2/structures/desert-wishing-well2.json but it doesn't exist.
+2024-01-25 03:15:24,829 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/simple-well1.json at ./world/data/meta/treasure2/structures/simple-well1.json but it doesn't exist.
+2024-01-25 03:15:24,829 [Server thread] WARN Treasure2 | TreasureMetaManager.java:208 | expected to find meta treasure2:structures/wood-draw-wishing-well1.json at ./world/data/meta/treasure2/structures/wood-draw-wishing-well1.json but it doesn't exist.
+2024-01-25 03:15:24,831 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-25 03:15:24,832 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[submerged/dingy1.nbt, submerged/sunken-ship1.nbt, submerged/sunken-ship2.nbt, submerged/sunken-ship3.nbt, submerged/underwater-ruins1.nbt, submerged/underwater-ruins2.nbt, submerged/underwater-ruins3.nbt, subterranean/basic1.nbt, subterranean/basic2.nbt, subterranean/basic3.nbt, subterranean/basic4.nbt, subterranean/basic5.nbt, subterranean/cave1.nbt, subterranean/cave2.nbt, subterranean/cobb1.nbt, subterranean/crypt1.nbt, subterranean/ionic1.nbt, subterranean/iron-chamber1.nbt, subterranean/iron-chamber2.nbt, subterranean/mine1.nbt, subterranean/obsidian-chamber1.nbt, subterranean/pirate-chamber1.nbt, subterranean/wither-chamber1.nbt, surface/beached-ship1.nbt, surface/beached-ship2.nbt, surface/beached-ship3.nbt, surface/blacksmith1.nbt, surface/castle1.nbt, surface/church1.nbt, surface/crypt2.nbt, surface/crypt3.nbt, surface/desert-tower2.nbt, surface/fortress1.nbt, surface/house1.nbt, surface/large-tower1.nbt, surface/tower1.nbt, surface/tower2.nbt, surface/tower3.nbt, surface/tower4.nbt, surface/tower5.nbt, wells/canopy-wishing-well1.nbt, wells/desert-wishing-well1.nbt, wells/desert-wishing-well2.nbt, wells/simple-well1.nbt, wells/wood-draw-wishing-well1.nbt], resourceFolderLocations=[submerged, subterranean, surface, wells]]
+2024-01-25 03:15:25,034 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:50 | reading resources file from stream.
+2024-01-25 03:15:25,035 [Server thread] INFO Treasure2 | ITreasureResourceRegistry.java:71 | resources -> MetaResources [resources=[rulesets/aged_ruleset.json, rulesets/default_ruleset.json, rulesets/ruinous_ruleset.json], resourceFolderLocations=[]]
+2024-01-25 03:15:25,037 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/aged_ruleset.json at ./world/data/decay/treasure2/rulesets/aged_ruleset.json but it doesn't exist.
+2024-01-25 03:15:25,045 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/default_ruleset.json at ./world/data/decay/treasure2/rulesets/default_ruleset.json but it doesn't exist.
+2024-01-25 03:15:25,046 [Server thread] WARN Treasure2 | TreasureDecayManager.java:201 | Expected to find meta treasure2:rulesets/ruinous_ruleset.json at ./world/data/decay/treasure2/rulesets/ruinous_ruleset.json but it doesn't exist.
+2024-01-25 04:22:29,167 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 21688 64 -24744
+2024-01-25 04:22:30,021 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 21784 71 -24536
+2024-01-25 04:22:32,260 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 21992 63 -24360
+2024-01-25 04:22:34,867 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 21960 65 -24600
+2024-01-25 04:23:12,045 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 21816 72 -24616
+2024-01-25 04:23:12,510 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 21894 69 -24632
+2024-01-25 04:24:23,614 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -1192 87 1080
+2024-01-25 04:24:26,272 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1400 111 1048
+2024-01-25 04:24:28,575 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 21704 64 -24584
+2024-01-25 04:24:29,425 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1240 86 1016
+2024-01-25 04:25:02,213 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -1160 96 984
+2024-01-25 04:25:17,038 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1368 108 952
+2024-01-25 04:25:19,398 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1464 89 952
+2024-01-25 04:25:32,052 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1592 69 920
+2024-01-25 04:25:34,629 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -1352 77 824
+2024-01-25 04:25:39,258 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -1384 87 870
+2024-01-25 04:25:45,347 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -1560 70 840
+2024-01-25 04:25:50,563 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1432 72 776
+2024-01-25 04:25:58,026 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -1176 93 904
+2024-01-25 04:26:00,870 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1256 69 760
+2024-01-25 04:26:03,465 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1176 65 728
+2024-01-25 04:26:06,492 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1528 79 712
+2024-01-25 04:26:09,192 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1480 95 648
+2024-01-25 04:26:10,968 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -1192 66 648
+2024-01-25 04:26:57,866 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -1576 67 968
+2024-01-25 04:27:16,064 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1576 85 648
+2024-01-25 04:29:30,015 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1384 75 616
+2024-01-25 04:29:47,539 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -1640 64 696
+2024-01-25 04:30:29,124 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1288 75 600
+2024-01-25 04:38:57,179 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 22024 76 -24648
+2024-01-25 04:43:56,280 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1128 68 808
+2024-01-25 04:43:59,196 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1096 73 712
+2024-01-25 04:44:00,856 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1080 75 920
+2024-01-25 04:50:47,813 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 520 67 584
+2024-01-25 04:50:50,118 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 550 64 470
+2024-01-25 04:50:55,568 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 632 66 504
+2024-01-25 04:50:59,343 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 680 64 584
+2024-01-25 04:51:51,867 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 376 75 -120
+2024-01-25 04:51:56,656 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19048 70 -23304
+2024-01-25 04:51:57,635 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19112 72 -23256
+2024-01-25 04:51:58,844 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19096 66 -23160
+2024-01-25 04:52:00,622 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 19112 63 -23352
+2024-01-25 04:52:00,863 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 18870 71 -23290
+2024-01-25 04:52:01,701 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 18984 77 -23400
+2024-01-25 04:52:02,785 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 18872 69 -23400
+2024-01-25 04:52:03,634 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 360 70 -200
+2024-01-25 04:52:04,437 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 280 72 -216
+2024-01-25 04:52:05,274 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 18840 63 -23176
+2024-01-25 04:52:06,812 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 568 70 -248
+2024-01-25 04:52:07,572 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19064 71 -23432
+2024-01-25 04:52:28,570 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! RARE chest at coords: 19129 49 -23464
+2024-01-25 04:53:03,692 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 200 70 -120
+2024-01-25 04:53:05,351 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 184 70 -248
+2024-01-25 04:53:07,752 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 296 84 -296
+2024-01-25 04:53:11,422 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 424 70 -328
+2024-01-25 04:54:06,902 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 344 81 -376
+2024-01-25 04:54:11,695 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 408 76 -424
+2024-01-25 04:54:18,012 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: 19208 76 -23160
+2024-01-25 04:54:24,517 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19224 63 -23320
+2024-01-25 04:54:32,558 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 424 77 -584
+2024-01-25 04:54:36,307 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 344 71 -520
+2024-01-25 04:54:36,515 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 344 75 -474
+2024-01-25 04:54:43,432 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 360 96 -648
+2024-01-25 04:54:44,360 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 264 77 -616
+2024-01-25 04:54:46,956 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 248 64 -456
+2024-01-25 04:54:48,903 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 232 74 -376
+2024-01-25 04:55:02,011 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 168 63 -648
+2024-01-25 04:55:23,124 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 168 64 -456
+2024-01-25 04:55:28,347 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 120 67 -392
+2024-01-25 04:55:30,199 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 88 112 -600
+2024-01-25 04:55:31,033 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 88 71 -264
+2024-01-25 04:55:31,981 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 88 76 -232
+2024-01-25 04:55:33,241 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 56 63 -504
+2024-01-25 04:55:44,182 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -8 102 -680
+2024-01-25 04:56:19,686 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -24 67 -360
+2024-01-25 04:56:22,807 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -56 81 -552
+2024-01-25 04:56:23,971 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -88 64 -440
+2024-01-25 04:56:24,275 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -72 70 -296
+2024-01-25 04:56:28,513 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -8 72 -248
+2024-01-25 04:56:29,606 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -74 87 -232
+2024-01-25 04:56:30,053 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -168 63 -440
+2024-01-25 04:56:31,351 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -168 65 -344
+2024-01-25 04:56:33,534 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -216 87 -280
+2024-01-25 04:56:35,863 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -168 77 -184
+2024-01-25 04:56:37,366 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 24 85 -168
+2024-01-25 04:56:38,832 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -280 80 -216
+2024-01-25 04:56:40,016 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -56 75 -120
+2024-01-25 04:56:42,555 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 88 75 -104
+2024-01-25 04:56:43,856 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -42 82 -74
+2024-01-25 04:56:45,723 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -184 63 -40
+2024-01-25 04:56:47,701 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -88 78 -8
+2024-01-25 04:56:51,025 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -280 83 -56
+2024-01-25 04:56:52,703 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -8 72 8
+2024-01-25 04:56:53,811 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -344 78 -280
+2024-01-25 04:56:55,069 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -360 69 8
+2024-01-25 04:56:56,276 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -264 71 40
+2024-01-25 04:56:57,278 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -184 77 56
+2024-01-25 04:56:59,107 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -408 82 -232
+2024-01-25 04:57:01,669 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -328 68 120
+2024-01-25 04:57:02,739 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -216 64 136
+2024-01-25 04:57:04,671 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -168 71 168
+2024-01-25 04:57:09,787 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -280 53 264
+2024-01-25 04:58:09,268 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 19304 66 -23368
+2024-01-25 04:58:14,917 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 19336 64 -23288
+2024-01-25 04:58:17,050 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! LEGENDARY chest at coords: 19232 48 -23480
+2024-01-25 04:58:17,227 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 19320 64 -23496
+2024-01-25 05:01:08,099 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19400 66 -23144
+2024-01-25 05:02:13,860 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19272 64 -23064
+2024-01-25 05:02:14,036 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 19176 79 -23064
+2024-01-25 05:02:30,791 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19144 64 -23016
+2024-01-25 05:03:24,653 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 19224 69 -23000
+2024-01-25 05:03:29,213 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19480 71 -23208
+2024-01-25 05:04:32,854 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19496 63 -23016
+2024-01-25 05:04:42,845 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -120 77 616
+2024-01-25 05:10:28,003 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -120 71 696
+2024-01-25 05:10:55,661 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19320 69 -22936
+2024-01-25 05:12:00,437 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 19576 68 -23240
+2024-01-25 05:12:00,513 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19576 70 -23032
+2024-01-25 05:12:09,699 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 19576 70 -22952
+2024-01-25 05:12:15,469 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19400 70 -22904
+2024-01-25 05:12:17,015 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: 19619 45 -23118
+2024-01-25 05:12:22,530 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19688 72 -23016
+2024-01-25 05:12:45,407 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19528 83 -23352
+2024-01-25 05:12:52,855 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 19400 72 -23416
+2024-01-25 05:12:57,500 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! EPIC chest at coords: 19720 47 -23272
+2024-01-25 05:13:16,369 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 19512 66 -23448
+2024-01-25 05:13:40,811 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19576 70 -23496
+2024-01-25 05:13:44,608 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 19462 68 -23514
+2024-01-25 05:13:45,615 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 19416 75 -23528
+2024-01-25 05:13:50,189 [Server thread] WARN Treasure2 | StructurePitGenerator.java:103 | Exiting: Unable to locate cavern ceiling.
+2024-01-25 05:13:50,246 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 19624 69 -23576
+2024-01-25 05:14:00,061 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 392 79 712
+2024-01-25 05:14:02,643 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19448 72 -23608
+2024-01-25 05:14:10,348 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 19336 74 -23640
+2024-01-25 05:14:13,573 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 19544 75 -23656
+2024-01-25 05:14:19,177 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 152 83 776
+2024-01-25 05:14:26,944 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 200 88 856
+2024-01-25 05:14:34,546 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 24 79 792
+2024-01-25 05:14:36,134 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 6 88 840
+2024-01-25 05:14:58,016 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -88 70 856
+2024-01-25 05:15:10,194 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -168 68 824
+2024-01-25 05:15:13,259 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -216 64 888
+2024-01-25 05:15:21,258 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -280 72 728
+2024-01-25 05:15:24,852 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -312 64 872
+2024-01-25 05:15:28,123 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -360 68 808
+2024-01-25 05:15:29,990 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -376 70 1000
+2024-01-25 05:15:30,762 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -394 65 934
+2024-01-25 05:15:32,580 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -408 76 728
+2024-01-25 05:15:36,328 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -440 70 856
+2024-01-25 05:15:46,292 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -472 69 1032
+2024-01-25 05:16:00,145 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -376 64 1080
+2024-01-25 05:16:03,087 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -568 78 840
+2024-01-25 05:16:07,602 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -472 64 1112
+2024-01-25 05:16:17,606 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -616 75 936
+2024-01-25 05:16:17,639 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -616 84 968
+2024-01-25 05:16:25,863 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -680 87 984
+2024-01-25 05:17:25,924 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -120 71 1320
+2024-01-25 05:17:34,580 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -72 64 1224
+2024-01-25 05:18:10,461 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -280 67 584
+2024-01-25 05:18:28,681 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -296 63 376
+2024-01-25 05:18:41,015 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -248 88 646
+2024-01-25 05:18:41,017 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -248 89 648
+2024-01-25 05:21:38,848 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -312 80 1752
+2024-01-25 05:21:47,751 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -56 63 1496
+2024-01-25 05:21:49,920 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -24 63 1656
+2024-01-25 05:21:53,538 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 24 64 1464
+2024-01-25 05:22:08,932 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -152 76 1800
+2024-01-25 05:22:18,220 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -234 85 1830
+2024-01-25 05:22:21,859 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 56 69 1800
+2024-01-25 05:22:23,911 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 8 64 1864
+2024-01-25 05:22:25,778 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -88 73 1880
+2024-01-25 05:22:46,544 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 104 108 1608
+2024-01-25 05:22:58,976 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -248 69 1960
+2024-01-25 05:23:07,659 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -296 71 1880
+2024-01-25 05:23:13,120 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -72 64 1992
+2024-01-25 05:23:20,831 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -56 80 2022
+2024-01-25 05:23:20,890 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 8 87 2024
+2024-01-25 05:23:57,234 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -248 73 2072
+2024-01-25 05:24:13,829 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -136 77 2104
+2024-01-25 05:24:15,386 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -328 64 2120
+2024-01-25 05:24:19,314 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -376 78 1864
+2024-01-25 05:24:29,363 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -248 67 2184
+2024-01-25 05:24:48,243 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -56 66 2216
+2024-01-25 05:24:50,628 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -392 66 2024
+2024-01-25 05:24:52,220 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -376 68 2246
+2024-01-25 05:24:52,510 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -168 64 2248
+2024-01-25 05:24:57,643 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -360 69 2264
+2024-01-25 05:25:03,444 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -14984 74 -9704
+2024-01-25 05:25:04,491 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15112 67 -9752
+2024-01-25 05:25:05,501 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -15032 68 -9576
+2024-01-25 05:25:06,591 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -14984 64 -9800
+2024-01-25 05:25:07,618 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15112 69 -9576
+2024-01-25 05:25:08,343 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -15176 63 -9672
+2024-01-25 05:25:08,954 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -14888 63 -9608
+2024-01-25 05:25:09,323 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -14938 63 -9544
+2024-01-25 05:25:09,530 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -14904 68 -9800
+2024-01-25 05:25:10,335 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15192 76 -9576
+2024-01-25 05:25:12,227 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -504 72 2232
+2024-01-25 05:25:18,248 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -472 67 2088
+2024-01-25 05:25:21,950 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -280 71 2280
+2024-01-25 05:25:27,161 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -456 64 2328
+2024-01-25 05:25:30,433 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -184 68 2344
+2024-01-25 05:25:40,801 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -328 64 2376
+2024-01-25 05:25:42,597 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -218 71 2392
+2024-01-25 05:26:08,633 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -15224 64 -9768
+2024-01-25 05:26:13,632 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 24 63 2248
+2024-01-25 05:26:16,358 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 40 66 2424
+2024-01-25 05:26:29,715 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15128 81 -9864
+2024-01-25 05:26:32,606 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 72 76 2184
+2024-01-25 05:26:36,707 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -14936 64 -9912
+2024-01-25 05:26:38,411 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 88 65 2360
+2024-01-25 05:26:42,644 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -15288 67 -9770
+2024-01-25 05:26:42,802 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -15288 63 -9704
+2024-01-25 05:26:45,047 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15272 71 -9560
+2024-01-25 05:26:51,487 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15336 72 -9912
+2024-01-25 05:26:54,423 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -15128 71 -9944
+2024-01-25 05:26:57,004 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -15224 71 -9976
+2024-01-25 05:26:59,246 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 136 89 2120
+2024-01-25 05:27:00,850 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15352 69 -10008
+2024-01-25 05:27:03,824 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 184 65 2280
+2024-01-25 05:27:06,742 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -15016 67 -10024
+2024-01-25 05:27:13,637 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -15290 71 -10040
+2024-01-25 05:27:19,683 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15368 72 -9832
+2024-01-25 05:27:23,513 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 216 64 2408
+2024-01-25 05:28:02,256 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 152 73 2504
+2024-01-25 05:28:05,658 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 40 74 2520
+2024-01-25 05:28:18,552 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 232 65 2184
+2024-01-25 05:28:36,567 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 216 72 2104
+2024-01-25 05:28:41,668 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 328 69 2344
+2024-01-25 05:29:40,426 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -15032 68 -10072
+2024-01-25 05:34:45,031 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 8 93 2088
+2024-01-25 05:34:50,306 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 136 79 2040
+2024-01-25 05:34:55,659 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 88 63 1976
+2024-01-25 05:35:05,446 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23272 64 -13416
+2024-01-25 05:35:06,300 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23400 86 -13480
+2024-01-25 05:35:07,134 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: 23320 66 -13352
+2024-01-25 05:35:07,234 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 23336 71 -13560
+2024-01-25 05:35:08,546 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 23416 104 -13368
+2024-01-25 05:35:08,808 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 23334 77 -13320
+2024-01-25 05:35:10,637 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23240 71 -13592
+2024-01-25 05:35:11,453 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23160 75 -13336
+2024-01-25 05:35:33,460 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -392 79 1912
+2024-01-25 05:35:45,382 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23096 63 -13592
+2024-01-25 05:36:16,798 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23080 77 -13304
+2024-01-25 05:36:36,977 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 23240 86 -13272
+2024-01-25 05:36:44,353 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -762 77 1894
+2024-01-25 05:37:00,284 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -728 63 1496
+2024-01-25 05:37:04,572 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23368 110 -13256
+2024-01-25 05:38:04,044 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 23224 114 -13192
+2024-01-25 05:39:02,890 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -904 63 1528
+2024-01-25 05:39:41,071 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23288 88 -13144
+2024-01-25 05:39:44,240 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23432 93 -13128
+2024-01-25 05:39:53,021 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23336 79 -13080
+2024-01-25 05:39:58,938 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 23256 106 -13048
+2024-01-25 05:40:06,070 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 23256 72 -13032
+2024-01-25 05:40:20,745 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 23128 63 -13000
+2024-01-25 05:40:25,102 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23448 75 -13016
+2024-01-25 05:40:31,487 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23112 69 -13112
+2024-01-25 05:40:39,730 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23464 76 -13240
+2024-01-25 05:40:44,085 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23496 63 -13080
+2024-01-25 05:40:52,762 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23528 64 -12968
+2024-01-25 05:40:58,779 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23464 63 -12888
+2024-01-25 05:40:58,792 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 23480 63 -12888
+2024-01-25 05:41:07,734 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 23288 70 -12856
+2024-01-25 05:41:24,815 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 23592 63 -13032
+2024-01-25 05:41:51,292 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -824 80 1448
+2024-01-25 05:42:03,495 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -728 93 1400
+2024-01-25 05:42:10,285 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23672 65 -13064
+2024-01-25 05:42:17,307 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 23624 69 -13160
+2024-01-25 05:43:54,672 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 23654 68 -13192
+2024-01-25 05:48:09,131 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 23704 69 -13176
+2024-01-25 05:49:15,343 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 23720 65 -12888
+2024-01-25 05:53:45,074 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 11288 66 9384
+2024-01-25 05:53:45,995 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11256 70 9464
+2024-01-25 05:53:46,626 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11368 64 9512
+2024-01-25 05:53:47,291 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11432 65 9384
+2024-01-25 05:53:47,932 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11208 68 9352
+2024-01-25 05:53:48,771 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 11256 81 9288
+2024-01-25 05:53:49,392 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11352 74 9272
+2024-01-25 05:53:50,158 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 11206 72 9302
+2024-01-25 05:53:50,349 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11176 73 9496
+2024-01-25 05:53:51,209 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 11160 77 9288
+2024-01-25 05:53:52,020 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: 11464 77 9256
+2024-01-25 05:53:56,889 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 11112 63 9400
+2024-01-25 05:54:04,891 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 11112 64 9224
+2024-01-25 05:59:33,194 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13000 66 -18488
+2024-01-25 05:59:33,842 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -13048 75 -18424
+2024-01-25 05:59:34,754 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -12872 70 -18408
+2024-01-25 05:59:35,122 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -12970 73 -18328
+2024-01-25 05:59:36,281 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -12888 63 -18536
+2024-01-25 05:59:36,943 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13000 63 -18600
+2024-01-25 05:59:37,472 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13064 68 -18328
+2024-01-25 05:59:38,721 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13096 65 -18552
+2024-01-25 05:59:39,296 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -12808 67 -18568
+2024-01-25 05:59:45,069 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -12792 65 -18456
+2024-01-25 05:59:45,332 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -12792 70 -18328
+2024-01-25 05:59:47,052 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -12824 78 -18648
+2024-01-25 05:59:51,182 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -12874 65 -18682
+2024-01-25 05:59:51,327 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13096 91 -18680
+2024-01-25 06:00:45,646 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1064 64 -23496
+2024-01-25 06:00:46,744 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1080 65 -23592
+2024-01-25 06:00:47,472 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -952 63 -23624
+2024-01-25 06:00:48,491 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -904 66 -23432
+2024-01-25 06:00:49,781 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -1032 66 -23672
+2024-01-25 06:00:50,462 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -888 65 -23640
+2024-01-25 06:00:51,398 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1144 63 -23656
+2024-01-25 06:00:52,061 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -856 64 -23688
+2024-01-25 06:00:57,194 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -13176 72 -18712
+2024-01-25 06:01:08,616 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1096 66 -23352
+2024-01-25 06:01:37,925 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1192 86 -23352
+2024-01-25 06:01:41,553 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -12920 64 -18760
+2024-01-25 06:01:46,526 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -13176 73 -18808
+2024-01-25 06:01:46,789 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -13064 68 -18792
+2024-01-25 06:01:55,067 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -1274 63 -23466
+2024-01-25 06:01:58,478 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -1240 63 -23704
+2024-01-25 06:02:10,886 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -1144 64 -23736
+2024-01-25 06:02:19,389 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -1064 69 -23768
+2024-01-25 06:02:21,710 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13096 68 -18872
+2024-01-25 06:02:23,502 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -984 65 -23800
+2024-01-25 06:02:25,914 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -13000 72 -18856
+2024-01-25 06:02:27,259 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -12920 65 -18872
+2024-01-25 06:02:28,804 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -13194 66 -18890
+2024-01-25 06:02:29,604 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13256 68 -18856
+2024-01-25 06:02:33,902 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13144 67 -18936
+2024-01-25 06:02:50,301 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -1096 78 -23848
+2024-01-25 06:03:03,291 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -968 77 -23880
+2024-01-25 06:03:09,944 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 14056 79 30024
+2024-01-25 06:03:10,893 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 13928 68 30040
+2024-01-25 06:03:11,881 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: 14040 71 30136
+2024-01-25 06:03:12,575 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 14104 82 29960
+2024-01-25 06:03:13,274 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 13910 63 30120
+2024-01-25 06:03:13,890 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 14152 66 30024
+2024-01-25 06:03:15,024 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 13880 66 30152
+2024-01-25 06:03:15,942 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 14168 73 30104
+2024-01-25 06:03:16,757 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13016 69 -18952
+2024-01-25 06:03:17,754 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 14168 67 30200
+2024-01-25 06:03:26,912 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13304 72 -19000
+2024-01-25 06:03:44,515 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 13832 69 29928
+2024-01-25 06:04:01,052 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: 13960 68 30232
+2024-01-25 06:04:35,199 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 13880 69 30264
+2024-01-25 06:04:35,433 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: 14056 72 30262
+2024-01-25 06:04:39,903 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 14104 78 30280
+2024-01-25 06:06:30,687 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: 13800 69 30136
+2024-01-25 06:06:35,270 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: 13800 69 30264
+2024-01-25 06:06:48,411 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -13352 64 -18648
+2024-01-25 06:07:00,511 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13336 69 -18760
+2024-01-25 06:07:12,035 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -13256 70 -18536
+2024-01-25 06:07:31,213 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: 14120 92 30360
+2024-01-25 06:07:33,908 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -13320 70 -18456
+2024-01-25 06:07:38,804 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -13352 71 -18504
+2024-01-25 06:07:48,196 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13368 68 -18568
+2024-01-25 06:08:07,587 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: 14024 80 30376
+2024-01-25 06:08:16,000 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13400 70 -18456
+2024-01-25 06:08:41,803 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -13448 70 -18680
+2024-01-25 06:08:45,366 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13448 68 -18824
+2024-01-25 06:09:52,332 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13400 66 -18968
+2024-01-25 06:10:00,034 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13480 66 -18952
+2024-01-25 06:10:07,081 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13544 63 -18712
+2024-01-25 06:10:08,798 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -13544 64 -18842
+2024-01-25 06:10:10,245 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13560 64 -18808
+2024-01-25 06:10:29,324 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13160 70 -19016
+2024-01-25 06:10:33,815 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13240 63 -19048
+2024-01-25 06:11:36,541 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -12936 64 -19000
+2024-01-25 06:13:15,486 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -12952 89 -19080
+2024-01-25 06:15:19,345 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -13336 69 -19144
+2024-01-25 06:15:33,167 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -13448 73 -19128
+2024-01-25 06:15:36,841 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -13144 64 -19178
+2024-01-25 06:15:36,841 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -13144 65 -19176
+2024-01-25 06:19:33,443 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -13496 69 -19064
+2024-01-25 06:19:40,486 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -13576 66 -19048
+2024-01-25 06:19:52,741 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -10472 80 18744
+2024-01-25 06:19:53,347 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10360 74 18888
+2024-01-25 06:19:54,962 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -10312 72 18808
+2024-01-25 06:19:55,775 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10360 74 19000
+2024-01-25 06:19:56,597 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -10216 80 18968
+2024-01-25 06:19:57,384 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -10440 64 18840
+2024-01-25 06:19:58,236 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -10456 68 18936
+2024-01-25 06:19:58,572 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -10280 70 18760
+2024-01-25 06:19:58,983 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10168 92 18872
+2024-01-25 06:19:59,789 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -10216 68 18760
+2024-01-25 06:20:01,113 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10488 73 19048
+2024-01-25 06:22:19,630 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -10360 67 18696
+2024-01-25 06:22:40,540 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -10520 77 18840
+2024-01-25 06:22:42,185 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10232 68 18664
+2024-01-25 06:22:44,634 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -10536 65 18696
+2024-01-25 06:22:45,473 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -10360 72 18616
+2024-01-25 06:22:51,710 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -10536 66 18582
+2024-01-25 06:22:53,406 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10440 64 18584
+2024-01-25 06:22:58,036 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -10296 81 18552
+2024-01-25 06:23:58,350 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -10584 67 18568
+2024-01-25 06:24:14,610 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -10584 65 18904
+2024-01-25 06:24:32,694 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -15496 69 5304
+2024-01-25 06:24:34,507 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15448 84 5384
+2024-01-25 06:24:36,551 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -15496 71 5448
+2024-01-25 06:24:37,044 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! SCARCE chest at coords: -15656 35 5320
+2024-01-25 06:24:39,015 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -15368 72 5352
+2024-01-25 06:24:40,378 [Server thread] INFO Treasure2 | SubmergedChestWorldGenerator.java:307 | CHEATER! RARE chest at coords: -15640 45 5410
+2024-01-25 06:24:40,951 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -15352 78 5272
+2024-01-25 06:24:42,607 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3368 67 -25304
+2024-01-25 06:24:43,152 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3336 69 -25274
+2024-01-25 06:24:43,952 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3416 69 -25240
+2024-01-25 06:24:44,687 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3432 89 -25400
+2024-01-25 06:24:45,423 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -3272 94 -25336
+2024-01-25 06:24:46,063 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3336 65 -25192
+2024-01-25 06:24:47,793 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3512 89 -25304
+2024-01-25 06:24:48,924 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3272 87 -25432
+2024-01-25 06:24:49,541 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3480 64 -25464
+2024-01-25 06:24:50,164 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3208 65 -25144
+2024-01-25 06:24:53,761 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3192 93 -25274
+2024-01-25 06:25:00,116 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3336 63 -25112
+2024-01-25 06:25:09,972 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3176 88 -25448
+2024-01-25 06:25:49,301 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3144 89 -25224
+2024-01-25 06:26:06,148 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -3128 97 -25384
+2024-01-25 06:26:20,156 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3096 94 -25480
+2024-01-25 06:27:45,709 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3400 88 -25512
+2024-01-25 06:28:08,355 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3144 72 -25544
+2024-01-25 06:28:21,884 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3336 91 -25608
+2024-01-25 06:28:51,221 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3066 88 -25320
+2024-01-25 06:28:52,455 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3048 64 -25544
+2024-01-25 06:29:09,536 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -3240 93 -25640
+2024-01-25 06:33:09,305 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3128 88 -25640
+2024-01-25 06:33:32,465 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -3016 88 -25656
+2024-01-25 06:33:46,484 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3304 77 -25704
+2024-01-25 06:33:59,256 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3144 88 -25768
+2024-01-25 06:34:00,882 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3304 92 -25816
+2024-01-25 06:34:01,641 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3000 67 -25784
+2024-01-25 06:34:02,988 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -2970 89 -25658
+2024-01-25 06:34:05,610 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -3224 85 -25816
+2024-01-25 06:34:08,384 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3096 70 -25848
+2024-01-25 06:34:11,978 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3032 67 -25896
+2024-01-25 06:34:16,213 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2936 69 -25864
+2024-01-25 06:34:16,216 [Server thread] INFO Treasure2 | WitherTreeWorldGenerator.java:354 | CHEATER! wither chest at coords: -2936 63 -25848
+2024-01-25 06:34:20,187 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -2904 88 -25704
+2024-01-25 06:36:43,186 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3176 87 -25896
+2024-01-25 06:36:45,133 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -2888 74 -25928
+2024-01-25 06:37:09,910 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3112 91 -25960
+2024-01-25 06:37:16,715 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3192 78 -25946
+2024-01-25 06:37:24,105 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3000 91 -25992
+2024-01-25 06:37:54,480 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -2872 66 -26008
+2024-01-25 06:38:09,123 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3112 72 -26040
+2024-01-25 06:38:46,814 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3032 88 -26104
+2024-01-25 06:39:26,548 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! MYTHICAL chest at coords: -3192 64 -26152
+2024-01-25 06:39:46,155 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3048 86 -26184
+2024-01-25 06:40:31,627 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -2920 88 -26184
+2024-01-25 06:40:52,648 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3256 64 -25992
+2024-01-25 06:40:57,370 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3272 64 -25880
+2024-01-25 06:40:58,861 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3288 63 -26152
+2024-01-25 06:41:28,406 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3320 92 -25896
+2024-01-25 06:42:06,919 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3368 67 -26120
+2024-01-25 06:44:21,489 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3368 71 -25992
+2024-01-25 06:48:13,380 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3384 67 -26200
+2024-01-25 06:48:14,852 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3128 67 -26216
+2024-01-25 06:48:18,814 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3416 84 -25912
+2024-01-25 06:48:32,135 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3480 69 -26232
+2024-01-25 06:48:49,775 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -3496 72 -26104
+2024-01-25 06:49:00,100 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3528 76 -25992
+2024-01-25 06:49:06,008 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3546 66 -26200
+2024-01-25 06:49:10,061 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3576 70 -26216
+2024-01-25 06:49:24,383 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -3592 68 -26104
+2024-01-25 06:49:36,984 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3640 65 -26168
+2024-01-25 06:49:55,827 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3656 65 -26296
+2024-01-25 06:49:57,541 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3416 66 -26312
+2024-01-25 06:49:59,342 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3336 72 -26328
+2024-01-25 06:50:02,070 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3560 64 -26360
+2024-01-25 06:50:04,132 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3480 63 -26392
+2024-01-25 06:50:04,180 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3498 63 -26410
+2024-01-25 06:50:08,920 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -3272 83 -26248
+2024-01-25 06:50:31,086 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3224 64 -26328
+2024-01-25 06:50:36,314 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3112 64 -26296
+2024-01-25 06:50:53,323 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3176 72 -26392
+2024-01-25 06:51:02,408 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3256 65 -26424
+2024-01-25 06:51:09,786 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3128 85 -26456
+2024-01-25 06:51:13,466 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3048 71 -26232
+2024-01-25 06:51:38,655 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3000 71 -26408
+2024-01-25 06:51:44,259 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2936 75 -26360
+2024-01-25 06:51:44,425 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -2952 92 -26250
+2024-01-25 06:51:46,564 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2936 89 -26280
+2024-01-25 06:51:48,445 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3224 63 -26520
+2024-01-25 06:51:49,342 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -2920 65 -26520
+2024-01-25 06:51:55,886 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3080 64 -26568
+2024-01-25 06:52:00,568 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2984 66 -26584
+2024-01-25 06:52:04,439 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -2840 64 -26584
+2024-01-25 06:52:09,390 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2968 67 -26680
+2024-01-25 06:57:22,183 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -2810 67 -26634
+2024-01-25 06:57:22,515 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -2808 93 -26376
+2024-01-25 06:58:57,893 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2888 70 -26728
+2024-01-25 06:59:19,296 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -2776 64 -26536
+2024-01-25 06:59:41,179 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -2760 69 -26696
+2024-01-25 06:59:58,691 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3080 75 -26776
+2024-01-25 07:00:01,544 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -2824 70 -26808
+2024-01-25 07:00:13,137 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -2920 67 -26824
+2024-01-25 07:00:20,838 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3176 71 -26792
+2024-01-25 07:00:25,641 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3210 73 -26760
+2024-01-25 07:00:31,517 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3176 68 -26648
+2024-01-25 07:00:39,319 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3048 71 -26856
+2024-01-25 07:00:44,769 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3112 67 -26920
+2024-01-25 07:01:28,393 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -2872 67 -26904
+2024-01-25 07:01:33,123 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -3000 65 -26936
+2024-01-25 07:01:42,658 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -3192 69 -26952
+2024-01-25 07:01:47,370 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3032 70 -27016
+2024-01-25 07:01:52,056 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! EPIC chest at coords: -3128 71 -27048
+2024-01-25 07:02:00,204 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3210 68 -27018
+2024-01-25 07:02:05,504 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -2920 63 -27096
+2024-01-25 07:02:11,266 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! LEGENDARY chest at coords: -3144 70 -27128
+2024-01-25 07:02:20,018 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3208 66 -27176
+2024-01-25 07:02:25,350 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3016 64 -27192
+2024-01-25 07:02:32,747 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3160 64 -27256
+2024-01-25 07:02:40,235 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! SCARCE chest at coords: -2824 90 -26280
+2024-01-25 07:02:48,684 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3240 63 -26552
+2024-01-25 07:02:52,098 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3288 70 -26632
+2024-01-25 07:02:54,308 [Server thread] INFO Treasure2 | WellGenerator.java:123 | CHEATER! Wishing Well at coords: -3272 67 -26712
+2024-01-25 07:02:54,988 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! COMMON chest at coords: -3320 68 -26520
+2024-01-25 07:02:58,000 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! UNCOMMON chest at coords: -3368 83 -26632
+2024-01-25 07:03:00,107 [Server thread] INFO Treasure2 | SurfaceChestWorldGenerator.java:390 | CHEATER! RARE chest at coords: -3384 91 -26488

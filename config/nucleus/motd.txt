@@ -1,10 +1,12 @@
 &eWelcome to the server!
-New updates 2.0 (23/01/2024):
+New updates 3.0 (24/01/2024):
 - Fix mở PC ở spawn
 - Cập nhật rank
 - Fix ultimate spawn change
 - Add change dan raid
 - Remove food consumption
 - Fix kit start
-- Fix /sethome /feed /heal có tính phí 20 pixelcoin (pc)
+- Fix /sethome /feed /heal có tính phí 20 pokecoin (pc)
 - Tăng exp pokemon battle +30%
+- Fix Villager Quests spawn
+- Thêm làng nhiệm vụ edenburg
