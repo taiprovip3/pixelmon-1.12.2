@@ -22,10 +22,16 @@
     "PlayerCompanionId": 0,
     "DialogData": [
         {
+            "Dialog": 4
+        },
+        {
             "Dialog": 5
         },
         {
             "Dialog": 6
+        },
+        {
+            "Dialog": 7
         },
         {
             "Dialog": 9

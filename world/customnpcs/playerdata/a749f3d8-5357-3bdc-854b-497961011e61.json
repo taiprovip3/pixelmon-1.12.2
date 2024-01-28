@@ -10,6 +10,90 @@
         }
     ],
     "BankData": [
+        {
+            "BankInv": [
+                {
+                    "BankItems": {
+                        "NpcMiscInv": [
+                            {
+                                "Slot": 0b,
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "customnpcs:npcwand",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ]
+                    },
+                    "Slot": 0
+                },
+                {
+                    "BankItems": {
+                        "NpcMiscInv": [
+                        ]
+                    },
+                    "Slot": 1
+                },
+                {
+                    "BankItems": {
+                        "NpcMiscInv": [
+                        ]
+                    },
+                    "Slot": 2
+                },
+                {
+                    "BankItems": {
+                        "NpcMiscInv": [
+                        ]
+                    },
+                    "Slot": 3
+                },
+                {
+                    "BankItems": {
+                        "NpcMiscInv": [
+                        ]
+                    },
+                    "Slot": 4
+                },
+                {
+                    "BankItems": {
+                        "NpcMiscInv": [
+                        ]
+                    },
+                    "Slot": 5
+                }
+            ],
+            "UpdatedSlots": [
+                {
+                    "Slot": 0,
+                    "Boolean": 1b
+                },
+                {
+                    "Slot": 1,
+                    "Boolean": 1b
+                },
+                {
+                    "Slot": 2,
+                    "Boolean": 0b
+                },
+                {
+                    "Slot": 3,
+                    "Boolean": 0b
+                },
+                {
+                    "Slot": 4,
+                    "Boolean": 0b
+                },
+                {
+                    "Slot": 5,
+                    "Boolean": 0b
+                }
+            ],
+            "DataBankId": 0,
+            "UnlockedSlots": 2
+        }
     ],
     "ItemGiversList": [
     ],

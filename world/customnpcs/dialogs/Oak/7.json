@@ -32,6 +32,7 @@
     "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
+    "DialogSound": "thermalexpansion:machine_smelter",
     "AvailabilityFactionId": -1,
     "AvailabilityFaction2Stance": 0,
     "DialogCommand": "",
@@ -59,7 +60,7 @@ Vào xem nhé!",
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1705727046251L,
+        "TimePast": 1706330867956L,
         "Time": 0L,
         "Subject": ""
     }

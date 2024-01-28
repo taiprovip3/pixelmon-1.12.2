@@ -52,6 +52,7 @@ https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
 * Lệnh tiện ích khác:
 /tpa: gửi yêu cầu dịch chuyển tới bạn bè
 /tpaccept or /tpdeny: chấp nhận or hủy yêu cầu
+/tpaskall: mời mọi người tới chỗ bạn
 /back: quay lại điểm vừa dịch chuyển hoặc chết
 /warps: xem danh sách tất cả warp
     * /warp adventure: đến thế giới phiêu lưu
@@ -60,11 +61,14 @@ https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
     * /warp vshop/vshop2: đến nhanh khu shop bán
     * /warp eden: đến ngôi làng edenburg làm nhiệm vụ
     * /warp crate: đến khu quay rương thưởng
-    (/warp list có thể click vào chat tên warp để dịch chuyển nhanh)
+    * /warp tutor: đến khu npc trao đổi skill pkm
+    * /warp relearner: đến gặp lão già truyền thuyết học skill pkm mới
+    (/warps có thể click vào chat tên warp để dịch chuyển nhanh)
 /sethome: đặt điểm sao lưu
 /home: đến điểm sao lưu
 /spawn đến điểm spawn các world
-/endbattle: kết thúc trận pokemon",
+/endbattle: kết thúc trận pokemon
+/pokeheal: hồi máu tất cả pkm",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -81,7 +85,7 @@ https://ore.spongepowered.org/blood/GriefPrevention/pages/Commands
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1706157834744L,
+        "TimePast": 1706323724241L,
         "Time": 0L,
         "Subject": ""
     }

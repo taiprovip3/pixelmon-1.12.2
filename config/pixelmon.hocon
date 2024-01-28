@@ -59,7 +59,7 @@ Battle {
         40
     ]
     # Multiplier for experience gained in Pokémon battles.
-    expModifier=1.5
+    expModifier=2
     # What will happen if a battle is force-ended without a proper conclusion. 0: A winner is determined based on the number of remaining Pokémon (with % HP as a tiebreaker). 1: The battle is considered a draw. 2: The battle is considered abnormally ended.
     forceEndBattleResult=0
     # Whether G-Max Gold Rush will award extra PokéDollars when used.
@@ -459,7 +459,7 @@ Pokerus {
 # Settings that alter how quests function.
 Quests {
     # The maximum distance a player can get before a quest can be found on a new NPC if not taken.
-    questMaxRange=500
+    questMaxRange=200
     # Whether to let NPCs be randomly assigned quests or not. This does not affect quests that have already been started.
     questRandomNPCs=true
 }
@@ -649,11 +649,11 @@ Spawning {
     # Forces wild Pokémon to despawn after a battle.
     despawnOnFleeOrLoss=false
     # Displays server-wide announcement 'A Legendary has spawned in <name> biome' when a Legendary spawns.
-    displayLegendaryGlobalMessage=true
+    displayLegendaryGlobalMessage=false
     # Number of blocks for a level increase when Spawn Levels By Distance enabled.
     distancePerLevel=30
     # Displays server-wide announcement 'A Legendary has spawned in a Max Raid Den in a <name> biome' when a Legendary spawns in one.
-    doLegendaryRaidEvent=true
+    doLegendaryRaidEvent=false
     # The maximum number of entities (NPC or Pokémon) that can spawn per player. Lower for better performance.
     entitiesPerPlayer=45
     # Chance of a wild Pokémon spawning with the Gigantamax Factor (1/rate). 0 disables Gigantamax Factor spawns.
@@ -671,7 +671,7 @@ Spawning {
     # Number of ticks until legendaries will despawn.
     legendaryDespawnTicks=10000
     # Chance that a Legendary spawn attempt will succeed (0-1).
-    legendarySpawnChance=0.15000000596046448
+    legendarySpawnChance=0.20000000298023224
     # Average number of ticks before an attempt at Legendary spawning will be made (modified by spawn chance).
     legendarySpawnTicks=72000
     # Which types of loot, such as "simple_dungeon", that Pixelmon should not modify.

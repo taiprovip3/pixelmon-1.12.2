@@ -3,22 +3,22 @@
   "invulnerable": false,
   "vanish": false,
   "kitLastUsedTime": {
-    "online": 1706067870
+    "online": 1706189541
   },
   "jailOnNextLogin": false,
   "fly": false,
   "lastKnownName": "phantantri",
   "lastLocation": {
-    "x": 224.96841476786432,
-    "y": 76.50095071238164,
-    "z": 250.28086620978988,
+    "x": 101.03642890875174,
+    "y": 9.0,
+    "z": 226.30000001192093,
     "rotx": 0.0,
     "roty": 0.0,
     "rotz": 0.0,
     "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
   },
-  "lastLogin": 1706067870699,
-  "lastLogout": 1706067890458,
+  "lastLogin": 1706189541631,
+  "lastLogout": 1706190819510,
   "lastIP": "/116.108.2.145",
   "firstJoin": 1705990993110,
   "startedFirstJoin": false,
@@ -35,8 +35,7 @@
     }
   },
   "warnings": [],
-  "notes": [],
   "mail": [],
   "ignoreList": [],
-  "powertools": {}
+  "notes": []
 }

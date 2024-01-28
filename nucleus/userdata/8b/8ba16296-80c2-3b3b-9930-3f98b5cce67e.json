@@ -3,29 +3,29 @@
   "vanish": false,
   "jailOnNextLogin": false,
   "kitLastUsedTime": {
-    "online": 1706186881,
+    "online": 1706406102,
     "tools": 1706025269
   },
   "fly": false,
   "invulnerable": false,
   "lastKnownName": "vux",
-  "lastLogin": 1706186881049,
-  "lastLogout": 1706187773568,
+  "lastLogin": 1706406102535,
+  "lastLogout": 1706414787438,
   "lastIP": "/116.100.117.28",
   "firstJoin": 1706025269585,
   "startedFirstJoin": false,
   "isFrozen": false,
   "lastLocation": {
-    "x": 12257.546625919587,
-    "y": 72.0,
-    "z": -20172.396800461174,
+    "x": -950.9378604419445,
+    "y": 4.0,
+    "z": -843.3949509345042,
     "rotx": 0.0,
     "roty": 0.0,
     "rotz": 0.0,
-    "world": "9790f966-1c8f-4004-9ad1-a03c72e1843c"
+    "world": "166bd834-82b0-4ca7-94b5-319d5cde8a4d"
   },
-  "notes": [],
+  "warnings": [],
   "mail": [],
-  "ignoreList": [],
-  "warnings": []
+  "notes": [],
+  "ignoreList": []
 }
